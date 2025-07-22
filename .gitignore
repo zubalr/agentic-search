@@ -1,1 +1,29 @@
 *.env
+
+# Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# OS files
+.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Log and lock files
+*.log
+*.lock
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/

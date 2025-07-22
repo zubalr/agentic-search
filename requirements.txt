@@ -1,0 +1,8 @@
+requests
+googlemaps
+uvloop
+typing
+langchain-groq
+langchain-cerebras
+python-dotenv
+pydantic
