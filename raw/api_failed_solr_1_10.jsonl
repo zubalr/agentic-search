@@ -1,0 +1,2 @@
+{"query": {"keyword": "51.429257", "lat": "25.1688997", "lng": "51.4325532"}, "error": "500 Server Error:  for url: http://172.16.201.69:8086/solr/getGisDataUsingFuzzySearch?searchKeyWord=51.429257&originLat=25.1688997&originLng=51.4325532&inputLanguage=1"}
+{"query": {"keyword": "51.429257", "lat": "25.1690238", "lng": "51.4322705"}, "error": "500 Server Error:  for url: http://172.16.201.69:8086/solr/getGisDataUsingFuzzySearch?searchKeyWord=51.429257&originLat=25.1690238&originLng=51.4322705&inputLanguage=1"}

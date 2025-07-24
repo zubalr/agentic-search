@@ -2,15 +2,16 @@ import json
 import requests
 import time
 import logging
+import os
 
 # --- Configuration ---
 START_INDEX = 0
 END_INDEX = 500
 
 API_URL = "http://172.16.201.69:8086/solr/getGisDataUsingFuzzySearch"
-INPUT_FILE = "analytics.json"
-OUTPUT_FILE = f"api_results_{START_INDEX}_{END_INDEX-1}.jsonl"
-FAILED_FILE = f"failed_{START_INDEX}_{END_INDEX-1}.jsonl"
+INPUT_FILE = os.path.join(os.path.dirname(__file__), '../data/Analytics.json')
+OUTPUT_FILE = os.path.join(os.path.dirname(__file__), f'../raw/api_results_{START_INDEX}_{END_INDEX-1}.jsonl')
+FAILED_FILE = os.path.join(os.path.dirname(__file__), f'../raw/failed_{START_INDEX}_{END_INDEX-1}.jsonl')
 
 MAX_RETRIES = 3
 TIMEOUT = 30  # seconds

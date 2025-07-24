@@ -1,0 +1,6 @@
+{"query": {"keyword": "keyword", "lat": "lat", "lng": "lng", "error": "Invalid lat/lng"}, "error": "Invalid lat/lng"}
+{"query": {"keyword": "dania c", "lat": "None", "lng": "None", "error": "Invalid lat/lng"}, "error": "Invalid lat/lng"}
+{"query": {"keyword": "dania com", "lat": "None", "lng": "None", "error": "Invalid lat/lng"}, "error": "Invalid lat/lng"}
+{"query": {"keyword": "dfc qa", "lat": "None", "lng": "None", "error": "Invalid lat/lng"}, "error": "Invalid lat/lng"}
+{"query": {"keyword": "dfc qatar", "lat": "None", "lng": "None", "error": "Invalid lat/lng"}, "error": "Invalid lat/lng"}
+{"query": {"keyword": "sidra hosp", "lat": "None", "lng": "None", "error": "Invalid lat/lng"}, "error": "Invalid lat/lng"}

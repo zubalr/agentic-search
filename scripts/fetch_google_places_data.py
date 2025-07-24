@@ -16,9 +16,9 @@ END_INDEX = 500
 
 # This is the correct endpoint for the Places API (New) Text Search
 GOOGLE_PLACES_API_URL = "https://places.googleapis.com/v1/places:searchText"
-INPUT_FILE = "analytics.json"
-OUTPUT_FILE = f"google_places_results_{START_INDEX}_{END_INDEX-1}.jsonl"
-FAILED_FILE = f"google_places_failed_{START_INDEX}_{END_INDEX-1}.jsonl"
+INPUT_FILE = os.path.join(os.path.dirname(__file__), '../data/Analytics.json')
+OUTPUT_FILE = os.path.join(os.path.dirname(__file__), f'../raw/google_places_results_{START_INDEX}_{END_INDEX-1}.jsonl')
+FAILED_FILE = os.path.join(os.path.dirname(__file__), f'../raw/google_places_failed_{START_INDEX}_{END_INDEX-1}.jsonl')
 
 MAX_RETRIES = 3
 TIMEOUT = 30  # seconds
