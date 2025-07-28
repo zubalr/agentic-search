@@ -1,0 +1,48 @@
+{
+  "keywords": {
+    "file": "data/representative_keywords_with_location.csv",
+    "start_index": 0,
+    "end_index": 10,
+    "use_range": true
+  },
+  "apis": {
+    "fetch_from": "both",
+    "solr": {
+      "url": "http://172.16.201.69:8086/solr/getGisDataUsingFuzzySearch",
+      "max_retries": 3,
+      "timeout": 30
+    },
+    "google_places": {
+      "url": "https://maps.googleapis.com/maps/api/place/textsearch/json",
+      "max_retries": 3,
+      "timeout": 30
+    }
+  },
+  "processing": {
+    "mode": "sequential",
+    "delay_between_requests": 2.0,
+    "delay_between_apis": 1.0
+  },
+  "_batch_processing_options": {
+    "_comment": "Batch processing options - uncomment and set processing.mode to 'batch' to use",
+    "_batch_size": 50,
+    "_delay_between_batches": 5.0,
+    "_max_concurrent": 5
+  },
+  "output": {
+    "raw_dir": "raw",
+    "output_dir": "output",
+    "include_range_in_filename": true
+  },
+  "evaluation": {
+    "run_evaluation": false,
+    "llm_provider": "cerebras",
+    "model": "llama-3.3-70b",
+    "threshold": 0.7
+  },
+  "logging": {
+    "level": "INFO",
+    "save_to_file": true,
+    "log_dir": "logs"
+  }
+}

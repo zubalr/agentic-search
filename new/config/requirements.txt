@@ -1,3 +1,6 @@
+# LLM evaluation
+deepeval
+litellm
 requests
 googlemaps
 uvloop
@@ -6,3 +9,4 @@ langchain-groq
 langchain-cerebras
 python-dotenv
 pydantic
+google-maps-places
