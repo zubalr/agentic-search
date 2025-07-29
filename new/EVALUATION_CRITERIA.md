@@ -1,63 +1,47 @@
-# Evaluation Criteria for Raw File Comparison
+# LLM Judge Evaluation Metrics
 
-This document defines the criteria and process for comparing and evaluating search results from two sources (e.g., internal API vs. Google Maps) using both automated metrics and LLM-based judgment.
+## Primary Evaluation Criteria (Core Search Quality)
 
----
-
-## 1. Primary Evaluation Criteria (Core Search Quality)
+These are the only criteria that should influence the main scores and verdicts:
 
 1. **Precision & Top Result Accuracy (Most Important)**
 
-   - The top result for a specific query (e.g., "Al Mirqab Mall") must be an exact match.
-   - Penalize heavily if the correct result is buried or missing.
-   - Score highly for exact top-result matches.
+   - The #1 result must exactly match the query intent (e.g., "Al Mirqab Mall" should return "Al Mirqab Mall" as the top result).
+   - Penalize heavily if the correct result is buried or absent.
 
 2. **Query Understanding & Component Handling**
 
-   - For multi-part queries (e.g., "Al Noor compound thumama"), all components must be understood and matched.
-   - Penalize if only part of the query is matched (e.g., only "Thumama" results).
+   - For multi-part queries (e.g., "Al Noor compound thumama"), the engine must use all components.
+   - Results that ignore any part of the query (e.g., only "Thumama" results) are a complete failure.
 
 3. **Result Set Relevance & Purity**
-   - Results must be directly relevant to the user's intent.
-   - Penalize noisy or irrelevant results (e.g., parking lots, streets for a mall query).
+   - Are results directly relevant to the user's intent?
+   - Penalize "noisy" results (e.g., "Gate Mall Parking" for a mall query).
    - The result set should be clean and focused on the requested entity type.
 
----
+## Secondary Evaluation Criteria (Tie-Breaker Only)
 
-## 2. Secondary Evaluation Criteria (Result Usefulness)
+Use these ONLY if both result sets are equal on all primary criteria:
 
-4. **Information Completeness for User Action**
-   - Results should provide actionable information: full address, contact info, website, ratings, opening hours.
-   - Sets with richer, user-facing data are considered higher quality.
-   - Internal-only metadata (e.g., `popularity`, `score`) is ignored.
+4. **Result Completeness**
+   - Only use to break ties between otherwise equal results.
+   - Prefer results with full `formattedAddress` and `contact` information.
+   - Extra fields like `websiteUri`, `rating`, etc., are a minor bonus and should NOT affect scores unless used as a tie-breaker.
+   - Ignore internal metadata like `popularity` or `score`.
 
----
+## Metrics Provided by the Evaluator
 
-## 3. Automated Metrics
+- **verdict**: One of `INTERNAL_SERVER_BETTER`, `GOOGLE_MAPS_BETTER`, `BOTH_ARE_GOOD`, `BOTH_ARE_BAD`, `INCONCLUSIVE`.
+- **internal_server_score**: Integer (1-5) for the internal server's result, based ONLY on primary criteria.
+- **google_maps_score**: Integer (1-5) for the Google Maps result, based ONLY on primary criteria.
+- **reasoning**: Detailed, step-by-step explanation for the verdict, referencing the criteria above.
 
-For each query, the following metrics are computed using POI identifiers:
+## Best Practices
 
-- **Exact Match**: Are the result sets identical?
-- **Jaccard Similarity**: Overlap between result sets.
-- **Top-N Overlap**: How many of the top results match?
-- **Missing/Extra Results**: Items present in one set but not the other.
-- **Field-Level Differences**: Differences in key fields for matched POIs.
-- **Precision, Recall, F1 Score**: Standard IR metrics for POI matches.
-
----
-
-## 4. LLM Judging
-
-The LLM is prompted with:
-
-- Both result sets (full JSON).
-- The query.
-- Automated metrics summary.
-- The evaluation criteria above (with strong emphasis on precision and relevance).
-
-The LLM must return:
-
-- **Verdict**: Which result set is better (or if both are good/bad/inconclusive).
+- Always base scores and verdicts on the primary criteria.
+- Use completeness only as a tie-breaker, never as a main scoring factor.
+- Provide clear, objective reasoning for every verdict.
+- Do not include any text outside the required JSON object in LLM responses.
 - **Reasoning**: Step-by-step explanation.
 - **Score (1-5)**: For each result set.
 

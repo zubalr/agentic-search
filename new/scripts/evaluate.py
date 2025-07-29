@@ -109,7 +109,7 @@ async def run_deepeval_evaluation(args):
     logger.info("Starting DeepEval evaluation...")
     
     try:
-        evaluator = create_deepeval_evaluator(args.model or "cerebras/llama3-70b-instruct")
+        evaluator = create_deepeval_evaluator(args.model or "cerebras/llama-3.3-70b")
         
         # For DeepEval, we need existing comparison results
         if not Path(args.output_file).exists():

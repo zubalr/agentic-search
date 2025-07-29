@@ -1,0 +1,287 @@
+{
+  "total_test_cases": 18,
+  "metric_scores": {
+    "LLM-as-a-Judge": {
+      "average_score": 0.9777777777777779,
+      "success_rate": 1.0,
+      "total_evaluations": 18
+    },
+    "AnswerRelevancyMetric": {
+      "average_score": 0.7855980439313773,
+      "success_rate": 0.7777777777777778,
+      "total_evaluations": 18
+    }
+  },
+  "detailed_results": [
+    {
+      "test_case": "Al Mirqab mall",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by the primary criteria of exact match and result relevance, and the scores are appropriate given the significant difference in performance between Google Maps and the internal server."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.3333333333333333,
+          "success": false,
+          "reason": "The score is 0.33 because the actual output contains several irrelevant statements comparing search results and evaluating search engines, which do not provide information about Al Mirqab mall itself, but it's not a complete mismatch, indicating some minor relevance or an attempt to address the topic."
+        }
+      }
+    },
+    {
+      "test_case": "Al Noor",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 0.9,
+          "success": true,
+          "reason": "The verdict is one of the valid options and the reasoning is logical, well-supported, and grounded in the specifics of the query and results, effectively highlighting the lack of precision and relevance in both the internal server and Google Maps results."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The score is 1.00 because the output perfectly aligns with the input, addressing 'Al Noor' in a relevant and accurate manner, with no irrelevant statements to detract from its score."
+        }
+      }
+    },
+    {
+      "test_case": "Al Noor compound 1",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by comparing the precision and top result accuracy of Google Maps and the internal server, and the score is appropriately justified by the given reasoning, which prioritizes precision and top result accuracy."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.7142857142857143,
+          "success": true,
+          "reason": "The score is 0.71 because the output contains some relevant information about Al Noor compound 1, but is brought down by irrelevant statements, such as a conclusive verdict and methodological explanations, which do not directly address the input topic."
+        }
+      }
+    },
+    {
+      "test_case": "Al Noor compound thumama",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by citing specific examples from the result sets, and the score is appropriate given the clear superiority of Google Maps in matching the query intent and providing relevant results."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.875,
+          "success": true,
+          "reason": "The score is 0.88 because the output is mostly relevant to the input, but is slightly hindered by a verdict about a mapping service, preventing it from being a perfect match, yet it still manages to address 'Al Noor compound thumama' to a significant extent."
+        }
+      }
+    },
+    {
+      "test_case": "Al Noor p",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is a valid option, the reasoning is logical and well-supported by comparing the relevance and precision of results from Google Maps and the internal server, and the scores are appropriate given the comprehensive information and direct relation to the query provided by Google Maps."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.8,
+          "success": true,
+          "reason": "The score is 0.80 because although the output provides some relevant information, it includes an irrelevant conclusion 'Verdict: GOOGLE_MAPS_BETTER' that doesn't directly address the input 'Al Noor p', preventing the score from being higher, but the output still manages to partially address the input, resulting in a score of 0.80."
+        }
+      }
+    },
+    {
+      "test_case": "Al Noor petr",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 0.9,
+          "success": true,
+          "reason": "The verdict is one of the valid options and the reasoning is logical and well-supported, as it clearly explains why the internal server result is more relevant to the query than the Google Maps results, meeting key criteria such as precision and query understanding."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.5555555555555556,
+          "success": false,
+          "reason": "The score is 0.56 because while the actual output touches on the topic of Al Noor petrol, it is brought down by several irrelevant statements regarding Google Maps results and comparisons, which do not directly address the query, thus preventing the score from being higher."
+        }
+      }
+    },
+    {
+      "test_case": "Al Noor petrol",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by comparing the relevance and purity of the internal server and Google Maps result sets for the query 'Al Noor petrol', and the score is appropriate given the detailed explanation of the internal server's better performance in terms of precision, query understanding, and result set relevance."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.45454545454545453,
+          "success": false,
+          "reason": "The score is 0.45 because the actual output contains several irrelevant statements, including server error messages and evaluations of the Google Maps result set, which do not directly address the input 'Al Noor petrol', preventing the score from being higher, but it is not lower due to the potential for some indirect relevance or mentions of the input topic amidst the irrelevant information."
+        }
+      }
+    },
+    {
+      "test_case": "Al Rumaila hospital",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is a valid option, the reasoning is logical and well-supported by directly comparing the relevance and precision of the Google Maps and internal server result sets, and the conclusion that Google Maps provides more accurate results is appropriately justified by the differences in exact matching, result cleanliness, and focus on the requested entity type."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.9090909090909091,
+          "success": true,
+          "reason": "The score is 0.91 because the actual output is highly relevant to the input about Al Rumaila hospital, but it's not a perfect score due to the inclusion of a concluding statement that doesn't add information about the hospital itself, specifically 'Verdict: GOOGLE_MAPS_BETTER'."
+        }
+      }
+    },
+    {
+      "test_case": "Al S",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by explaining the generic nature of the query and the lack of precision in both results, and the assessment of scores is appropriate given the provided reasoning."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The score is 1.00 because the actual output perfectly addressed the input without any irrelevant statements, demonstrating a great match between the response and the topic at hand."
+        }
+      }
+    },
+    {
+      "test_case": "Al Sad",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by comparing the top results from Google Maps and the internal server, and the score is appropriate given the clear explanation of how Google Maps better matches the query intent in terms of precision and relevance."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.7142857142857143,
+          "success": true,
+          "reason": "The score is 0.71 because while the actual output does contain some relevant information, it is brought down by conclusions and evaluations that do not directly address the input 'Al Sad', preventing it from being more accurate, but still manages to provide some relevant content, hence the moderate score."
+        }
+      }
+    },
+    {
+      "test_case": "Al Sadd",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 0.9,
+          "success": true,
+          "reason": "The verdict is one of the valid options and the reasoning is logical, well-supported by specific examples from the internal server and Google Maps results, demonstrating a clear understanding of the query's intent and the relevance of the results provided."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.8888888888888888,
+          "success": true,
+          "reason": "The score is 0.89 because the output is largely relevant to Al Sadd, but includes a minor irrelevant statement that appears to be a conclusion or an error message, preventing the score from being even higher."
+        }
+      }
+    },
+    {
+      "test_case": "Al Shara",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by comparing the relevance and precision of the Google Maps and internal server result sets for the query 'Al Shara', and the score is appropriate given the clear superiority of Google Maps in this case."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.875,
+          "success": true,
+          "reason": "The score is 0.88 because the output is mostly relevant to 'Al Shara', but the inclusion of the conclusion 'Verdict: GOOGLE_MAPS_BETTER' slightly detracts from the overall relevancy, preventing a perfect score."
+        }
+      }
+    },
+    {
+      "test_case": "Al Shara hot",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 0.9,
+          "success": true,
+          "reason": "The verdict is a valid option, the reasoning is logical and well-supported by the analysis of the query results from both the internal server and Google Maps, and the scores are appropriate given the lack of precision and relevance in both result sets."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The score is 1.00 because the output perfectly addresses the input without any irrelevant statements, demonstrating a great match!"
+        }
+      }
+    },
+    {
+      "test_case": "Al Shara hotel",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is a valid option, the reasoning is logical and well-supported by the fact that neither the internal server result nor the Google Maps result returns 'Al Shara hotel' as the top result, and the scores are appropriate given the lack of precision, query understanding, and result set relevance in both result sets."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.36363636363636365,
+          "success": false,
+          "reason": "The score is 0.36 because the actual output contains several irrelevant statements that do not provide any information about Al Shara hotel, indicating a lack of focus on the input topic, but it is not a complete failure, suggesting that there may be some minor relevance or partial attempt to address the input."
+        }
+      }
+    },
+    {
+      "test_case": "Al Thakeera Beach",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by the comparison of the result sets from Google Maps and the internal server, and the score implication is appropriate given the clear prioritization of the exact query match in Google Maps' result."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.8,
+          "success": true,
+          "reason": "The score is 0.80 because the actual output provided some relevant information about Al Thakeera Beach, but it was slightly diminished by the inclusion of an irrelevant conclusion 'Verdict: GOOGLE_MAPS_BETTER', which didn't add any value to the discussion about the beach itself."
+        }
+      }
+    },
+    {
+      "test_case": "Al Wa",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by comparing the relevance and precision of results from Google Maps and the internal server for the query 'Al Wa', and the score is appropriate given the clear advantage of Google Maps in providing accurate and related results."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The score is 1.00 because the output precisely addresses the input without any irrelevant statements, demonstrating a perfect match and justifying the highest possible score."
+        }
+      }
+    },
+    {
+      "test_case": "Al Wa hospital emergency",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is one of the valid options, the reasoning is logical and well-supported by comparing the query with the results from Google Maps and the internal server, and the scores are implicitly appropriate as the reasoning effectively justifies why Google Maps is better for the user's query intent."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.8571428571428571,
+          "success": true,
+          "reason": "The score is 0.86 because the actual output is mostly relevant to the input about Al Wa hospital emergency, but the inclusion of the conclusion 'Verdict: GOOGLE_MAPS_BETTER' detracts from the score by introducing an unrelated statement, preventing it from being perfect."
+        }
+      }
+    },
+    {
+      "test_case": "Al Waab",
+      "metrics": {
+        "LLM-as-a-Judge": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The verdict is a valid option, the reasoning is logical and well-supported by the analysis of the internal server and Google Maps results, and the assessment of the results' precision and relevance to the query intent is appropriate and clearly explained."
+        },
+        "AnswerRelevancyMetric": {
+          "score": 1.0,
+          "success": true,
+          "reason": "The score is 1.00 because the output perfectly addresses the input, with no irrelevant statements, making it a flawless response."
+        }
+      }
+    }
+  ]
+}

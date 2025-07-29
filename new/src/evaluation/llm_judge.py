@@ -124,16 +124,17 @@ EVALUATION_PROMPT = ChatPromptTemplate.from_template(
         *   Are the results directly relevant to the user's intent?
         *   Penalize "noisy" results. For a query about a mall, results like "Gate Mall Parking" or "Al Sadd Street" are low-quality noise and should lower the score. The result set should be clean and focused on the entity type requested.
 
-    **SECONDARY EVALUATION CRITERIA (Result Usefulness):**
+    **SECONDARY EVALUATION CRITERIA (Tie-Breaker Only):**
 
-    4.  **Information Completeness for User Action:**
-        *   While the primary goal is finding the right place, a search result is only useful if it provides actionable information.
-        *   Compare the completeness of the data provided for the POIs. A result set is considered higher quality if it includes essential, user-facing fields like a full `formattedAddress` and `contact` information.
-        *   The presence of fields like `websiteUri`, `rating`, `userRatingCount`, and `currentOpeningHours` in one result set and their absence in the other makes the first set significantly more valuable to an end-user, even if it's not a direct search-matching metric. Acknowledge this difference in value.
+    4.  **Result Completeness (Use ONLY as a Tie-Breaker):**
+        *   This criterion should ONLY be used to decide between two result sets that are otherwise EQUAL on all PRIMARY criteria.
+        *   If one result set is clearly better on Precision, Query Understanding, or Relevance, you MUST IGNORE this secondary criterion in your scoring and verdict.
+        *   If, and only if, both results are equally good on core search quality, you may use data completeness as a tie-breaker. A result with a full `formattedAddress` and `contact` information is better than one without.
+        *   The presence of extra fields like `websiteUri`, `rating`, etc., is a minor bonus but should NOT influence the score if the primary criteria are not met.
         *   Internal metadata like `popularity` or `score` should be ignored as they provide no value to the end-user.
 
     **TASK:**
-    Based on the criteria above, with a strong emphasis on the PRIMARY criteria, compare the 'Internal Server Result' and the 'Google Maps Result'. Provide a verdict, a detailed step-by-step reasoning for your decision, and a 1-5 score for each result set. Your entire response MUST be a single JSON object that conforms to the provided schema. Do not include any text outside the JSON object.
+    Your final verdict and scores MUST be determined by the PRIMARY CRITERIA. Use the secondary criterion ONLY as a tie-breaker if the results are otherwise identical in quality. Provide a verdict, a detailed step-by-step reasoning for your decision, and a 1-5 score for each result set. Your entire response MUST be a single JSON object that conforms to the provided schema. Do not include any text outside the JSON object.
 
     **JSON SCHEMA:**
     {schema}
