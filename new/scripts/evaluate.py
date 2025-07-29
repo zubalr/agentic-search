@@ -11,6 +11,10 @@ import argparse
 import asyncio
 import sys
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
@@ -60,13 +64,21 @@ async def run_llm_judge_evaluation(args):
     engine = create_comparison_engine(eval_config)
     mode = EvaluationMode.BATCH if args.mode == 'batch' else EvaluationMode.SEQUENTIAL
     
-    kwargs = {
-        'batch_size': args.batch_size,
-        'delay_between_batches': args.delay if args.mode == 'batch' else 0,
-        'delay_between_queries': args.delay if args.mode == 'sequential' else 2.0,
-        'skip_processed': True,
-        'comparison_memory': comparison_memory
-    }
+    if args.mode == 'batch':
+        kwargs = {
+            'batch_size': args.batch_size,
+            'delay_between_batches': args.delay if args.mode == 'batch' else 0,
+            'skip_processed': True,
+            'comparison_memory': comparison_memory
+        }
+    else:
+        kwargs = {
+            'batch_size': args.batch_size,
+            'delay_between_batches': args.delay if args.mode == 'batch' else 0,
+            'delay_between_queries': args.delay if args.mode == 'sequential' else 2.0,
+            'skip_processed': True,
+            'comparison_memory': comparison_memory
+        }
     
     logger.info(f"Starting LLM Judge evaluation in {args.mode} mode...")
     results = await engine.compare_results(internal_results, google_results, mode, **kwargs)

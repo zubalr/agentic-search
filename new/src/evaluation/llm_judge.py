@@ -13,7 +13,7 @@ from dataclasses import dataclass
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from langchain_cerebras import ChatCerebras
 from langchain_groq import ChatGroq
 
@@ -108,27 +108,47 @@ class LLMManager:
 # Evaluation prompt template
 EVALUATION_PROMPT = ChatPromptTemplate.from_template(
     """
-    You are an expert Search Quality Rater. Your task is to analyze and compare two sets of search results for a given user query. Your evaluation must be objective, detailed, and based SOLELY on the data provided.
-    
-    **EVALUATION CRITERIA:**
-    1. **Relevance:** How well do the results match the user's query intent? For "Qatar nat", results like "Qatar National Library" or "National Museum of Qatar" are highly relevant.
-    2. **Completeness & Quality:** How rich is the data? Does it include useful information like ratings, user counts, full addresses, and contact numbers? Missing data lowers quality.
-    3. **Diversity:** Does the result set offer a good variety of relevant places, or is it repetitive?
-    
+    You are an expert Search Quality Rater, focused on improving an internal search engine. Your primary goal is to evaluate how well search results match the user's query intent, prioritizing precision and relevance over anything else. Your evaluation must be objective, detailed, and based SOLELY on the data provided.
+
+    **PRIMARY EVALUATION CRITERIA (Core Search Quality):**
+
+    1.  **Precision & Top Result Accuracy (Most Important):**
+        *   For a specific query like "Al Mirqab Mall", the #1 result MUST be "Al Mirqab Mall". Returning other popular malls first is a major failure.
+        *   Score highly for exact top-result matches. Penalize heavily if the correct result is buried in the list or absent.
+
+    2.  **Query Understanding & Component Handling:**
+        *   For a multi-part query like "Al Noor compound thumama", the search engine MUST understand and use all components ("Al Noor compound" AND "thumama").
+        *   A result set that only returns items for "Thumama" (e.g., "Al Thumama Stadium") and ignores "Al Noor compound" is a complete failure on this criterion.
+
+    3.  **Result Set Relevance & Purity:**
+        *   Are the results directly relevant to the user's intent?
+        *   Penalize "noisy" results. For a query about a mall, results like "Gate Mall Parking" or "Al Sadd Street" are low-quality noise and should lower the score. The result set should be clean and focused on the entity type requested.
+
+    **SECONDARY EVALUATION CRITERIA (Result Usefulness):**
+
+    4.  **Information Completeness for User Action:**
+        *   While the primary goal is finding the right place, a search result is only useful if it provides actionable information.
+        *   Compare the completeness of the data provided for the POIs. A result set is considered higher quality if it includes essential, user-facing fields like a full `formattedAddress` and `contact` information.
+        *   The presence of fields like `websiteUri`, `rating`, `userRatingCount`, and `currentOpeningHours` in one result set and their absence in the other makes the first set significantly more valuable to an end-user, even if it's not a direct search-matching metric. Acknowledge this difference in value.
+        *   Internal metadata like `popularity` or `score` should be ignored as they provide no value to the end-user.
+
     **TASK:**
-    Based on the criteria, compare the 'Internal Server Result' and the 'Google Maps Result'. Provide a verdict, reasoning, and a 1-5 score for each. Your entire response MUST be a single JSON object that conforms to the provided schema. Do not include any text outside the JSON object.
-    
+    Based on the criteria above, with a strong emphasis on the PRIMARY criteria, compare the 'Internal Server Result' and the 'Google Maps Result'. Provide a verdict, a detailed step-by-step reasoning for your decision, and a 1-5 score for each result set. Your entire response MUST be a single JSON object that conforms to the provided schema. Do not include any text outside the JSON object.
+
     **JSON SCHEMA:**
     {schema}
-    
+
     **QUERY:**
     "{query}"
-    
+
     **INTERNAL SERVER RESULT (JSON):**
     {internal_results}
-    
+
     **GOOGLE MAPS RESULT (JSON):**
     {google_results}
+    
+    **AUTOMATED METRICS (for context only):**
+    {comparison_summary}
     """
 )
 
@@ -150,13 +170,14 @@ class LLMJudgeEvaluator(BaseEvaluatorInterface):
         """Get default model configuration."""
         return [
             {"provider": "cerebras", "model_name": "llama-3.3-70b"},
-            {"provider": "groq", "model_name": "llama3-70b-8192"}
+            {"provider": "groq", "model_name": "llama-3.3-70b-versatile"}
         ]
     
     async def judge_single_query(self, 
                                query: str, 
                                internal_result: Dict[str, Any], 
-                               google_result: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+                               google_result: Dict[str, Any],
+                               comparison_summary: Optional[Dict[str, Any]] = None) -> Optional[Dict[str, Any]]:
         """
         Process a single query and return the LLM's comparison result.
         
@@ -164,6 +185,7 @@ class LLMJudgeEvaluator(BaseEvaluatorInterface):
             query: Search query string
             internal_result: Result from internal API
             google_result: Result from Google Places API
+            comparison_summary: Dict of computed metrics and diffs
         
         Returns:
             Comparison result or None if error occurs
@@ -177,14 +199,17 @@ class LLMJudgeEvaluator(BaseEvaluatorInterface):
         logger.info(f"Processing '{query}' using model '{model_identifier}'")
         
         try:
-            chain = EVALUATION_PROMPT | llm_client | self.parser
-            
-            comparison_result = await chain.ainvoke({
+            # Add comparison summary to prompt context
+            prompt_vars = {
                 "query": query,
                 "internal_results": json.dumps(internal_result, indent=2),
                 "google_results": json.dumps(google_result, indent=2),
                 "schema": Comparison.schema_json(indent=2),
-            })
+                "comparison_summary": json.dumps(comparison_summary, indent=2) if comparison_summary else "Not available."
+            }
+
+            chain = EVALUATION_PROMPT | llm_client | self.parser
+            comparison_result = await chain.ainvoke(prompt_vars)
             
             verdict = comparison_result.get('verdict', 'N/A')
             logger.info(f"Verdict for '{query}': {verdict}")

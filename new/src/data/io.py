@@ -75,35 +75,43 @@ class DataIO:
             logger.error(f"Error saving JSONL file {file_path}: {e}")
     
     @staticmethod
-    def load_search_results(file_path: str) -> Dict[str, Dict[str, Any]]:
+    def load_search_results(file_path: str) -> Dict[str, Any]:
         """
         Load search results from JSONL file into a query-indexed dictionary.
-        
-        Args:
-            file_path: Path to the search results JSONL file
-        
-        Returns:
-            Dictionary mapping query to result data
+        Aggregates Google POIs from text_search, nearby_search, and place_details if present.
         """
         results = {}
-        
         try:
             data = DataIO.load_jsonl_file(file_path)
-            
+            is_google = "google" in file_path.lower() or "places" in file_path.lower()
             for item in data:
                 if "query" in item:
                     # Handle different query formats
                     query = item["query"]
                     if isinstance(query, dict):
                         query = query.get("keyword", str(query))
-                    
-                    # Extract result data
-                    result = item.get("result", {})
-                    results[query] = result
-                    
+                    if is_google:
+                        # Aggregate all Google POIs
+                        all_pois = []
+                        ts = item.get('text_search', {})
+                        ts_places = ts.get('places', []) if isinstance(ts, dict) else []
+                        all_pois.extend(ts_places)
+                        ns = item.get('nearby_search', {})
+                        ns_places = ns.get('places', []) if isinstance(ns, dict) else []
+                        all_pois.extend(ns_places)
+                        pd = item.get('place_details', None)
+                        if pd:
+                            if isinstance(pd, list):
+                                all_pois.extend(pd)
+                            elif isinstance(pd, dict):
+                                all_pois.append(pd)
+                        results[query] = all_pois
+                    else:
+                        # Internal results
+                        result = item.get("result", {})
+                        results[query] = result
         except Exception as e:
             logger.error(f"Error processing search results from {file_path}: {e}")
-        
         logger.info(f"Loaded search results for {len(results)} queries from {file_path}")
         return results
     

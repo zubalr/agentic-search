@@ -1,0 +1,10 @@
+{
+  "total_comparisons": 10,
+  "verdict_distribution": {
+    "GOOGLE_MAPS_BETTER": 8,
+    "INTERNAL_SERVER_BETTER": 1,
+    "BOTH_ARE_BAD": 1
+  },
+  "average_internal_score": 2.1,
+  "average_google_score": 4.1
+}

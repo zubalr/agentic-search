@@ -10,7 +10,17 @@ import argparse
 import json
 from pathlib import Path
 
+current_dir = Path(__file__).resolve().parent
+project_root = current_dir.parent
+src_path = project_root / "src"
+if str(src_path) not in sys.path:
+    sys.path.insert(0, str(src_path))
 from src.core.api_client import load_queries_from_csv, APIQuery, GooglePlacesAPIClient
+import requests
+
+
+# Debug sys.path
+print("sys.path:", sys.path)
 
 # Load .env if present
 def load_env_file(env_path: str = ".env"):
@@ -25,53 +35,16 @@ def load_env_file(env_path: str = ".env"):
                 os.environ[key] = value
 load_env_file()
 
-
-
-# Only keep these keys for comparison
-IMPORTANT_PLACE_KEYS = [
-    "id", "displayName", "formattedAddress", "location", "types", "websiteUri",
-    "internationalPhoneNumber", "rating", "userRatingCount", "businessStatus", "currentOpeningHours"
-]
-
-def filter_place_dict(place):
-    """
-    Return a new dict with only the important keys for comparison.
-    Handles nested keys for displayName, location, currentOpeningHours.
-    """
-    if not isinstance(place, dict):
-        return place
-    filtered = {}
-    for k in IMPORTANT_PLACE_KEYS:
-        if k in place:
-            if k == "displayName" and isinstance(place[k], dict):
-                filtered[k] = {"text": place[k].get("text")}
-            elif k == "location" and isinstance(place[k], dict):
-                filtered[k] = {
-                    "latitude": place[k].get("latitude"),
-                    "longitude": place[k].get("longitude")
-                }
-            elif k == "currentOpeningHours" and isinstance(place[k], dict):
-                filtered[k] = {"open_now": place[k].get("open_now")}
-            else:
-                filtered[k] = place[k]
-    return filtered
-
-def filter_places(places):
-    if not isinstance(places, list):
-        return places
-    return [filter_place_dict(place) for place in places]
-
-def filter_result_places(result):
-    if not isinstance(result, dict):
-        return result
-    if "places" in result:
-        result["places"] = filter_places(result["places"])
-    return result
+# Try importing src.core.api_client, fallback to core.api_client if needed
+try:
+    from src.core.api_client import load_queries_from_csv, APIQuery, GooglePlacesAPIClient
+except ModuleNotFoundError:
+    from core.api_client import load_queries_from_csv, APIQuery, GooglePlacesAPIClient
 
 def fetch_all_places_info(client: GooglePlacesAPIClient, query: APIQuery, field_mask: str):
     """
     For a given query, perform text search, nearby search, and fetch details for all unique places.
-    Returns a dict with only important tags for comparison.
+    Returns a dict with all results and errors.
     """
     results = {
         "query": {"keyword": query.keyword, "lat": query.lat, "lng": query.lng},
@@ -82,14 +55,12 @@ def fetch_all_places_info(client: GooglePlacesAPIClient, query: APIQuery, field_
     }
     # Text Search
     text_resp = client.search_text(query, field_mask)
-    text_result = filter_result_places(text_resp.result)
-    results["text_search"] = text_result
+    results["text_search"] = text_resp.result
     if not text_resp.success and text_resp.error:
         results["errors"].append(f"text_search: {text_resp.error}")
     # Nearby Search
     nearby_resp = client.search_nearby(query, field_mask)
-    nearby_result = filter_result_places(nearby_resp.result)
-    results["nearby_search"] = nearby_result
+    results["nearby_search"] = nearby_resp.result
     if not nearby_resp.success and nearby_resp.error:
         results["errors"].append(f"nearby_search: {nearby_resp.error}")
     # Collect unique place IDs from both searches
@@ -102,52 +73,6 @@ def fetch_all_places_info(client: GooglePlacesAPIClient, query: APIQuery, field_
     # Fetch details for each unique place ID
     for pid in place_ids:
         details, err = client.get_place_details(pid, field_mask)
-        # Filter details to keep only important tags
-        filtered_details = filter_place_dict(details) if isinstance(details, dict) else details
-        if filtered_details:
-            results["place_details"].append(filtered_details)
-        if err:
-            results["errors"].append(f"place_details {pid}: {err}")
-    return results
-
-def fetch_all_places_info(client: GooglePlacesAPIClient, query: APIQuery, field_mask: str):
-    """
-    For a given query, perform text search, nearby search, and fetch details for all unique places.
-    Returns a dict with all results and errors, with 'photos' and 'reviews' removed from all places.
-    """
-    results = {
-        "query": {"keyword": query.keyword, "lat": query.lat, "lng": query.lng},
-        "text_search": None,
-        "nearby_search": None,
-        "place_details": [],
-        "errors": []
-    }
-    # Text Search
-    text_resp = client.search_text(query, field_mask)
-    text_result = filter_result_places(text_resp.result)
-    results["text_search"] = text_result
-    if not text_resp.success and text_resp.error:
-        results["errors"].append(f"text_search: {text_resp.error}")
-    # Nearby Search
-    nearby_resp = client.search_nearby(query, field_mask)
-    nearby_result = filter_result_places(nearby_resp.result)
-    results["nearby_search"] = nearby_result
-    if not nearby_resp.success and nearby_resp.error:
-        results["errors"].append(f"nearby_search: {nearby_resp.error}")
-    # Collect unique place IDs from both searches
-    place_ids = set()
-    for resp in [text_resp, nearby_resp]:
-        if resp and resp.result and "places" in resp.result:
-            for place in resp.result["places"]:
-                if "id" in place:
-                    place_ids.add(place["id"])
-    # Fetch details for each unique place ID
-    for pid in place_ids:
-        details, err = client.get_place_details(pid, field_mask)
-        # Remove photos and reviews from place details
-        if isinstance(details, dict):
-            details.pop('photos', None)
-            details.pop('reviews', None)
         if details:
             results["place_details"].append(details)
         if err:
@@ -177,7 +102,7 @@ def main():
     with open(args.output, 'w') as out:
         for i, query in enumerate(queries):
             print(f"[{i+1}/{len(queries)}] {query.keyword}")
-            all_info = fetch_all_places_info(client, query, "*")  # Always use "*" to get all fields
+            all_info = fetch_all_places_info(client, query, args.field_mask)
             out.write(json.dumps(all_info) + "\n")
 
     print(f"Done. Results saved to {args.output}")

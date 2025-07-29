@@ -29,7 +29,7 @@ class DeepEvalEvaluator(BaseEvaluatorInterface):
             raise ImportError("DeepEval is not available. Please install: pip install deepeval")
         
         self.config = config or {}
-        self.model_str = self.config.get('model', 'cerebras/llama3-70b-instruct')
+        self.model_str = self.config.get('model', 'cerebras/llama-3.3-70b')
         self.threshold = self.config.get('threshold', 0.7)
         
         # Initialize LiteLLM model
@@ -222,7 +222,7 @@ class DeepEvalEvaluator(BaseEvaluatorInterface):
         ]
 
 
-def create_deepeval_evaluator(model_str: str = "cerebras/llama3-70b-instruct",
+def create_deepeval_evaluator(model_str: str = "cerebras/llama-3.3-70b",
                             threshold: float = 0.7) -> DeepEvalEvaluator:
     """
     Factory function to create a DeepEval evaluator.

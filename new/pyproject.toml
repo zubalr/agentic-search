@@ -2,7 +2,7 @@
 name = "agentic-search"
 version = "0.1.0"
 description = "LLM-based search result comparison and evaluation system"
-authors = [{name = "Your Name", email = "your@email.com"}]
+authors = ["Your Name <your@email.com>"]
 requires-python = ">=3.9"
 dependencies = [
     "deepeval>=3.3.2",

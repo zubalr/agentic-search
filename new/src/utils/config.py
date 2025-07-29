@@ -54,12 +54,12 @@ class Config:
     # LLM model configurations
     llm_models: List[Dict[str, Any]] = field(default_factory=lambda: [
         {"provider": "cerebras", "model_name": "llama-3.3-70b"},
-        {"provider": "groq", "model_name": "llama3-70b-8192"}
+        {"provider": "groq", "model_name": "llama-3.3-70b-versatile"}
     ])
     
     # Evaluation settings
     evaluation_threshold: float = 0.7
-    deepeval_model: str = "cerebras/llama3-70b-instruct"
+    deepeval_model: str = "cerebras/llama-3.3-70b"
     
     def __post_init__(self):
         """Load environment variables and validate configuration."""
