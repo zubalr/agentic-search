@@ -264,94 +264,99 @@ class DeepEvalEvaluator(BaseEvaluatorInterface):
         logger.info(f"Loaded {len(references)} references from {reference_file}")
         return references
     
-    def create_test_cases(self, 
-                         comparisons: List[Tuple[str, Dict[str, Any]]],
-                         references: Optional[Dict[str, str]] = None) -> List[LLMTestCase]:
-        """Create DeepEval test cases from comparisons."""
-        test_cases = []
-        
+    def create_test_cases_per_metric(self, comparisons: List[Tuple[str, Dict[str, Any]]], references: Optional[Dict[str, str]] = None) -> Dict[str, List[LLMTestCase]]:
+        """
+        Create DeepEval test cases for each metric with appropriate actual_output.
+        Returns a dict: {metric_name: [LLMTestCase, ...]}
+        """
+        test_cases_per_metric = {
+            "LLM-as-a-Judge": [],
+            "AnswerRelevancyMetric": []
+        }
         for query, comp in comparisons:
             verdict = comp.get('verdict', '')
             reasoning = comp.get('reasoning', '')
-            actual_output = f"Verdict: {verdict}\nReasoning: {reasoning}"
-            
+            # For LLM-as-a-Judge: verdict + reasoning
+            actual_output_judge = f"Verdict: {verdict}\nReasoning: {reasoning}"
+            # For AnswerRelevancyMetric: reasoning only
+            actual_output_relevancy = reasoning
             expected_output = None
             if references and query in references:
                 expected_output = references[query]
-            
-            test_case = LLMTestCase(
-                input=query,
-                actual_output=actual_output,
-                expected_output=expected_output
+            test_cases_per_metric["LLM-as-a-Judge"].append(
+                LLMTestCase(
+                    input=query,
+                    actual_output=actual_output_judge,
+                    expected_output=expected_output
+                )
             )
-            test_cases.append(test_case)
-        
-        return test_cases
+            test_cases_per_metric["AnswerRelevancyMetric"].append(
+                LLMTestCase(
+                    input=query,
+                    actual_output=actual_output_relevancy,
+                    expected_output=expected_output
+                )
+            )
+        return test_cases_per_metric
     
-    def run_evaluation(self, 
-                      test_cases: List[LLMTestCase]) -> Dict[str, Any]:
-        """Run DeepEval evaluation on test cases."""
+    def run_evaluation(self, test_cases_per_metric: Dict[str, List[LLMTestCase]]) -> Dict[str, Any]:
+        """Run DeepEval evaluation on test cases, per metric."""
         metrics = self._create_metrics()
-        logger.info(f"Running DeepEval on {len(test_cases)} test cases...")
+        logger.info(f"Running DeepEval on {len(test_cases_per_metric['LLM-as-a-Judge'])} test cases...")
         results = []
         metric_scores = {}
         try:
-            # Run evaluation for each test case using measure method directly
-            for i, test_case in enumerate(test_cases):
-                logger.debug(f"Evaluating test case {i+1}/{len(test_cases)}: {test_case.input}")
-                case_results = {}
-                
-                # Evaluate each metric individually
-                for metric in metrics:
-                    try:
-                        metric.measure(test_case)
-                        metric_name = getattr(metric, 'name', metric.__class__.__name__)
-                        case_results[metric_name] = {
-                            'score': getattr(metric, 'score', None),
-                            'success': getattr(metric, 'success', None),
-                            'reason': getattr(metric, 'reason', None)
-                        }
-                    except Exception as metric_error:
-                        logger.warning(f"Error evaluating metric {metric.__class__.__name__}: {metric_error}")
-                        case_results[metric.__class__.__name__] = {
-                            'score': None,
-                            'success': False,
-                            'reason': f"Error: {metric_error}"
-                        }
-                
-                results.append({
-                    'test_case': test_case.input,
-                    'metrics': case_results
-                })
-            
-            # Aggregate metric scores across all test cases
+            # Evaluate each metric with its own test cases
             for metric in metrics:
                 metric_name = getattr(metric, 'name', metric.__class__.__name__)
+                cases = test_cases_per_metric[metric_name]
+                metric_results = []
                 scores = []
                 successes = []
-                
-                for result in results:
-                    if metric_name in result['metrics']:
-                        score = result['metrics'][metric_name]['score']
-                        success = result['metrics'][metric_name]['success']
+                for i, test_case in enumerate(cases):
+                    logger.debug(f"Evaluating {metric_name} test case {i+1}/{len(cases)}: {test_case.input}")
+                    try:
+                        metric.measure(test_case)
+                        metric_results.append({
+                            'test_case': test_case.input,
+                            'metrics': {
+                                metric_name: {
+                                    'score': getattr(metric, 'score', None),
+                                    'success': getattr(metric, 'success', None),
+                                    'reason': getattr(metric, 'reason', None)
+                                }
+                            }
+                        })
+                        score = getattr(metric, 'score', None)
+                        success = getattr(metric, 'success', None)
                         if score is not None:
                             scores.append(score)
                         if success is not None:
                             successes.append(success)
-                
+                    except Exception as metric_error:
+                        logger.warning(f"Error evaluating metric {metric_name}: {metric_error}")
+                        metric_results.append({
+                            'test_case': test_case.input,
+                            'metrics': {
+                                metric_name: {
+                                    'score': None,
+                                    'success': False,
+                                    'reason': f"Error: {metric_error}"
+                                }
+                            }
+                        })
                 metric_scores[metric_name] = {
                     'average_score': sum(scores) / len(scores) if scores else None,
                     'success_rate': sum(successes) / len(successes) if successes else None,
-                    'total_evaluations': len([r for r in results if metric_name in r['metrics']])
+                    'total_evaluations': len(cases)
                 }
-                
+                results.extend(metric_results)
         except Exception as e:
             logger.error(f"Error running DeepEval evaluation: {e}")
             import traceback
             traceback.print_exc()
-        
         return {
-            'total_test_cases': len(test_cases),
+            'total_test_cases': len(test_cases_per_metric['LLM-as-a-Judge']),
             'metric_scores': metric_scores,
             'detailed_results': results
         }
@@ -369,8 +374,8 @@ class DeepEvalEvaluator(BaseEvaluatorInterface):
         references = None
         if references_file:
             references = self.load_references_from_file(references_file)
-        test_cases = self.create_test_cases(comparisons, references)
-        return self.run_evaluation(test_cases)
+        test_cases_per_metric = self.create_test_cases_per_metric(comparisons, references)
+        return self.run_evaluation(test_cases_per_metric)
 
     def evaluate(self, 
             internal_results: Dict[str, Any],
@@ -396,11 +401,11 @@ class DeepEvalEvaluator(BaseEvaluatorInterface):
                 comp = {k: v for k, v in result.items() if k != 'query'}
                 comparisons.append((query, comp))
 
-        # Create test cases
-        test_cases = self.create_test_cases(comparisons, references)
+        # Create test cases per metric
+        test_cases_per_metric = self.create_test_cases_per_metric(comparisons, references)
 
         # Run evaluation
-        eval_results = self.run_evaluation(test_cases)
+        eval_results = self.run_evaluation(test_cases_per_metric)
 
         return {
             "evaluation_method": "deepeval",

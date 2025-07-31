@@ -110,32 +110,31 @@ async def run_deepeval_evaluation(args):
     
     try:
         evaluator = create_deepeval_evaluator(args.model or "cerebras/llama-3.3-70b")
-        
-        # For DeepEval, we need existing comparison results
-        if not Path(args.output_file).exists():
-            logger.error(f"Comparison results file not found: {args.output_file}")
+
+        # For DeepEval, we need existing comparison results from internal_results
+        if not Path(args.internal_results).exists():
+            logger.error(f"Comparison results file not found: {args.internal_results}")
             logger.info("Run LLM judge evaluation first: python scripts/evaluate.py --evaluator llm_judge")
             return
-        
+
         results = evaluator.evaluate_from_files(
-            results_file=args.output_file,
+            results_file=args.internal_results,
             references_file=args.references_file
         )
-        
-        # Save DeepEval results
-        deepeval_output = args.output_file.replace('.jsonl', '_deepeval.json')
-        with open(deepeval_output, 'w') as f:
+
+        # Save DeepEval results to output_file
+        with open(args.output_file, 'w') as f:
             import json
             json.dump(results, f, indent=2)
-        
-        logger.info(f"DeepEval results saved to {deepeval_output}")
-        
+
+        logger.info(f"DeepEval results saved to {args.output_file}")
+
         # Print results
-        logger.info("\\nDeepEval Results:")
+        logger.info("\nDeepEval Results:")
         for metric_name, metric_data in results.get('metric_scores', {}).items():
             score = metric_data.get('score', 'N/A')
             logger.info(f"  {metric_name}: {score}")
-            
+
     except ImportError:
         logger.error("DeepEval not available. Please install: pip install deepeval")
     except Exception as e:

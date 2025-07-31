@@ -1,18 +1,146 @@
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The Google Maps result set contains the exact match for 'Al Mirqab Mall' as its first result, which is the primary criteria for evaluation. In contrast, the internal server result set does not have 'Al Mirqab Mall' as its top result, instead, it is buried in the list. This failure to return the exact match as the top result significantly penalizes the internal server's score. Furthermore, the Google Maps result set is more relevant and pure, with fewer noisy results compared to the internal server result set. Although the secondary criterion of result completeness could be considered, it is not necessary in this case since the primary criteria already favor Google Maps.","internal_server_score":1,"google_maps_score":5,"query":"Al Mirqab mall","model":"llama-3.3-70b"}
-{"verdict":"BOTH_ARE_BAD","reasoning":"The query 'Al Noor' is quite generic and could refer to various entities. The internal server result returns a list of places with 'Al Noor' in their name, but none of them are clearly the most relevant or precise result. The Google Maps result also returns a list of places, but they seem to be more varied and not necessarily related to the query. Neither result set demonstrates a clear understanding of the user's intent or provides a precise and relevant answer. The internal server result has some relevant information, but it is buried in a long list of less relevant results. The Google Maps result has some well-known locations, but they do not seem to be directly related to the query. Therefore, both results are considered bad due to the lack of precision and relevance.","internal_server_score":2,"google_maps_score":2,"query":"Al Noor","model":"llama-3.3-70b-versatile"}
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The Google Maps result set contains the exact match 'Al Noor Compound 1' as its first result, which directly matches the user's query intent. In contrast, the internal server result set does not contain an exact match for 'Al Noor Compound 1' in its top results. Instead, it returns various 'Al Noor Residential Compounds' in different locations, which, although relevant, do not precisely match the query. Given the primary evaluation criteria prioritize precision and top result accuracy, Google Maps' result is deemed better because it accurately identifies the specific compound the user is searching for.","internal_server_score":2,"google_maps_score":5,"query":"Al Noor compound 1","model":"llama-3.3-70b"}
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The Google Maps result set contains relevant results that match the query intent, including 'Al Noor Compound 2', 'Al Noor Compound 1', and 'NOOR PARADISE COMPOUND Al Thumamma', which are all directly related to the 'Al Noor compound' part of the query. In contrast, the internal server result set does not contain any results that match the 'Al Noor compound' part of the query, instead returning results related to 'Al Thumama', which is only part of the query. This indicates a failure in query understanding and component handling for the internal server. Therefore, based on the primary evaluation criteria of precision, query understanding, and result set relevance, Google Maps provides a better result set for the given query.","internal_server_score":1,"google_maps_score":5,"query":"Al Noor compound thumama","model":"llama-3.3-70b-versatile"}
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The Google Maps result set contains more relevant and precise results for the query 'Al Noor p'. The top results include 'Al Noor Medical Center', 'Al Noor Medical Laboratory Qatar', 'Al Noor Compound 2', and 'Al Noor Compound 1', which are all directly related to the query. In contrast, the internal server result set contains a mix of relevant and irrelevant results, with the top result being 'Al Noor Clinic , Nuaija', which is not as directly related to the query as the Google Maps results. Additionally, the Google Maps result set has more comprehensive information, including formatted addresses, contact information, and ratings, which makes it more useful for the user.","internal_server_score":2,"google_maps_score":5,"query":"Al Noor p","model":"llama-3.3-70b"}
-{"verdict":"INTERNAL_SERVER_BETTER","reasoning":"The internal server result returns two petrol stations with 'Al Noor' in their names, which is more relevant to the query 'Al Noor petr' than the Google Maps results. The Google Maps results do not contain any petrol stations with 'Al Noor' in their names, and instead return a variety of other establishments. The internal server result meets the primary criteria of precision and top result accuracy, as well as query understanding and component handling, by returning results that match the query. The Google Maps results do not meet these criteria as well, resulting in a lower score.","internal_server_score":5,"google_maps_score":1,"query":"Al Noor petr","model":"llama-3.3-70b-versatile"}
-{"verdict":"INTERNAL_SERVER_BETTER","reasoning":"The internal server result set contains two results that are directly relevant to the query 'Al Noor petrol', with both results being petrol stations named 'Al Noor Petrol Station'. In contrast, the Google Maps result set, although containing 'Al Noor Petrol Station', is buried under a multitude of irrelevant results such as malls, restaurants, and other establishments. The top result in Google Maps is indeed 'Al Noor Petrol Station', but the overall relevance and purity of the result set are compromised by the inclusion of numerous noisy results. Therefore, based on the primary criteria of precision, query understanding, and result set relevance, the internal server provides a better result set for the given query.","internal_server_score":5,"google_maps_score":2,"query":"Al Noor petrol","model":"llama-3.3-70b"}
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The Google Maps result set contains the exact match 'Rumailah Hospital' as its first result, which directly matches the user's query intent. In contrast, the internal server result set does not have 'Al Rumaila hospital' as its top result, instead returning other hospitals and locations. This failure to provide an exact match at the top of the result list significantly impacts the precision and relevance of the internal server's results. Furthermore, the Google Maps result set is cleaner and more focused on the entity type requested (hospitals), with less noise compared to the internal server results, which include various unrelated locations such as malls and driving academies. While the internal server provides a large number of results, the lack of relevance and precision in its top results, especially the absence of 'Al Rumaila hospital' at the top, makes Google Maps' results more accurate and relevant for the user's query.","internal_server_score":1,"google_maps_score":5,"query":"Al Rumaila hospital","model":"llama-3.3-70b"}
-{"verdict":"BOTH_ARE_BAD","reasoning":"The query 'Al S' is very generic and does not provide enough information to accurately determine the user's intent. The internal server result returns a list of stadiums and streets, but none of them match the query exactly. The Google Maps result returns a list of restaurants, stores, and other establishments, but none of them match the query exactly either. Both results lack precision and relevance, and neither provides a clear top result that matches the user's query intent.","internal_server_score":1,"google_maps_score":1,"query":"Al S","model":"llama-3.3-70b-versatile"}
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The primary evaluation criterion is Precision & Top Result Accuracy. For the query 'Al Sad', the top result from Google Maps is 'Al Sadd' which exactly matches the query intent. In contrast, the internal server's top result is 'Al Sad Residential Compounds' which, although related, does not exactly match the query intent. Furthermore, Google Maps' result set is cleaner and more focused on the entity type requested (a location), whereas the internal server's results include a variety of entities (streets, compounds, stores) that, while containing the words 'Al Sad', do not precisely match the query's likely intent to find information about the 'Al Sadd' area. Thus, based on precision and relevance, Google Maps provides a better result for this query.","internal_server_score":2,"google_maps_score":5,"query":"Al Sad","model":"llama-3.3-70b"}
-{"verdict":"INTERNAL_SERVER_BETTER","reasoning":"The internal server result provides a more precise and relevant set of results for the query 'Al Sadd'. Although neither result set returns an exact match as the top result, the internal server result includes a variety of locations and businesses within the Al Sadd area, such as 'Al Sadd Mall', 'Al Sadd Police Station', and 'Al Sadd Suites Hotel'. In contrast, the Google Maps result primarily returns the general area 'Al Sadd' with less specific and less relevant results. The internal server result demonstrates better precision and relevance to the user's query intent, despite neither result perfectly meeting the primary criteria.","internal_server_score":4,"google_maps_score":2,"query":"Al Sadd","model":"llama-3.3-70b-versatile"}
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The Google Maps result set contains more relevant and precise results for the query 'Al Shara'. The top results include 'Al Shara Supermarket' and 'Alshara', which are directly related to the query. In contrast, the internal server result set does not contain any exact matches for 'Al Shara' and instead returns a list of unrelated locations with similar names. The internal server result set lacks precision and relevance, with many results being streets or locations that do not match the query intent. Therefore, based on the primary criteria of precision, query understanding, and result set relevance, Google Maps provides a better result set for this query.","internal_server_score":1,"google_maps_score":5,"query":"Al Shara","model":"llama-3.3-70b"}
-{"verdict":"BOTH_ARE_BAD","reasoning":"The query 'Al Shara hot' does not yield relevant results from either the internal server or Google Maps. The internal server returns a list of locations with names similar to 'Al Shara', but none of them match the query exactly. Google Maps returns a list of locations, but none of them are directly related to 'Al Shara hot'. Both result sets lack precision and relevance, making it difficult to determine which one is better.","internal_server_score":1,"google_maps_score":1,"query":"Al Shara hot","model":"llama-3.3-70b-versatile"}
-{"verdict":"BOTH_ARE_BAD","reasoning":"The primary evaluation criteria are not met for either result set. The internal server result does not return 'Al Shara hotel' as the top result, and instead returns a list of unrelated locations. The Google Maps result also does not return 'Al Shara hotel' and instead returns a list of unrelated locations in Qatar. Neither result set demonstrates precision, query understanding, or result set relevance. The secondary evaluation criterion of result completeness is not applicable in this case as neither result set meets the primary criteria.","internal_server_score":1,"google_maps_score":1,"query":"Al Shara hotel","model":"llama-3.3-70b"}
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The Google Maps result set contains the exact match for 'Al Thakeera Beach' as its first result, which is the primary criteria for evaluation. In contrast, the internal server result set does not have 'Al Thakeera Beach' as its top result, instead providing a list of various beaches and other establishments without clear prioritization of the exact query match. Therefore, based on precision and top result accuracy, Google Maps provides a better result for the query 'Al Thakeera Beach'.","internal_server_score":2,"google_maps_score":5,"query":"Al Thakeera Beach","model":"llama-3.3-70b-versatile"}
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The Google Maps result set contains more relevant and precise results for the query 'Al Wa'. The top results include 'Al Waab City W.L.L.', 'Al Waab', and 'Nour Alwaab', which are directly related to the query. In contrast, the internal server result set does not contain any exact matches for 'Al Wa' and instead returns a list of unrelated places and businesses. Therefore, based on the primary evaluation criteria of precision and top result accuracy, Google Maps provides a better result set for this query.","internal_server_score":1,"google_maps_score":5,"query":"Al Wa","model":"llama-3.3-70b"}
-{"verdict":"GOOGLE_MAPS_BETTER","reasoning":"The query 'Al Wa hospital emergency' is most closely matched by the Google Maps result 'Adults Emergency' with the formatted address '5H8Q+HF9, Al Wakrah, Qatar'. This result directly corresponds to the user's intent of finding an emergency service at Al Wa hospital. In contrast, the internal server result 'Al Wakrah Hospital Womens Emergency' does not exactly match the query, as it specifies 'Womens' which is not present in the query. Furthermore, the Google Maps result set contains more relevant information such as the website URI, international phone number, rating, and user rating count, which can be useful for the user. Although the internal server result has a more precise location, the Google Maps result is more relevant to the user's query intent.","internal_server_score":2,"google_maps_score":4,"query":"Al Wa hospital emergency","model":"llama-3.3-70b-versatile"}
-{"verdict":"BOTH_ARE_BAD","reasoning":"The query 'Al Waab' is a specific location, and the expected result should be directly related to this location. However, both the internal server result and the Google Maps result fail to provide a clear, precise match as the top result. The internal server result returns a list of streets and locations containing 'Al Waab' or 'Waab' but does not clearly identify a primary 'Al Waab' location. The Google Maps result provides a variety of locations, including 'Al Waab Street,' but also includes many unrelated locations such as restaurants, petrol stations, and other points of interest, without clearly highlighting 'Al Waab' as a distinct location. Given the primary evaluation criteria, both results lack precision and relevance to the query intent, with neither providing a clear, direct match for 'Al Waab' as the top result.","internal_server_score":2,"google_maps_score":2,"query":"Al Waab","model":"llama-3.3-70b"}
+[
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The Google Maps result set contains the exact match for 'Al Mirqab Mall' as its first result, which is the primary criteria for evaluation. In contrast, the internal server result set does not have 'Al Mirqab Mall' as its top result, instead, it is buried in the list. This failure to return the exact match as the top result significantly penalizes the internal server's score. Furthermore, the Google Maps result set is more relevant and pure, with fewer noisy results compared to the internal server result set. Although the secondary criterion of result completeness could be considered, it is not necessary in this case since the primary criteria already favor Google Maps.",
+    "internal_server_score": 1,
+    "google_maps_score": 5,
+    "query": "Al Mirqab mall",
+    "model": "llama-3.3-70b"
+  },
+  {
+    "verdict": "BOTH_ARE_BAD",
+    "reasoning": "The query 'Al Noor' is quite generic and could refer to various entities. The internal server result returns a list of places with 'Al Noor' in their name, but none of them are clearly the most relevant or precise result. The Google Maps result also returns a list of places, but they seem to be more varied and not necessarily related to the query. Neither result set demonstrates a clear understanding of the user's intent or provides a precise and relevant answer. The internal server result has some relevant information, but it is buried in a long list of less relevant results. The Google Maps result has some well-known locations, but they do not seem to be directly related to the query. Therefore, both results are considered bad due to the lack of precision and relevance.",
+    "internal_server_score": 2,
+    "google_maps_score": 2,
+    "query": "Al Noor",
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The Google Maps result set contains the exact match 'Al Noor Compound 1' as its first result, which directly matches the user's query intent. In contrast, the internal server result set does not contain an exact match for 'Al Noor Compound 1' in its top results. Instead, it returns various 'Al Noor Residential Compounds' in different locations, which, although relevant, do not precisely match the query. Given the primary evaluation criteria prioritize precision and top result accuracy, Google Maps' result is deemed better because it accurately identifies the specific compound the user is searching for.",
+    "internal_server_score": 2,
+    "google_maps_score": 5,
+    "query": "Al Noor compound 1",
+    "model": "llama-3.3-70b"
+  },
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The Google Maps result set contains relevant results that match the query intent, including 'Al Noor Compound 2', 'Al Noor Compound 1', and 'NOOR PARADISE COMPOUND Al Thumamma', which are all directly related to the 'Al Noor compound' part of the query. In contrast, the internal server result set does not contain any results that match the 'Al Noor compound' part of the query, instead returning results related to 'Al Thumama', which is only part of the query. This indicates a failure in query understanding and component handling for the internal server. Therefore, based on the primary evaluation criteria of precision, query understanding, and result set relevance, Google Maps provides a better result set for the given query.",
+    "internal_server_score": 1,
+    "google_maps_score": 5,
+    "query": "Al Noor compound thumama",
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The Google Maps result set contains more relevant and precise results for the query 'Al Noor p'. The top results include 'Al Noor Medical Center', 'Al Noor Medical Laboratory Qatar', 'Al Noor Compound 2', and 'Al Noor Compound 1', which are all directly related to the query. In contrast, the internal server result set contains a mix of relevant and irrelevant results, with the top result being 'Al Noor Clinic , Nuaija', which is not as directly related to the query as the Google Maps results. Additionally, the Google Maps result set has more comprehensive information, including formatted addresses, contact information, and ratings, which makes it more useful for the user.",
+    "internal_server_score": 2,
+    "google_maps_score": 5,
+    "query": "Al Noor p",
+    "model": "llama-3.3-70b"
+  },
+  {
+    "verdict": "INTERNAL_SERVER_BETTER",
+    "reasoning": "The internal server result returns two petrol stations with 'Al Noor' in their names, which is more relevant to the query 'Al Noor petr' than the Google Maps results. The Google Maps results do not contain any petrol stations with 'Al Noor' in their names, and instead return a variety of other establishments. The internal server result meets the primary criteria of precision and top result accuracy, as well as query understanding and component handling, by returning results that match the query. The Google Maps results do not meet these criteria as well, resulting in a lower score.",
+    "internal_server_score": 5,
+    "google_maps_score": 1,
+    "query": "Al Noor petr",
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "verdict": "INTERNAL_SERVER_BETTER",
+    "reasoning": "The internal server result set contains two results that are directly relevant to the query 'Al Noor petrol', with both results being petrol stations named 'Al Noor Petrol Station'. In contrast, the Google Maps result set, although containing 'Al Noor Petrol Station', is buried under a multitude of irrelevant results such as malls, restaurants, and other establishments. The top result in Google Maps is indeed 'Al Noor Petrol Station', but the overall relevance and purity of the result set are compromised by the inclusion of numerous noisy results. Therefore, based on the primary criteria of precision, query understanding, and result set relevance, the internal server provides a better result set for the given query.",
+    "internal_server_score": 5,
+    "google_maps_score": 2,
+    "query": "Al Noor petrol",
+    "model": "llama-3.3-70b"
+  },
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The Google Maps result set contains the exact match 'Rumailah Hospital' as its first result, which directly matches the user's query intent. In contrast, the internal server result set does not have 'Al Rumaila hospital' as its top result, instead returning other hospitals and locations. This failure to provide an exact match at the top of the result list significantly impacts the precision and relevance of the internal server's results. Furthermore, the Google Maps result set is cleaner and more focused on the entity type requested (hospitals), with less noise compared to the internal server results, which include various unrelated locations such as malls and driving academies. While the internal server provides a large number of results, the lack of relevance and precision in its top results, especially the absence of 'Al Rumaila hospital' at the top, makes Google Maps' results more accurate and relevant for the user's query.",
+    "internal_server_score": 1,
+    "google_maps_score": 5,
+    "query": "Al Rumaila hospital",
+    "model": "llama-3.3-70b"
+  },
+  {
+    "verdict": "BOTH_ARE_BAD",
+    "reasoning": "The query 'Al S' is very generic and does not provide enough information to accurately determine the user's intent. The internal server result returns a list of stadiums and streets, but none of them match the query exactly. The Google Maps result returns a list of restaurants, stores, and other establishments, but none of them match the query exactly either. Both results lack precision and relevance, and neither provides a clear top result that matches the user's query intent.",
+    "internal_server_score": 1,
+    "google_maps_score": 1,
+    "query": "Al S",
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The primary evaluation criterion is Precision & Top Result Accuracy. For the query 'Al Sad', the top result from Google Maps is 'Al Sadd' which exactly matches the query intent. In contrast, the internal server's top result is 'Al Sad Residential Compounds' which, although related, does not exactly match the query intent. Furthermore, Google Maps' result set is cleaner and more focused on the entity type requested (a location), whereas the internal server's results include a variety of entities (streets, compounds, stores) that, while containing the words 'Al Sad', do not precisely match the query's likely intent to find information about the 'Al Sadd' area. Thus, based on precision and relevance, Google Maps provides a better result for this query.",
+    "internal_server_score": 2,
+    "google_maps_score": 5,
+    "query": "Al Sad",
+    "model": "llama-3.3-70b"
+  },
+  {
+    "verdict": "INTERNAL_SERVER_BETTER",
+    "reasoning": "The internal server result provides a more precise and relevant set of results for the query 'Al Sadd'. Although neither result set returns an exact match as the top result, the internal server result includes a variety of locations and businesses within the Al Sadd area, such as 'Al Sadd Mall', 'Al Sadd Police Station', and 'Al Sadd Suites Hotel'. In contrast, the Google Maps result primarily returns the general area 'Al Sadd' with less specific and less relevant results. The internal server result demonstrates better precision and relevance to the user's query intent, despite neither result perfectly meeting the primary criteria.",
+    "internal_server_score": 4,
+    "google_maps_score": 2,
+    "query": "Al Sadd",
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The Google Maps result set contains more relevant and precise results for the query 'Al Shara'. The top results include 'Al Shara Supermarket' and 'Alshara', which are directly related to the query. In contrast, the internal server result set does not contain any exact matches for 'Al Shara' and instead returns a list of unrelated locations with similar names. The internal server result set lacks precision and relevance, with many results being streets or locations that do not match the query intent. Therefore, based on the primary criteria of precision, query understanding, and result set relevance, Google Maps provides a better result set for this query.",
+    "internal_server_score": 1,
+    "google_maps_score": 5,
+    "query": "Al Shara",
+    "model": "llama-3.3-70b"
+  },
+  {
+    "verdict": "BOTH_ARE_BAD",
+    "reasoning": "The query 'Al Shara hot' does not yield relevant results from either the internal server or Google Maps. The internal server returns a list of locations with names similar to 'Al Shara', but none of them match the query exactly. Google Maps returns a list of locations, but none of them are directly related to 'Al Shara hot'. Both result sets lack precision and relevance, making it difficult to determine which one is better.",
+    "internal_server_score": 1,
+    "google_maps_score": 1,
+    "query": "Al Shara hot",
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "verdict": "BOTH_ARE_BAD",
+    "reasoning": "The primary evaluation criteria are not met for either result set. The internal server result does not return 'Al Shara hotel' as the top result, and instead returns a list of unrelated locations. The Google Maps result also does not return 'Al Shara hotel' and instead returns a list of unrelated locations in Qatar. Neither result set demonstrates precision, query understanding, or result set relevance. The secondary evaluation criterion of result completeness is not applicable in this case as neither result set meets the primary criteria.",
+    "internal_server_score": 1,
+    "google_maps_score": 1,
+    "query": "Al Shara hotel",
+    "model": "llama-3.3-70b"
+  },
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The Google Maps result set contains the exact match for 'Al Thakeera Beach' as its first result, which is the primary criteria for evaluation. In contrast, the internal server result set does not have 'Al Thakeera Beach' as its top result, instead providing a list of various beaches and other establishments without clear prioritization of the exact query match. Therefore, based on precision and top result accuracy, Google Maps provides a better result for the query 'Al Thakeera Beach'.",
+    "internal_server_score": 2,
+    "google_maps_score": 5,
+    "query": "Al Thakeera Beach",
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The Google Maps result set contains more relevant and precise results for the query 'Al Wa'. The top results include 'Al Waab City W.L.L.', 'Al Waab', and 'Nour Alwaab', which are directly related to the query. In contrast, the internal server result set does not contain any exact matches for 'Al Wa' and instead returns a list of unrelated places and businesses. Therefore, based on the primary evaluation criteria of precision and top result accuracy, Google Maps provides a better result set for this query.",
+    "internal_server_score": 1,
+    "google_maps_score": 5,
+    "query": "Al Wa",
+    "model": "llama-3.3-70b"
+  },
+  {
+    "verdict": "GOOGLE_MAPS_BETTER",
+    "reasoning": "The query 'Al Wa hospital emergency' is most closely matched by the Google Maps result 'Adults Emergency' with the formatted address '5H8Q+HF9, Al Wakrah, Qatar'. This result directly corresponds to the user's intent of finding an emergency service at Al Wa hospital. In contrast, the internal server result 'Al Wakrah Hospital Womens Emergency' does not exactly match the query, as it specifies 'Womens' which is not present in the query. Furthermore, the Google Maps result set contains more relevant information such as the website URI, international phone number, rating, and user rating count, which can be useful for the user. Although the internal server result has a more precise location, the Google Maps result is more relevant to the user's query intent.",
+    "internal_server_score": 2,
+    "google_maps_score": 4,
+    "query": "Al Wa hospital emergency",
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "verdict": "BOTH_ARE_BAD",
+    "reasoning": "The query 'Al Waab' is a specific location, and the expected result should be directly related to this location. However, both the internal server result and the Google Maps result fail to provide a clear, precise match as the top result. The internal server result returns a list of streets and locations containing 'Al Waab' or 'Waab' but does not clearly identify a primary 'Al Waab' location. The Google Maps result provides a variety of locations, including 'Al Waab Street,' but also includes many unrelated locations such as restaurants, petrol stations, and other points of interest, without clearly highlighting 'Al Waab' as a distinct location. Given the primary evaluation criteria, both results lack precision and relevance to the query intent, with neither providing a clear, direct match for 'Al Waab' as the top result.",
+    "internal_server_score": 2,
+    "google_maps_score": 2,
+    "query": "Al Waab",
+    "model": "llama-3.3-70b"
+  }
+]
