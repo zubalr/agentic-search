@@ -43,6 +43,6 @@ def process_keywords(input_file, output_file):
             fout.write(f'{kw},{lat},{lng}\n')
 
 if __name__ == "__main__":
-    input_path = os.path.join(os.path.dirname(__file__), '../data/unique_sorted_keywords_with_location.csv')
-    output_path = os.path.join(os.path.dirname(__file__), '../data/representative_keywords_with_location.csv')
+    input_path = os.path.join(os.path.dirname(__file__), '../data/unique_keywords_with_location.csv')
+    output_path = os.path.join(os.path.dirname(__file__), '../data/uniquerepresentative_keywords_with_location.csv')
     process_keywords(input_path, output_path)

@@ -1,0 +1,1571 @@
+[
+  {
+    "query": "Al Mirqab mall",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJgebrjLjaRT4ROwxcvn6xiGM",
+            "placeId": "ChIJgebrjLjaRT4ROwxcvn6xiGM",
+            "text": {
+              "text": "Al Mirqab Mall, Al Mirqab Al Jadeed Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 14
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Mirqab Mall",
+                "matches": [
+                  {
+                    "endOffset": 14
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+              }
+            },
+            "types": [
+              "establishment",
+              "point_of_interest",
+              "shopping_mall"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJlyrDlLjaRT4RuC-8X92bxIE",
+            "placeId": "ChIJlyrDlLjaRT4RuC-8X92bxIE",
+            "text": {
+              "text": "Carrefour, Al Mirqab Al Jadeed Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 9
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Carrefour",
+                "matches": [
+                  {
+                    "endOffset": 9
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+              }
+            },
+            "types": [
+              "establishment",
+              "point_of_interest",
+              "market"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJP9lZe9DbRT4RoGmkIF-4cks",
+            "placeId": "ChIJP9lZe9DbRT4RoGmkIF-4cks",
+            "text": {
+              "text": "FUNDERDOME, Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 10
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "FUNDERDOME",
+                "matches": [
+                  {
+                    "endOffset": 10
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Street, Doha, Qatar"
+              }
+            },
+            "types": [
+              "establishment",
+              "point_of_interest",
+              "playground"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJTaFNbKfbRT4Rqgk917j1uq0",
+            "placeId": "ChIJTaFNbKfbRT4Rqgk917j1uq0",
+            "text": {
+              "text": "Aksyr Al Hyah Pharmacy - MIRQAB MALL, Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 36
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Aksyr Al Hyah Pharmacy - MIRQAB MALL",
+                "matches": [
+                  {
+                    "endOffset": 36
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Street, Doha, Qatar"
+              }
+            },
+            "types": [
+              "health",
+              "point_of_interest",
+              "establishment",
+              "store",
+              "pharmacy"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJlbarkcDaRT4RQ0bquzLXgmE",
+            "placeId": "ChIJlbarkcDaRT4RQ0bquzLXgmE",
+            "text": {
+              "text": "DOHA SOUQ MALL, Al Mirqab Al Jadeed Street, Doha, Qatar",
+              "matches": [
+                {
+                  "startOffset": 10,
+                  "endOffset": 14
+                },
+                {
+                  "startOffset": 16,
+                  "endOffset": 25
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "DOHA SOUQ MALL",
+                "matches": [
+                  {
+                    "startOffset": 10,
+                    "endOffset": 14
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Al Mirqab Al Jadeed Street, Doha, Qatar",
+                "matches": [
+                  {
+                    "endOffset": 9
+                  }
+                ]
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "government_office",
+              "shopping_mall"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Al Noor",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJWa4ZSS3cRT4R4pM134tTD3E",
+            "placeId": "ChIJWa4ZSS3cRT4R4pM134tTD3E",
+            "text": {
+              "text": "Al Noor Medical Center, Alghazlaniya Street, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 7
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Medical Center",
+                "matches": [
+                  {
+                    "endOffset": 7
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Alghazlaniya Street, Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "health",
+              "hospital",
+              "point_of_interest",
+              "establishment"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJ0-2X09jbRT4RF6D80RHJYAM",
+            "placeId": "ChIJ0-2X09jbRT4RF6D80RHJYAM",
+            "text": {
+              "text": "Al Noor Garden Compound, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 7
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Garden Compound",
+                "matches": [
+                  {
+                    "endOffset": 7
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "apartment_complex"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJ-7lPY_jZRT4RCKhdjcqKc0M",
+            "placeId": "ChIJ-7lPY_jZRT4RCKhdjcqKc0M",
+            "text": {
+              "text": "Al Noor Petrol Station, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 7
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Petrol Station",
+                "matches": [
+                  {
+                    "endOffset": 7
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "gas_station"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJq6qqqpvbRT4RMuZF2fK8rME",
+            "placeId": "ChIJq6qqqpvbRT4RMuZF2fK8rME",
+            "text": {
+              "text": "Al noor fast food, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 7
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al noor fast food",
+                "matches": [
+                  {
+                    "endOffset": 7
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Doha, Qatar"
+              }
+            },
+            "types": [
+              "fast_food_restaurant",
+              "establishment",
+              "point_of_interest",
+              "food",
+              "restaurant"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/EhtBbCBOb29yIFN0cmVldCwgRG9oYSwgUWF0YXIiLiosChQKEgl_LEYLvdxFPhHJoWiilxvxNRIUChIJf-jc_zTFRT4RsdTPeJ8x2UQ",
+            "placeId": "EhtBbCBOb29yIFN0cmVldCwgRG9oYSwgUWF0YXIiLiosChQKEgl_LEYLvdxFPhHJoWiilxvxNRIUChIJf-jc_zTFRT4RsdTPeJ8x2UQ",
+            "text": {
+              "text": "Al Noor Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 7
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Street",
+                "matches": [
+                  {
+                    "endOffset": 7
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Doha, Qatar"
+              }
+            },
+            "types": [
+              "geocode",
+              "route"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Al Noor compound 1",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJ4TGLdiDPRT4RpRJJ2mmGXj8",
+            "placeId": "ChIJ4TGLdiDPRT4RpRJJ2mmGXj8",
+            "text": {
+              "text": "Al Noor Compound 1, Airport Street، Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 18
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Compound 1",
+                "matches": [
+                  {
+                    "endOffset": 18
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Airport Street، Doha, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "condominium_complex"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Al Noor compound thumama",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJbTJ9QBvPRT4RDJhMOCb5p0o",
+            "placeId": "ChIJbTJ9QBvPRT4RDJhMOCb5p0o",
+            "text": {
+              "text": "Al Noor Compound 2, Al Noor compound, Airport Street, Doha, Qatar"
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Compound 2"
+              },
+              "secondaryText": {
+                "text": "Al Noor compound, Airport Street, Doha, Qatar"
+              }
+            },
+            "types": [
+              "establishment",
+              "condominium_complex",
+              "point_of_interest"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJ4TGLdiDPRT4RpRJJ2mmGXj8",
+            "placeId": "ChIJ4TGLdiDPRT4RpRJJ2mmGXj8",
+            "text": {
+              "text": "Al Noor Compound 1, Airport Street، Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 18
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Compound 1",
+                "matches": [
+                  {
+                    "endOffset": 18
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Airport Street، Doha, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "condominium_complex"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJBXkpL1naRT4RZ6yq6bPgl5A",
+            "placeId": "ChIJBXkpL1naRT4RZ6yq6bPgl5A",
+            "text": {
+              "text": "Home - Al Noor Resident Compound, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 32
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Home - Al Noor Resident Compound",
+                "matches": [
+                  {
+                    "endOffset": 32
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Doha, Qatar"
+              }
+            },
+            "types": [
+              "condominium_complex",
+              "establishment",
+              "point_of_interest"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/EhtBbCBOb29yIFN0cmVldCwgRG9oYSwgUWF0YXIiLiosChQKEgl_LEYLvdxFPhHJoWiilxvxNRIUChIJf-jc_zTFRT4RsdTPeJ8x2UQ",
+            "placeId": "EhtBbCBOb29yIFN0cmVldCwgRG9oYSwgUWF0YXIiLiosChQKEgl_LEYLvdxFPhHJoWiilxvxNRIUChIJf-jc_zTFRT4RsdTPeJ8x2UQ",
+            "text": {
+              "text": "Al Noor Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 14
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Street",
+                "matches": [
+                  {
+                    "endOffset": 14
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Doha, Qatar"
+              }
+            },
+            "types": [
+              "route",
+              "geocode"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJJaHIHgDZRT4RoaAUk13G6pc",
+            "placeId": "ChIJJaHIHgDZRT4RoaAUk13G6pc",
+            "text": {
+              "text": "AL NOOR BUTCHERY, Al Muaither Street, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 16
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "AL NOOR BUTCHERY",
+                "matches": [
+                  {
+                    "endOffset": 16
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Al Muaither Street, Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "butcher_shop",
+              "point_of_interest",
+              "food",
+              "food_store",
+              "store",
+              "establishment"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Al Noor compound thumama",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJbTJ9QBvPRT4RDJhMOCb5p0o",
+            "placeId": "ChIJbTJ9QBvPRT4RDJhMOCb5p0o",
+            "text": {
+              "text": "Al Noor Compound 2, Al Noor compound, Airport Street, Doha, Qatar"
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Compound 2"
+              },
+              "secondaryText": {
+                "text": "Al Noor compound, Airport Street, Doha, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "condominium_complex"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJ4TGLdiDPRT4RpRJJ2mmGXj8",
+            "placeId": "ChIJ4TGLdiDPRT4RpRJJ2mmGXj8",
+            "text": {
+              "text": "Al Noor Compound 1, Airport Street، Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 18
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Compound 1",
+                "matches": [
+                  {
+                    "endOffset": 18
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Airport Street، Doha, Qatar"
+              }
+            },
+            "types": [
+              "condominium_complex",
+              "establishment",
+              "point_of_interest"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJBXkpL1naRT4RZ6yq6bPgl5A",
+            "placeId": "ChIJBXkpL1naRT4RZ6yq6bPgl5A",
+            "text": {
+              "text": "Home - Al Noor Resident Compound, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 32
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Home - Al Noor Resident Compound",
+                "matches": [
+                  {
+                    "endOffset": 32
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Doha, Qatar"
+              }
+            },
+            "types": [
+              "establishment",
+              "condominium_complex",
+              "point_of_interest"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/EhtBbCBOb29yIFN0cmVldCwgRG9oYSwgUWF0YXIiLiosChQKEgl_LEYLvdxFPhHJoWiilxvxNRIUChIJf-jc_zTFRT4RsdTPeJ8x2UQ",
+            "placeId": "EhtBbCBOb29yIFN0cmVldCwgRG9oYSwgUWF0YXIiLiosChQKEgl_LEYLvdxFPhHJoWiilxvxNRIUChIJf-jc_zTFRT4RsdTPeJ8x2UQ",
+            "text": {
+              "text": "Al Noor Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 14
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Street",
+                "matches": [
+                  {
+                    "endOffset": 14
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Doha, Qatar"
+              }
+            },
+            "types": [
+              "route",
+              "geocode"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJJaHIHgDZRT4RoaAUk13G6pc",
+            "placeId": "ChIJJaHIHgDZRT4RoaAUk13G6pc",
+            "text": {
+              "text": "AL NOOR BUTCHERY, Al Muaither Street, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 16
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "AL NOOR BUTCHERY",
+                "matches": [
+                  {
+                    "endOffset": 16
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Al Muaither Street, Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "food_store",
+              "point_of_interest",
+              "food",
+              "store",
+              "butcher_shop",
+              "establishment"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Al Noor p",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJ-7lPY_jZRT4RCKhdjcqKc0M",
+            "placeId": "ChIJ-7lPY_jZRT4RCKhdjcqKc0M",
+            "text": {
+              "text": "Al Noor Petrol Station, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 9
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Petrol Station",
+                "matches": [
+                  {
+                    "endOffset": 9
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "gas_station",
+              "point_of_interest",
+              "establishment"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJa3NpKxHbRT4RcRCM-iSQBVU",
+            "placeId": "ChIJa3NpKxHbRT4RcRCM-iSQBVU",
+            "text": {
+              "text": "Al Noor Photography and videography النور للتصوير والمناسبات, Street 865, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 9
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Photography and videography النور للتصوير والمناسبات",
+                "matches": [
+                  {
+                    "endOffset": 9
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Street 865, Doha, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJmb9I1w_FRT4RExZTNW4EvrQ",
+            "placeId": "ChIJmb9I1w_FRT4RExZTNW4EvrQ",
+            "text": {
+              "text": "Al Nour Plaza Luxury Suites, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 27
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Nour Plaza Luxury Suites",
+                "matches": [
+                  {
+                    "endOffset": 27
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Doha, Qatar"
+              }
+            },
+            "types": [
+              "hotel",
+              "establishment",
+              "lodging",
+              "point_of_interest"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJJwJY75naRT4R5djly32uwB8",
+            "placeId": "ChIJJwJY75naRT4R5djly32uwB8",
+            "text": {
+              "text": "Sunlife Pharmacy Al Noor, Al Muntazah, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 24
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Sunlife Pharmacy Al Noor",
+                "matches": [
+                  {
+                    "endOffset": 24
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Al Muntazah, Doha, Qatar"
+              }
+            },
+            "types": [
+              "food_store",
+              "health",
+              "store",
+              "point_of_interest",
+              "establishment",
+              "bar",
+              "pharmacy",
+              "food"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJhY9FA-HXRT4R6N21pa4dL3U",
+            "placeId": "ChIJhY9FA-HXRT4R6N21pa4dL3U",
+            "text": {
+              "text": "Al Noor Plastic Factory, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 9
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Plastic Factory",
+                "matches": [
+                  {
+                    "endOffset": 9
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Al Noor petr",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJ-7lPY_jZRT4RCKhdjcqKc0M",
+            "placeId": "ChIJ-7lPY_jZRT4RCKhdjcqKc0M",
+            "text": {
+              "text": "Al Noor Petrol Station, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 12
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Petrol Station",
+                "matches": [
+                  {
+                    "endOffset": 12
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "gas_station",
+              "point_of_interest",
+              "establishment"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJzyOGzE37JjkR0iuG_9agS9M",
+            "placeId": "ChIJzyOGzE37JjkR0iuG_9agS9M",
+            "text": {
+              "text": "AL-NOOR PETROLEUM- Total Petrol Station, Piplan, Pakistan",
+              "matches": [
+                {
+                  "endOffset": 39
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "AL-NOOR PETROLEUM- Total Petrol Station",
+                "matches": [
+                  {
+                    "endOffset": 39
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Piplan, Pakistan"
+              }
+            },
+            "types": [
+              "gas_station",
+              "establishment",
+              "point_of_interest"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJHz4GGC9mIjkRoKMKpUK5MWM",
+            "placeId": "ChIJHz4GGC9mIjkRoKMKpUK5MWM",
+            "text": {
+              "text": "Al Noor Petrol Pump, Jaranwala Road, Faisalabad, Pakistan",
+              "matches": [
+                {
+                  "endOffset": 12
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Petrol Pump",
+                "matches": [
+                  {
+                    "endOffset": 12
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Jaranwala Road, Faisalabad, Pakistan"
+              }
+            },
+            "types": [
+              "gas_station",
+              "establishment",
+              "point_of_interest"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJGTfgQoM7TDkRQuvckMh9gIA",
+            "placeId": "ChIJGTfgQoM7TDkRQuvckMh9gIA",
+            "text": {
+              "text": "Al-Noor petroleum service, Matli, Pakistan",
+              "matches": [
+                {
+                  "endOffset": 25
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al-Noor petroleum service",
+                "matches": [
+                  {
+                    "endOffset": 25
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Matli, Pakistan"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "gas_station"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJwzcay25pHzkRR5qnOrE6Kgg",
+            "placeId": "ChIJwzcay25pHzkRR5qnOrE6Kgg",
+            "text": {
+              "text": "Al Noor Petroleum, Sohawa, Mandi Bahauddin, Pakistan",
+              "matches": [
+                {
+                  "endOffset": 12
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Petroleum",
+                "matches": [
+                  {
+                    "endOffset": 12
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Sohawa, Mandi Bahauddin, Pakistan"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "gas_station"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Al Noor petrol",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJ-7lPY_jZRT4RCKhdjcqKc0M",
+            "placeId": "ChIJ-7lPY_jZRT4RCKhdjcqKc0M",
+            "text": {
+              "text": "Al Noor Petrol Station, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 14
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Petrol Station",
+                "matches": [
+                  {
+                    "endOffset": 14
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "gas_station"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJzyOGzE37JjkR0iuG_9agS9M",
+            "placeId": "ChIJzyOGzE37JjkR0iuG_9agS9M",
+            "text": {
+              "text": "AL-NOOR PETROLEUM- Total Petrol Station, Piplan, Pakistan",
+              "matches": [
+                {
+                  "endOffset": 39
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "AL-NOOR PETROLEUM- Total Petrol Station",
+                "matches": [
+                  {
+                    "endOffset": 39
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Piplan, Pakistan"
+              }
+            },
+            "types": [
+              "establishment",
+              "point_of_interest",
+              "gas_station"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJHz4GGC9mIjkRoKMKpUK5MWM",
+            "placeId": "ChIJHz4GGC9mIjkRoKMKpUK5MWM",
+            "text": {
+              "text": "Al Noor Petrol Pump, Jaranwala Road, Faisalabad, Pakistan",
+              "matches": [
+                {
+                  "endOffset": 14
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Petrol Pump",
+                "matches": [
+                  {
+                    "endOffset": 14
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Jaranwala Road, Faisalabad, Pakistan"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "gas_station"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJGTfgQoM7TDkRQuvckMh9gIA",
+            "placeId": "ChIJGTfgQoM7TDkRQuvckMh9gIA",
+            "text": {
+              "text": "Al-Noor petroleum service, Matli, Pakistan",
+              "matches": [
+                {
+                  "endOffset": 25
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al-Noor petroleum service",
+                "matches": [
+                  {
+                    "endOffset": 25
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Matli, Pakistan"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "gas_station"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJwzcay25pHzkRR5qnOrE6Kgg",
+            "placeId": "ChIJwzcay25pHzkRR5qnOrE6Kgg",
+            "text": {
+              "text": "Al Noor Petroleum, Sohawa, Mandi Bahauddin, Pakistan",
+              "matches": [
+                {
+                  "endOffset": 14
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Noor Petroleum",
+                "matches": [
+                  {
+                    "endOffset": 14
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Sohawa, Mandi Bahauddin, Pakistan"
+              }
+            },
+            "types": [
+              "gas_station",
+              "point_of_interest",
+              "establishment"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Al Osra",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJabgjjxHFRT4RGSu_Ybi597E",
+            "placeId": "ChIJabgjjxHFRT4RGSu_Ybi597E",
+            "text": {
+              "text": "Al Osra Restaurant, Al Fayhaa Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 7
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Osra Restaurant",
+                "matches": [
+                  {
+                    "endOffset": 7
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Al Fayhaa Street, Doha, Qatar"
+              }
+            },
+            "types": [
+              "indian_restaurant",
+              "food",
+              "point_of_interest",
+              "restaurant",
+              "parking",
+              "establishment",
+              "buffet_restaurant"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJOUejukLbRT4RTvFoHv5uSRA",
+            "placeId": "ChIJOUejukLbRT4RTvFoHv5uSRA",
+            "text": {
+              "text": "Al Osra Trading & Contracting, شارع جاسم بن حمد، Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 7
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Osra Trading & Contracting",
+                "matches": [
+                  {
+                    "endOffset": 7
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "شارع جاسم بن حمد، Doha, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "food",
+              "wholesaler"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJc3FTbpPPRT4RShWceWht_MQ",
+            "placeId": "ChIJc3FTbpPPRT4RShWceWht_MQ",
+            "text": {
+              "text": "Alosra Restaurant - Old Airport, Near, 2 and 3, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 31
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Alosra Restaurant - Old Airport",
+                "matches": [
+                  {
+                    "endOffset": 31
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Near, 2 and 3, Doha, Qatar"
+              }
+            },
+            "types": [
+              "restaurant",
+              "food",
+              "establishment",
+              "point_of_interest"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJrXzLOgDFRT4RKN28RY_DwyY",
+            "placeId": "ChIJrXzLOgDFRT4RKN28RY_DwyY",
+            "text": {
+              "text": "Al osra mart الاسرة مارت, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 7
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al osra mart الاسرة مارت",
+                "matches": [
+                  {
+                    "endOffset": 7
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Doha, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "store",
+              "grocery_store",
+              "food",
+              "establishment",
+              "supermarket",
+              "food_store"
+            ]
+          }
+        },
+        {
+          "placePrediction": {
+            "place": "places/ChIJa5s_4nPZRT4RKa5zDjJ48jA",
+            "placeId": "ChIJa5s_4nPZRT4RKa5zDjJ48jA",
+            "text": {
+              "text": "Al Osra Contracting W.L.L, Ar-Rayyan, Qatar",
+              "matches": [
+                {
+                  "endOffset": 7
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Al Osra Contracting W.L.L",
+                "matches": [
+                  {
+                    "endOffset": 7
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Ar-Rayyan, Qatar"
+              }
+            },
+            "types": [
+              "point_of_interest",
+              "establishment",
+              "corporate_office"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Al Rumaila hospital",
+    "response": {
+      "suggestions": [
+        {
+          "placePrediction": {
+            "place": "places/ChIJ_x9DgtTaRT4R0ytfPG2RDp4",
+            "placeId": "ChIJ_x9DgtTaRT4R0ytfPG2RDp4",
+            "text": {
+              "text": "Rumailah Hospital, Al Khaleej Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 17
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "Rumailah Hospital",
+                "matches": [
+                  {
+                    "endOffset": 17
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "Al Khaleej Street, Doha, Qatar"
+              }
+            },
+            "types": [
+              "health",
+              "establishment",
+              "point_of_interest",
+              "hospital"
+            ]
+          }
+        },
+        {
+          "queryPrediction": {
+            "text": {
+              "text": "hospital near Al Bidda Park, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 8
+                },
+                {
+                  "startOffset": 14,
+                  "endOffset": 27
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "hospital",
+                "matches": [
+                  {
+                    "endOffset": 8
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "near Al Bidda Park, Doha, Qatar",
+                "matches": [
+                  {
+                    "startOffset": 5,
+                    "endOffset": 18
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "queryPrediction": {
+            "text": {
+              "text": "hospital near Al Rumailah Street, Doha, Qatar",
+              "matches": [
+                {
+                  "endOffset": 8
+                },
+                {
+                  "startOffset": 14,
+                  "endOffset": 25
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "hospital",
+                "matches": [
+                  {
+                    "endOffset": 8
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "near Al Rumailah Street, Doha, Qatar",
+                "matches": [
+                  {
+                    "startOffset": 5,
+                    "endOffset": 16
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "queryPrediction": {
+            "text": {
+              "text": "hospital near Al Rumailah, Al Umran Saudi Arabia",
+              "matches": [
+                {
+                  "endOffset": 8
+                },
+                {
+                  "startOffset": 14,
+                  "endOffset": 25
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "hospital",
+                "matches": [
+                  {
+                    "endOffset": 8
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "near Al Rumailah, Al Umran Saudi Arabia",
+                "matches": [
+                  {
+                    "startOffset": 5,
+                    "endOffset": 16
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "queryPrediction": {
+            "text": {
+              "text": "hospital near Al Rumailah - Ajman - United Arab Emirates",
+              "matches": [
+                {
+                  "endOffset": 8
+                },
+                {
+                  "startOffset": 14,
+                  "endOffset": 25
+                }
+              ]
+            },
+            "structuredFormat": {
+              "mainText": {
+                "text": "hospital",
+                "matches": [
+                  {
+                    "endOffset": 8
+                  }
+                ]
+              },
+              "secondaryText": {
+                "text": "near Al Rumailah - Ajman - United Arab Emirates",
+                "matches": [
+                  {
+                    "startOffset": 5,
+                    "endOffset": 16
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

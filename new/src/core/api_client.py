@@ -177,8 +177,9 @@ class GooglePlacesAPIClient(APIClient):
                 }
             }
         }
-        if query.keyword:
-            body["keyword"] = query.keyword
+        # Optionally, use includedTypes if you want to filter by type
+        # if query.keyword:
+        #     body["includedTypes"] = [query.keyword]  # Uncomment if you want to filter by type
         delay = 2
         for attempt in range(1, self.max_retries + 1):
             try:
