@@ -1,0 +1,3932 @@
+[
+  {
+    "query": "Al Mirqab m",
+    "solr_results": [
+      {
+        "solr_name": "Museum of Islamic Art , Doha Port",
+        "solr_poiName": "Museum of Islamic Art",
+        "solr_containerName": "Doha Port"
+      },
+      {
+        "solr_name": "The Gate Mall , Onaiza",
+        "solr_poiName": "The Gate Mall",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "City Center Doha Mall , Al Dafna",
+        "solr_poiName": "City Center Doha Mall",
+        "solr_containerName": "Al Dafna"
+      },
+      {
+        "solr_name": "Al Mirqab 2 Residential Compounds , Al Sadd",
+        "solr_poiName": "Al Mirqab 2 Residential Compounds",
+        "solr_containerName": "Al Sadd"
+      },
+      {
+        "solr_name": "Al Mirqab Residence 1 Residential Compounds , Al Sadd",
+        "solr_poiName": "Al Mirqab Residence 1 Residential Compounds",
+        "solr_containerName": "Al Sadd"
+      },
+      {
+        "solr_name": "Al Mirqab 1 Residential Compounds , Al Mirqab Al Jadeed",
+        "solr_poiName": "Al Mirqab 1 Residential Compounds",
+        "solr_containerName": "Al Mirqab Al Jadeed"
+      },
+      {
+        "solr_name": "Al Mirqab 2 Residential Compounds , Al Waab",
+        "solr_poiName": "Al Mirqab 2 Residential Compounds",
+        "solr_containerName": "Al Waab"
+      },
+      {
+        "solr_name": "Al Mirqab 1 Residential Compounds , Al Waab",
+        "solr_poiName": "Al Mirqab 1 Residential Compounds",
+        "solr_containerName": "Al Waab"
+      },
+      {
+        "solr_name": "Al Mirqab 3 Residential Compounds , Azizya Compound",
+        "solr_poiName": "Al Mirqab 3 Residential Compounds",
+        "solr_containerName": "Azizya Compound"
+      },
+      {
+        "solr_name": "Mirqab Al Rimth Street 5",
+        "solr_poiName": "Mirqab Al Rimth Street 5",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Mirqab 1 Residential Compounds , Merqab 4",
+        "solr_poiName": "Mirqab 1 Residential Compounds",
+        "solr_containerName": "Merqab 4"
+      },
+      {
+        "solr_name": "Al Mirqab FM accommodation , Wadi Al Mazrooah",
+        "solr_poiName": "Al Mirqab FM accommodation",
+        "solr_containerName": "Wadi Al Mazrooah"
+      },
+      {
+        "solr_name": "Talib M Talib And Partner , Fereej Al Asmakh",
+        "solr_poiName": "Talib M Talib And Partner",
+        "solr_containerName": "Fereej Al Asmakh"
+      },
+      {
+        "solr_name": "M Grand Hotel Doha City Centre , Mushaireb",
+        "solr_poiName": "M Grand Hotel Doha City Centre",
+        "solr_containerName": "Mushaireb"
+      },
+      {
+        "solr_name": "M P Trading , Mushaireb",
+        "solr_poiName": "M P Trading",
+        "solr_containerName": "Mushaireb"
+      },
+      {
+        "solr_name": "M & M , Rawdat Al Khail",
+        "solr_poiName": "M & M",
+        "solr_containerName": "Rawdat Al Khail"
+      },
+      {
+        "solr_name": "M Boutique , Fereej Bin Mahmoud",
+        "solr_poiName": "M Boutique",
+        "solr_containerName": "Fereej Bin Mahmoud"
+      },
+      {
+        "solr_name": "M Active Men , Al Dafna",
+        "solr_poiName": "M Active Men",
+        "solr_containerName": "Al Dafna"
+      },
+      {
+        "solr_name": "M active me Asian",
+        "solr_poiName": "M active me Asian",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Q&M Global Recruitment Services , Old Airport",
+        "solr_poiName": "Q&M Global Recruitment Services",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "H&M , City Center Doha Shopping Mall",
+        "solr_poiName": "H&M",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "The M restaurant , Onaiza",
+        "solr_poiName": "The M restaurant",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "M Residence , Al Sadd",
+        "solr_poiName": "M Residence",
+        "solr_containerName": "Al Sadd"
+      },
+      {
+        "solr_name": "M Tower , Somerset West Bay",
+        "solr_poiName": "M Tower",
+        "solr_containerName": "Somerset West Bay"
+      },
+      {
+        "solr_name": "M Active Ladies , Umm Lekhba",
+        "solr_poiName": "M Active Ladies",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "J M  Shoes , Ain Khaled",
+        "solr_poiName": "J M  Shoes",
+        "solr_containerName": "Ain Khaled"
+      },
+      {
+        "solr_name": "Q Amlaak M Realestate , Bu Hamour",
+        "solr_poiName": "Q Amlaak M Realestate",
+        "solr_containerName": "Bu Hamour"
+      },
+      {
+        "solr_name": "M. Missoni , The Pearl",
+        "solr_poiName": "M. Missoni",
+        "solr_containerName": "The Pearl"
+      },
+      {
+        "solr_name": "O&M Office - Kahramaa , Hazm Al Markhiya",
+        "solr_poiName": "O&M Office - Kahramaa",
+        "solr_containerName": "Hazm Al Markhiya"
+      },
+      {
+        "solr_name": "H&M , Land Mark",
+        "solr_poiName": "H&M",
+        "solr_containerName": "Land Mark"
+      },
+      {
+        "solr_name": "M H Al Muftah EST , Barwa Village",
+        "solr_poiName": "M H Al Muftah EST",
+        "solr_containerName": "Barwa Village"
+      },
+      {
+        "solr_name": "M & J Sweets Bakeries & Pasteries , The Pearl",
+        "solr_poiName": "M & J Sweets Bakeries & Pasteries",
+        "solr_containerName": "The Pearl"
+      },
+      {
+        "solr_name": "M & J , The Pearl",
+        "solr_poiName": "M & J",
+        "solr_containerName": "The Pearl"
+      },
+      {
+        "solr_name": "M Tech DÃ©cor , Barwa Village",
+        "solr_poiName": "M Tech DÃ©cor",
+        "solr_containerName": "Barwa Village"
+      },
+      {
+        "solr_name": "M & Co , Ezdan Mall",
+        "solr_poiName": "M & Co",
+        "solr_containerName": "Ezdan Mall"
+      },
+      {
+        "solr_name": "Triple M Event Trading , Umm Besher",
+        "solr_poiName": "Triple M Event Trading",
+        "solr_containerName": "Umm Besher"
+      },
+      {
+        "solr_name": "H&M , Gulf Mall",
+        "solr_poiName": "H&M",
+        "solr_containerName": "Gulf Mall"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Mirqab Mall, Al Mirqab Al Jadeed Street, Doha, Qatar",
+        "google_main_text": "Al Mirqab Mall",
+        "google_secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "almirqabmedical, Doha, Qatar",
+        "google_main_text": "almirqabmedical",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Mirqab Mosque - Suhaib Al-Roumi Mosque (398), Doha, Qatar",
+        "google_main_text": "Al Mirqab Mosque - Suhaib Al-Roumi Mosque (398)",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Carrefour, Al Mirqab Al Jadeed Street, Doha, Qatar",
+        "google_main_text": "Carrefour",
+        "google_secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Mirqab Mall Gate 4, Al Mirqab Al Jadeed, Doha, Qatar",
+        "google_main_text": "Mirqab Mall Gate 4",
+        "google_secondary_text": "Al Mirqab Al Jadeed, Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Mirqab mall",
+    "solr_results": [
+      {
+        "solr_name": "The Gate Mall , Onaiza",
+        "solr_poiName": "The Gate Mall",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "City Center Doha Mall , Al Dafna",
+        "solr_poiName": "City Center Doha Mall",
+        "solr_containerName": "Al Dafna"
+      },
+      {
+        "solr_name": "Al Hazm Mall , Al Markhiya",
+        "solr_poiName": "Al Hazm Mall",
+        "solr_containerName": "Al Markhiya"
+      },
+      {
+        "solr_name": "Al Mirqab Mall, Al Mirqab Al Jadeed",
+        "solr_poiName": "Al Mirqab Mall",
+        "solr_containerName": "Al Mirqab Al Jadeed"
+      },
+      {
+        "solr_name": "Msheireb Galleria Mall , Fereej Mohammed Bin Jasim",
+        "solr_poiName": "Msheireb Galleria Mall",
+        "solr_containerName": "Fereej Mohammed Bin Jasim"
+      },
+      {
+        "solr_name": "Al Sadd Plaza Mall",
+        "solr_poiName": "Al Sadd Plaza Mall",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Gate Mall Parking 2 , The Gate Mall",
+        "solr_poiName": "Gate Mall Parking 2",
+        "solr_containerName": "The Gate Mall"
+      },
+      {
+        "solr_name": "The Mall , Old Airport",
+        "solr_poiName": "The Mall",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Gate Mall Parking 1 , Onaiza",
+        "solr_poiName": "Gate Mall Parking 1",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "Gate Mall Parking 3 , Onaiza",
+        "solr_poiName": "Gate Mall Parking 3",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "Royal Plaza Mall , Al Sadd",
+        "solr_poiName": "Royal Plaza Mall",
+        "solr_containerName": "Al Sadd"
+      },
+      {
+        "solr_name": "Hollywood stars - City Center Mall",
+        "solr_poiName": "Hollywood stars - City Center Mall",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Mall",
+        "solr_poiName": "Al Sadd Mall",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "03 Mall , New Slata",
+        "solr_poiName": "03 Mall",
+        "solr_containerName": "New Slata"
+      },
+      {
+        "solr_name": "Al Asmakh Mall , Al Sadd",
+        "solr_poiName": "Al Asmakh Mall",
+        "solr_containerName": "Al Sadd"
+      },
+      {
+        "solr_name": "Asia Mall , Al Matar Center",
+        "solr_poiName": "Asia Mall",
+        "solr_containerName": "Al Matar Center"
+      },
+      {
+        "solr_name": "Maamoura Mall Parking",
+        "solr_poiName": "Maamoura Mall Parking",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Maamoura Mall , Parco Mall",
+        "solr_poiName": "Maamoura Mall",
+        "solr_containerName": "Parco Mall"
+      },
+      {
+        "solr_name": "Mamoora  Mall , Parco Mall",
+        "solr_poiName": "Mamoora  Mall",
+        "solr_containerName": "Parco Mall"
+      },
+      {
+        "solr_name": "Dar Al Salam Mall , Bu Hamour",
+        "solr_poiName": "Dar Al Salam Mall",
+        "solr_containerName": "Bu Hamour"
+      },
+      {
+        "solr_name": "Dar Al-Salam Mall Mosque , Bu Hamour",
+        "solr_poiName": "Dar Al-Salam Mall Mosque",
+        "solr_containerName": "Bu Hamour"
+      },
+      {
+        "solr_name": "Doha Mall , Al Maamoura",
+        "solr_poiName": "Doha Mall",
+        "solr_containerName": "Al Maamoura"
+      },
+      {
+        "solr_name": "McDonald's Al Thumama Mall",
+        "solr_poiName": "McDonald's Al Thumama Mall",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "B Square Mall, Al Thumama",
+        "solr_poiName": "B Square Mall",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "SPAR B Square Mall , Al Thumama",
+        "solr_poiName": "SPAR B Square Mall",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Tawar Mall Underground Parking C , Umm Lekhba",
+        "solr_poiName": "Tawar Mall Underground Parking C",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Tawar Mall , Umm Lekhba",
+        "solr_poiName": "Tawar Mall",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Mall 04 , The Pearl",
+        "solr_poiName": "Mall 04",
+        "solr_containerName": "The Pearl"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Mirqab Mall, Al Mirqab Al Jadeed Street, Doha, Qatar",
+        "google_main_text": "Al Mirqab Mall",
+        "google_secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Carrefour, Al Mirqab Al Jadeed Street, Doha, Qatar",
+        "google_main_text": "Carrefour",
+        "google_secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "FUNDERDOME, Street, Doha, Qatar",
+        "google_main_text": "FUNDERDOME",
+        "google_secondary_text": "Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Aksyr Al Hyah Pharmacy - MIRQAB MALL, Street, Doha, Qatar",
+        "google_main_text": "Aksyr Al Hyah Pharmacy - MIRQAB MALL",
+        "google_secondary_text": "Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "DOHA SOUQ MALL, Al Mirqab Al Jadeed Street, Doha, Qatar",
+        "google_main_text": "DOHA SOUQ MALL",
+        "google_secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Noor",
+    "solr_results": [
+      {
+        "solr_name": "Al Noor Studio , Al Maamoura",
+        "solr_poiName": "Al Noor Studio",
+        "solr_containerName": "Al Maamoura"
+      },
+      {
+        "solr_name": "Noor Al Khaleej International School, Nuaija",
+        "solr_poiName": "Noor Al Khaleej International School",
+        "solr_containerName": "Nuaija"
+      },
+      {
+        "solr_name": "Dar al noor ladies tailor , Al Thumama",
+        "solr_poiName": "Dar al noor ladies tailor",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Noor Language School , Al Waab",
+        "solr_poiName": "Al Noor Language School",
+        "solr_containerName": "Al Waab"
+      },
+      {
+        "solr_name": "Al Noor Clinic , Nuaija",
+        "solr_poiName": "Al Noor Clinic",
+        "solr_containerName": "Nuaija"
+      },
+      {
+        "solr_name": "Noor Alwaab Residential Compounds , Al Waab",
+        "solr_poiName": "Noor Alwaab Residential Compounds",
+        "solr_containerName": "Al Waab"
+      },
+      {
+        "solr_name": "Al Noor Toastmasters Club , Al Waab",
+        "solr_poiName": "Al Noor Toastmasters Club",
+        "solr_containerName": "Al Waab"
+      },
+      {
+        "solr_name": "Al Noor Residential Compounds , Old Airport",
+        "solr_poiName": "Al Noor Residential Compounds",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Noor Turkey Restaurant , Rawdat Al Khail",
+        "solr_poiName": "Noor Turkey Restaurant",
+        "solr_containerName": "Rawdat Al Khail"
+      },
+      {
+        "solr_name": "Al Noor Residential Compounds , Mehairja",
+        "solr_poiName": "Al Noor Residential Compounds",
+        "solr_containerName": "Mehairja"
+      },
+      {
+        "solr_name": "Al Noor Insurance Brokers , Old Airport",
+        "solr_poiName": "Al Noor Insurance Brokers",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Noor Al Khaleej International - Kindergartens & Nurseries , Al Hilal",
+        "solr_poiName": "Noor Al Khaleej International - Kindergartens & Nurseries",
+        "solr_containerName": "Al Hilal"
+      },
+      {
+        "solr_name": "Al Noor Residential Compounds , Al Aziziya",
+        "solr_poiName": "Al Noor Residential Compounds",
+        "solr_containerName": "Al Aziziya"
+      },
+      {
+        "solr_name": "Al Noor Petrol Station , Abu Sidra",
+        "solr_poiName": "Al Noor Petrol Station",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Al Noor Petrol Station , Bu Sidra",
+        "solr_poiName": "Al Noor Petrol Station",
+        "solr_containerName": "Bu Sidra"
+      },
+      {
+        "solr_name": "Al Noor fast food , Abu Sidra",
+        "solr_poiName": "Al Noor fast food",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Noor Al Khalij FreshVegetables & Fruits Fruits & Vegtables , Old Airport",
+        "solr_poiName": "Noor Al Khalij FreshVegetables & Fruits Fruits & Vegtables",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Noor Al Doha , Industrial Area",
+        "solr_poiName": "Noor Al Doha",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Noor Al Madeena Cafeteria , Industrial Area",
+        "solr_poiName": "Noor Al Madeena Cafeteria",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Noor Paradise Residential Compounds , Al Thumama",
+        "solr_poiName": "Noor Paradise Residential Compounds",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Noor Residential Compounds , Al Thumama",
+        "solr_poiName": "Al Noor Residential Compounds",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Noor Car Upholstery , Old Al Ghanim",
+        "solr_poiName": "Al Noor Car Upholstery",
+        "solr_containerName": "Old Al Ghanim"
+      },
+      {
+        "solr_name": "Noor Tayyaba Decor , Barwa Village",
+        "solr_poiName": "Noor Tayyaba Decor",
+        "solr_containerName": "Barwa Village"
+      },
+      {
+        "solr_name": "Noor Tayyaba Trading , Barwa Village",
+        "solr_poiName": "Noor Tayyaba Trading",
+        "solr_containerName": "Barwa Village"
+      },
+      {
+        "solr_name": "Al Noor Bakeries & Pasteries , Umm Ghuwailina",
+        "solr_poiName": "Al Noor Bakeries & Pasteries",
+        "solr_containerName": "Umm Ghuwailina"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Noor Petrol Station, Ar-Rayyan, Qatar",
+        "google_main_text": "Al Noor Petrol Station",
+        "google_secondary_text": "Ar-Rayyan, Qatar"
+      },
+      {
+        "google_place_prediction_text": "AL NOOR AL HUDA TRADING & CONT. CO EST ., Doha, Qatar",
+        "google_main_text": "AL NOOR AL HUDA TRADING & CONT. CO EST .",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Toastmasters Club, Doha, Qatar",
+        "google_main_text": "Al Noor Toastmasters Club",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Medical Laboratory Qatar, Doha, Qatar",
+        "google_main_text": "Al Noor Medical Laboratory Qatar",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Alnoor Language School, Doha, Qatar",
+        "google_main_text": "Alnoor Language School",
+        "google_secondary_text": "Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Noor compound 1",
+    "solr_results": [
+      {
+        "solr_name": "Al Noor Residential Compounds , Al Aziziya",
+        "solr_poiName": "Al Noor Residential Compounds",
+        "solr_containerName": "Al Aziziya"
+      },
+      {
+        "solr_name": "Noor Alwaab Residential Compounds , Al Waab",
+        "solr_poiName": "Noor Alwaab Residential Compounds",
+        "solr_containerName": "Al Waab"
+      },
+      {
+        "solr_name": "Al Noor Residential Compounds , Mehairja",
+        "solr_poiName": "Al Noor Residential Compounds",
+        "solr_containerName": "Mehairja"
+      },
+      {
+        "solr_name": "Al Noor Garden Residential Compounds , New Al Rayyan",
+        "solr_poiName": "Al Noor Garden Residential Compounds",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Al Noor Residential Compounds , Old Airport",
+        "solr_poiName": "Al Noor Residential Compounds",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Noor Paradise Residential Compounds , Al Thumama",
+        "solr_poiName": "Noor Paradise Residential Compounds",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Noor Residential Compounds , Al Thumama",
+        "solr_poiName": "Al Noor Residential Compounds",
+        "solr_containerName": "Al Thumama"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Noor Compound 1, Airport Street، Doha, Qatar",
+        "google_main_text": "Al Noor Compound 1",
+        "google_secondary_text": "Airport Street، Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Noor compound thumama",
+    "solr_results": [
+      {
+        "solr_name": "Al Thumama Stadium",
+        "solr_poiName": "Al Thumama Stadium",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Rawdat Umm Thumama Street 560",
+        "solr_poiName": "Rawdat Umm Thumama Street 560",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Street 977",
+        "solr_poiName": "Al Thumama Street 977",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama 47 Interchange",
+        "solr_poiName": "Al Thumama 47 Interchange",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Tea Time Al Thumama",
+        "solr_poiName": "Tea Time Al Thumama",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sahat Al Thumama Street 898",
+        "solr_poiName": "Sahat Al Thumama Street 898",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Primary Health Center",
+        "solr_poiName": "Al Thumama Primary Health Center",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Park (South) , Al Thumamah",
+        "solr_poiName": "Al Thumama Park (South)",
+        "solr_containerName": "Al Thumamah"
+      },
+      {
+        "solr_name": "McDonald's Al Thumama Mall",
+        "solr_poiName": "McDonald's Al Thumama Mall",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Furnished Apartments",
+        "solr_poiName": "Al Thumama Furnished Apartments",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Eid Prayer Ground",
+        "solr_poiName": "Al Thumama Eid Prayer Ground",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama 3 - Bus Station",
+        "solr_poiName": "Al Thumama 3 - Bus Station",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Laundry",
+        "solr_poiName": "Al Thumama Laundry",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama 4 - Bus Station",
+        "solr_poiName": "Al Thumama 4 - Bus Station",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Street 830",
+        "solr_poiName": "Al Thumama Street 830",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Tannoor Thumama",
+        "solr_poiName": "Tannoor Thumama",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama 5 - Bus Station",
+        "solr_poiName": "Al Thumama 5 - Bus Station",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Mosque 929 Al Thumama",
+        "solr_poiName": "Mosque 929 Al Thumama",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama 6 - Bus Station",
+        "solr_poiName": "Al Thumama 6 - Bus Station",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Mosque",
+        "solr_poiName": "Al Thumama Mosque",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Intersection",
+        "solr_poiName": "Al Thumama Intersection",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama saloon for man  , Al Thumama",
+        "solr_poiName": "Al Thumama saloon for man",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Thumama Sports Club Grounds , Al Thumama Stadium",
+        "solr_poiName": "Al Thumama Sports Club Grounds",
+        "solr_containerName": "Al Thumama Stadium"
+      },
+      {
+        "solr_name": "Al Thumama 7 - Bus Station",
+        "solr_poiName": "Al Thumama 7 - Bus Station",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama 8 - Bus Station",
+        "solr_poiName": "Al Thumama 8 - Bus Station",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Thumama Traffic Department , Mesaimeer",
+        "solr_poiName": "Al Thumama Traffic Department",
+        "solr_containerName": "Mesaimeer"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Noor Compound 2, Al Noor compound, Airport Street, Doha, Qatar",
+        "google_main_text": "Al Noor Compound 2",
+        "google_secondary_text": "Al Noor compound, Airport Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Compound 1, Airport Street، Doha, Qatar",
+        "google_main_text": "Al Noor Compound 1",
+        "google_secondary_text": "Airport Street، Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Home - Al Noor Resident Compound, Doha, Qatar",
+        "google_main_text": "Home - Al Noor Resident Compound",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Street, Al Wukair, Qatar",
+        "google_main_text": "Al Noor Street",
+        "google_secondary_text": "Al Wukair, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Public Relations, Doha, Qatar",
+        "google_main_text": "Al Noor Public Relations",
+        "google_secondary_text": "Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Noor p",
+    "solr_results": [
+      {
+        "solr_name": "Al Noor Clinic , Nuaija",
+        "solr_poiName": "Al Noor Clinic",
+        "solr_containerName": "Nuaija"
+      },
+      {
+        "solr_name": "Al Noor Petrol Station , Abu Sidra",
+        "solr_poiName": "Al Noor Petrol Station",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Al Noor Petrol Station , Bu Sidra",
+        "solr_poiName": "Al Noor Petrol Station",
+        "solr_containerName": "Bu Sidra"
+      },
+      {
+        "solr_name": "Noor Paradise Residential Compounds , Al Thumama",
+        "solr_poiName": "Noor Paradise Residential Compounds",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Noor Bakeries & Pasteries , Umm Ghuwailina",
+        "solr_poiName": "Al Noor Bakeries & Pasteries",
+        "solr_containerName": "Umm Ghuwailina"
+      },
+      {
+        "solr_name": "Noor Al Khaleej Bakeries & Pasteries , Slata",
+        "solr_poiName": "Noor Al Khaleej Bakeries & Pasteries",
+        "solr_containerName": "Slata"
+      },
+      {
+        "solr_name": "Al Noor Plaza Suites , Onaiza",
+        "solr_poiName": "Al Noor Plaza Suites",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "Noor Medical Center Clinic , Al Gharrafa",
+        "solr_poiName": "Noor Medical Center Clinic",
+        "solr_containerName": "Al Gharrafa"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Noor Petrol Station, Ar-Rayyan, Qatar",
+        "google_main_text": "Al Noor Petrol Station",
+        "google_secondary_text": "Ar-Rayyan, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Sunlife Pharmacy Al Noor, Al Muntazah, Doha, Qatar",
+        "google_main_text": "Sunlife Pharmacy Al Noor",
+        "google_secondary_text": "Al Muntazah, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Nour Plaza Luxury Suites, Doha, Qatar",
+        "google_main_text": "Al Nour Plaza Luxury Suites",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Plastic Factory, Ar-Rayyan, Qatar",
+        "google_main_text": "Al Noor Plastic Factory",
+        "google_secondary_text": "Ar-Rayyan, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Public Relations, Doha, Qatar",
+        "google_main_text": "Al Noor Public Relations",
+        "google_secondary_text": "Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Noor petr",
+    "solr_results": [
+      {
+        "solr_name": "Al Noor Petrol Station , Abu Sidra",
+        "solr_poiName": "Al Noor Petrol Station",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Al Noor Petrol Station , Bu Sidra",
+        "solr_poiName": "Al Noor Petrol Station",
+        "solr_containerName": "Bu Sidra"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Noor Petrol Station, Ar-Rayyan, Qatar",
+        "google_main_text": "Al Noor Petrol Station",
+        "google_secondary_text": "Ar-Rayyan, Qatar"
+      },
+      {
+        "google_place_prediction_text": "AL-NOOR PETROLEUM- Total Petrol Station, Piplan, Pakistan",
+        "google_main_text": "AL-NOOR PETROLEUM- Total Petrol Station",
+        "google_secondary_text": "Piplan, Pakistan"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Petrol Pump, Jaranwala Road, Faisalabad, Pakistan",
+        "google_main_text": "Al Noor Petrol Pump",
+        "google_secondary_text": "Jaranwala Road, Faisalabad, Pakistan"
+      },
+      {
+        "google_place_prediction_text": "Al-Noor petroleum service, Matli, Pakistan",
+        "google_main_text": "Al-Noor petroleum service",
+        "google_secondary_text": "Matli, Pakistan"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Petroleum, Sohawa, Mandi Bahauddin, Pakistan",
+        "google_main_text": "Al Noor Petroleum",
+        "google_secondary_text": "Sohawa, Mandi Bahauddin, Pakistan"
+      }
+    ]
+  },
+  {
+    "query": "Al Noor petrol",
+    "solr_results": [
+      {
+        "solr_name": "Al Noor Petrol Station , Abu Sidra",
+        "solr_poiName": "Al Noor Petrol Station",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Al Noor Petrol Station , Bu Sidra",
+        "solr_poiName": "Al Noor Petrol Station",
+        "solr_containerName": "Bu Sidra"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Noor Petrol Station, Ar-Rayyan, Qatar",
+        "google_main_text": "Al Noor Petrol Station",
+        "google_secondary_text": "Ar-Rayyan, Qatar"
+      },
+      {
+        "google_place_prediction_text": "AL-NOOR PETROLEUM- Total Petrol Station, Piplan, Pakistan",
+        "google_main_text": "AL-NOOR PETROLEUM- Total Petrol Station",
+        "google_secondary_text": "Piplan, Pakistan"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Petrol Pump, Jaranwala Road, Faisalabad, Pakistan",
+        "google_main_text": "Al Noor Petrol Pump",
+        "google_secondary_text": "Jaranwala Road, Faisalabad, Pakistan"
+      },
+      {
+        "google_place_prediction_text": "Al-Noor petroleum service, Matli, Pakistan",
+        "google_main_text": "Al-Noor petroleum service",
+        "google_secondary_text": "Matli, Pakistan"
+      },
+      {
+        "google_place_prediction_text": "Al Noor Petroleum, Sohawa, Mandi Bahauddin, Pakistan",
+        "google_main_text": "Al Noor Petroleum",
+        "google_secondary_text": "Sohawa, Mandi Bahauddin, Pakistan"
+      }
+    ]
+  },
+  {
+    "query": "Al Osra",
+    "solr_results": [
+      {
+        "solr_name": "Al Osra Mart trading , Fereej Bin Mahmoud",
+        "solr_poiName": "Al Osra Mart trading",
+        "solr_containerName": "Fereej Bin Mahmoud"
+      },
+      {
+        "solr_name": "Al Osra Restaurant , Mushaireb",
+        "solr_poiName": "Al Osra Restaurant",
+        "solr_containerName": "Mushaireb"
+      },
+      {
+        "solr_name": "Alosra Family-friendly",
+        "solr_poiName": "Alosra Family-friendly",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Osra Restaurant, Al Fayhaa Street, Doha, Qatar",
+        "google_main_text": "Al Osra Restaurant",
+        "google_secondary_text": "Al Fayhaa Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Alosra Restaurant - Old Airport, Near, 2 and 3, Doha, Qatar",
+        "google_main_text": "Alosra Restaurant - Old Airport",
+        "google_secondary_text": "Near, 2 and 3, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Osra Trading & Contracting, شارع جاسم بن حمد، Doha, Qatar",
+        "google_main_text": "Al Osra Trading & Contracting",
+        "google_secondary_text": "شارع جاسم بن حمد، Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al osra mart الاسرة مارت, Doha, Qatar",
+        "google_main_text": "Al osra mart الاسرة مارت",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Osra Contracting W.L.L, Ar-Rayyan, Qatar",
+        "google_main_text": "Al Osra Contracting W.L.L",
+        "google_secondary_text": "Ar-Rayyan, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Rumaila hospital",
+    "solr_results": [
+      {
+        "solr_name": "Hamad General Hospital - HMC",
+        "solr_poiName": "Hamad General Hospital - HMC",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Ahli Hospital, Wadi Al Sail",
+        "solr_poiName": "Al Ahli Hospital",
+        "solr_containerName": "Wadi Al Sail"
+      },
+      {
+        "solr_name": "Al Wakrah Hospital",
+        "solr_poiName": "Al Wakrah Hospital",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Rumaila hospital Mosque",
+        "solr_poiName": "Al Rumaila hospital Mosque",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Doha Industrial Area Hospital",
+        "solr_poiName": "Doha Industrial Area Hospital",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Hazm Mebaireek Hospital , Industrial Area",
+        "solr_poiName": "Hazm Mebaireek Hospital",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Military Medical City Hospital , Al Sailiya",
+        "solr_poiName": "Military Medical City Hospital",
+        "solr_containerName": "Al Sailiya"
+      },
+      {
+        "solr_name": "Queen Hospital , Villaggio Mall",
+        "solr_poiName": "Queen Hospital",
+        "solr_containerName": "Villaggio Mall"
+      },
+      {
+        "solr_name": "Aspetar Hospital , Baaya",
+        "solr_poiName": "Aspetar Hospital",
+        "solr_containerName": "Baaya"
+      },
+      {
+        "solr_name": "Naufar Hospital, Mesaimeer",
+        "solr_poiName": "Naufar Hospital",
+        "solr_containerName": "Mesaimeer"
+      },
+      {
+        "solr_name": "Lebar Hospital , Mesaimeer",
+        "solr_poiName": "Lebar Hospital",
+        "solr_containerName": "Mesaimeer"
+      },
+      {
+        "solr_name": "Turkish Hospital , New Slata",
+        "solr_poiName": "Turkish Hospital",
+        "solr_containerName": "New Slata"
+      },
+      {
+        "solr_name": "American Hospital , Rawdat Al Khail",
+        "solr_poiName": "American Hospital",
+        "solr_containerName": "Rawdat Al Khail"
+      },
+      {
+        "solr_name": "Qatar Petroleum Hospital , New Slata",
+        "solr_poiName": "Qatar Petroleum Hospital",
+        "solr_containerName": "New Slata"
+      },
+      {
+        "solr_name": "Dr. Nasser Hussain Alhayki Hospital , Nuaija",
+        "solr_poiName": "Dr. Nasser Hussain Alhayki Hospital",
+        "solr_containerName": "Nuaija"
+      },
+      {
+        "solr_name": "Sidra Pediatric Hospital- Tower A , Qatar Science & Technology Park (QSTP)",
+        "solr_poiName": "Sidra Pediatric Hospital- Tower A",
+        "solr_containerName": "Qatar Science & Technology Park (QSTP)"
+      },
+      {
+        "solr_name": "Sidra Hospital , Qatar Science & Technology Park (QSTP)",
+        "solr_poiName": "Sidra Hospital",
+        "solr_containerName": "Qatar Science & Technology Park (QSTP)"
+      },
+      {
+        "solr_name": "Psychiatry Hospital - HMC , Rawdat Al Khail",
+        "solr_poiName": "Psychiatry Hospital - HMC",
+        "solr_containerName": "Rawdat Al Khail"
+      },
+      {
+        "solr_name": "Al Emadi Hospital, Nuaija",
+        "solr_poiName": "Al Emadi Hospital",
+        "solr_containerName": "Nuaija"
+      },
+      {
+        "solr_name": "Hamad Hospital Emergency Female and Kids , Hamad Medical City",
+        "solr_poiName": "Hamad Hospital Emergency Female and Kids",
+        "solr_containerName": "Hamad Medical City"
+      },
+      {
+        "solr_name": "Al Emadi Hospital OPD Building , Nuaija",
+        "solr_poiName": "Al Emadi Hospital OPD Building",
+        "solr_containerName": "Nuaija"
+      },
+      {
+        "solr_name": "Al Annex- Heart Hospital , Rumaila",
+        "solr_poiName": "Al Annex- Heart Hospital",
+        "solr_containerName": "Rumaila"
+      },
+      {
+        "solr_name": "Heart Hospital- HMC",
+        "solr_poiName": "Heart Hospital- HMC",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "New Maternity Hospital , Rumaila",
+        "solr_poiName": "New Maternity Hospital",
+        "solr_containerName": "Rumaila"
+      },
+      {
+        "solr_name": "Rumeila Hospital Street 910",
+        "solr_poiName": "Rumeila Hospital Street 910",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Rumeila Hospital - HMC",
+        "solr_poiName": "Rumeila Hospital - HMC",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Ahli Hospital , Wadi Al Sail",
+        "solr_poiName": "Al Ahli Hospital",
+        "solr_containerName": "Wadi Al Sail"
+      },
+      {
+        "solr_name": "Eden - Al Ahli hospital",
+        "solr_poiName": "Eden - Al Ahli hospital",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Rumailah Hospital, Al Khaleej Street, Doha, Qatar",
+        "google_main_text": "Rumailah Hospital",
+        "google_secondary_text": "Al Khaleej Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      }
+    ]
+  },
+  {
+    "query": "Al S",
+    "solr_results": [
+      {
+        "solr_name": "Qatar Science and Technology Park - QSTP",
+        "solr_poiName": "Qatar Science and Technology Park - QSTP",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sidra Outpatient , Qatar Science & Technology Park (QSTP)",
+        "solr_poiName": "Sidra Outpatient",
+        "solr_containerName": "Qatar Science & Technology Park (QSTP)"
+      },
+      {
+        "solr_name": "Education City Stadium Stadium , Qatar Foundation",
+        "solr_poiName": "Education City Stadium Stadium",
+        "solr_containerName": "Qatar Foundation"
+      },
+      {
+        "solr_name": "Al Jewar Street 625",
+        "solr_poiName": "Al Jewar Street 625",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Abu Samra Street 948",
+        "solr_poiName": "Abu Samra Street 948",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Telal Street 663",
+        "solr_poiName": "Al Telal Street 663",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Wadi Al Theebiya Street 662",
+        "solr_poiName": "Wadi Al Theebiya Street 662",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Khabbab Bin Al Aratt Street 404",
+        "solr_poiName": "Khabbab Bin Al Aratt Street 404",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Henu Street 423",
+        "solr_poiName": "Al Henu Street 423",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Seej Al Tabah Street 527",
+        "solr_poiName": "Seej Al Tabah Street 527",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Luqta Street 371",
+        "solr_poiName": "Al Luqta Street 371",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Jazeera Street 599",
+        "solr_poiName": "Al Jazeera Street 599",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Yarmouk Street 445",
+        "solr_poiName": "Al Yarmouk Street 445",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sillaj Street 799",
+        "solr_poiName": "Al Sillaj Street 799",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Khaled Bin Salama Street 627",
+        "solr_poiName": "Khaled Bin Salama Street 627",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Muaath Bin Jabal Street 409",
+        "solr_poiName": "Muaath Bin Jabal Street 409",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Yahya Bin Rajaa Street 624",
+        "solr_poiName": "Yahya Bin Rajaa Street 624",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Mardiya Street 511",
+        "solr_poiName": "Al Mardiya Street 511",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Yazeed Bin Talha Street 659",
+        "solr_poiName": "Yazeed Bin Talha Street 659",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Saad Bin Abbad Street 425",
+        "solr_poiName": "Saad Bin Abbad Street 425",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Baraimm Street 534",
+        "solr_poiName": "Al Baraimm Street 534",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Aghsan Street 427",
+        "solr_poiName": "Al Aghsan Street 427",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Mesaieed Street 532",
+        "solr_poiName": "Mesaieed Street 532",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Yas Street 541",
+        "solr_poiName": "Al Yas Street 541",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Anees Bin Qatada Street 795",
+        "solr_poiName": "Anees Bin Qatada Street 795",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Mahareq Street 522",
+        "solr_poiName": "Al Mahareq Street 522",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Rubooa Street 794",
+        "solr_poiName": "Al Rubooa Street 794",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Abareq Street 670",
+        "solr_poiName": "Waab Al Abareq Street 670",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Sadd, Doha, Qatar",
+        "google_main_text": "Al Sadd",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Shafi Street, Ar-Rayyan, Qatar",
+        "google_main_text": "Al Shafi Street",
+        "google_secondary_text": "Ar-Rayyan, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sadd Mall, Al Sadd Street, Doha, Qatar",
+        "google_main_text": "Al Sadd Mall",
+        "google_secondary_text": "Al Sadd Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Shamal Road, Doha, Qatar",
+        "google_main_text": "Al Shamal Road",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Shafi, Ar-Rayyan, Qatar",
+        "google_main_text": "Al Shafi",
+        "google_secondary_text": "Ar-Rayyan, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Sad",
+    "solr_results": [
+      {
+        "solr_name": "Al Sad Residential Compounds",
+        "solr_poiName": "Al Sad Residential Compounds",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Ghanem Bin Sad Al Sad and Sons , New Slata",
+        "solr_poiName": "Ghanem Bin Sad Al Sad and Sons",
+        "solr_containerName": "New Slata"
+      },
+      {
+        "solr_name": "Sadaf , Al Gharrafa",
+        "solr_poiName": "Sadaf",
+        "solr_containerName": "Al Gharrafa"
+      },
+      {
+        "solr_name": "Ahmad Al Sayed Ali Al Sadda Mosque , Al Gharrafa",
+        "solr_poiName": "Ahmad Al Sayed Ali Al Sadda Mosque",
+        "solr_containerName": "Al Gharrafa"
+      },
+      {
+        "solr_name": "Mohammed Khlifa Abdulla Al Sadda Mosque , Umm Lekhba",
+        "solr_poiName": "Mohammed Khlifa Abdulla Al Sadda Mosque",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Al Sadaqa , Madinat Khalifa South",
+        "solr_poiName": "Al Sadaqa",
+        "solr_containerName": "Madinat Khalifa South"
+      },
+      {
+        "solr_name": "Abdulla Abdulattif Al Sada Mosque , Madinat Khalifa South",
+        "solr_poiName": "Abdulla Abdulattif Al Sada Mosque",
+        "solr_containerName": "Madinat Khalifa South"
+      },
+      {
+        "solr_name": "Al Sadara , New Al Rayyan",
+        "solr_poiName": "Al Sadara",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Al Sada Mosque , Duhail",
+        "solr_poiName": "Al Sada Mosque",
+        "solr_containerName": "Duhail"
+      },
+      {
+        "solr_name": "Sadeddin Sweets , Al Messila",
+        "solr_poiName": "Sadeddin Sweets",
+        "solr_containerName": "Al Messila"
+      },
+      {
+        "solr_name": "Al Sadiq Sweets , Fereej Bin Omran",
+        "solr_poiName": "Al Sadiq Sweets",
+        "solr_containerName": "Fereej Bin Omran"
+      },
+      {
+        "solr_name": "Al Sadd Street 829",
+        "solr_poiName": "Al Sadd Street 829",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadria 3 Residential Compounds , Mehairja",
+        "solr_poiName": "Al Sadria 3 Residential Compounds",
+        "solr_containerName": "Mehairja"
+      },
+      {
+        "solr_name": "Al Sadria 1 Residential Compounds , Mehairja",
+        "solr_poiName": "Al Sadria 1 Residential Compounds",
+        "solr_containerName": "Mehairja"
+      },
+      {
+        "solr_name": "Al Sadaq , Jeryan Nejaima",
+        "solr_poiName": "Al Sadaq",
+        "solr_containerName": "Jeryan Nejaima"
+      },
+      {
+        "solr_name": "Al Sadria 2 Residential Compounds , Mehairja",
+        "solr_poiName": "Al Sadria 2 Residential Compounds",
+        "solr_containerName": "Mehairja"
+      },
+      {
+        "solr_name": "Al Sadd_38",
+        "solr_poiName": "Al Sadd_38",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd 343",
+        "solr_poiName": "Al Sadd 343",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadeem Street 132",
+        "solr_poiName": "Al Sadeem Street 132",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Suites Hotel",
+        "solr_poiName": "Al Sadd Suites Hotel",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadeem Street 19",
+        "solr_poiName": "Al Sadeem Street 19",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al sadd Park and Ride",
+        "solr_poiName": "Al sadd Park and Ride",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Police Station",
+        "solr_poiName": "Al Sadd Police Station",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Machan Restaurant Al Sadd Sri Lankan",
+        "solr_poiName": "Machan Restaurant Al Sadd Sri Lankan",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Intersection",
+        "solr_poiName": "Al Sadd Intersection",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Sadd, Doha, Qatar",
+        "google_main_text": "Al Sadd",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sadd Mall, Al Sadd Street, Doha, Qatar",
+        "google_main_text": "Al Sadd Mall",
+        "google_secondary_text": "Al Sadd Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sadd Metro Station, Doha, Qatar",
+        "google_main_text": "Al Sadd Metro Station",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sadd Sports Club, Doha, Qatar",
+        "google_main_text": "Al Sadd Sports Club",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sadd Exchange LLC, Al Amir Street, Doha, Qatar",
+        "google_main_text": "Al Sadd Exchange LLC",
+        "google_secondary_text": "Al Amir Street, Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Sadd",
+    "solr_results": [
+      {
+        "solr_name": "Al Sadd Street 829",
+        "solr_poiName": "Al Sadd Street 829",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd 343",
+        "solr_poiName": "Al Sadd 343",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Suites Hotel",
+        "solr_poiName": "Al Sadd Suites Hotel",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al sadd Park and Ride",
+        "solr_poiName": "Al sadd Park and Ride",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Police Station",
+        "solr_poiName": "Al Sadd Police Station",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Machan Restaurant Al Sadd Sri Lankan",
+        "solr_poiName": "Machan Restaurant Al Sadd Sri Lankan",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Intersection",
+        "solr_poiName": "Al Sadd Intersection",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Street 343",
+        "solr_poiName": "Al Sadd Street 343",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd",
+        "solr_poiName": "Al Sadd",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sikkat Al Sadd Street 928",
+        "solr_poiName": "Sikkat Al Sadd Street 928",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Exchange , Fereej Al Soudan",
+        "solr_poiName": "Al Sadd Exchange",
+        "solr_containerName": "Fereej Al Soudan"
+      },
+      {
+        "solr_name": "Al Sadd SC Academy Training Field , Fereej Al Soudan",
+        "solr_poiName": "Al Sadd SC Academy Training Field",
+        "solr_containerName": "Fereej Al Soudan"
+      },
+      {
+        "solr_name": "KFC Al Sadd",
+        "solr_poiName": "KFC Al Sadd",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Track Field , Al Sadd Sports Club",
+        "solr_poiName": "Al Sadd Track Field",
+        "solr_containerName": "Al Sadd Sports Club"
+      },
+      {
+        "solr_name": "Danat Al Sadd Hotel",
+        "solr_poiName": "Danat Al Sadd Hotel",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al sadd sports club , Fereej Al Soudan",
+        "solr_poiName": "Al sadd sports club",
+        "solr_containerName": "Fereej Al Soudan"
+      },
+      {
+        "solr_name": "Al Sadd Mall",
+        "solr_poiName": "Al Sadd Mall",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Barwa Al Sadd Club House",
+        "solr_poiName": "Barwa Al Sadd Club House",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Residence 2 Residential Compounds",
+        "solr_poiName": "Al Sadd Residence 2 Residential Compounds",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Tourist Furnished Apartments",
+        "solr_poiName": "Al Sadd Tourist Furnished Apartments",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Texas Chicken Al-Sadd Chicken",
+        "solr_poiName": "Texas Chicken Al-Sadd Chicken",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Residence 1 Residential Compounds",
+        "solr_poiName": "Al Sadd Residence 1 Residential Compounds",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "DoubleTree by Hilton Doha - Al Sadd",
+        "solr_poiName": "DoubleTree by Hilton Doha - Al Sadd",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Gate 4 - Metro Station",
+        "solr_poiName": "Al Sadd Gate 4 - Metro Station",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sadd Plaza Mall",
+        "solr_poiName": "Al Sadd Plaza Mall",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Sadd, Doha, Qatar",
+        "google_main_text": "Al Sadd",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sadd Mall, Al Sadd Street, Doha, Qatar",
+        "google_main_text": "Al Sadd Mall",
+        "google_secondary_text": "Al Sadd Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sadd Metro Station, Doha, Qatar",
+        "google_main_text": "Al Sadd Metro Station",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sadd Sports Club, Doha, Qatar",
+        "google_main_text": "Al Sadd Sports Club",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sadd Exchange LLC, Al Amir Street, Doha, Qatar",
+        "google_main_text": "Al Sadd Exchange LLC",
+        "google_secondary_text": "Al Amir Street, Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Shara",
+    "solr_results": [
+      {
+        "solr_name": "Sharahbeel Bin Hasana Street 249",
+        "solr_poiName": "Sharahbeel Bin Hasana Street 249",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Dr. Sharara Medical Center , Umm Lekhba",
+        "solr_poiName": "Dr. Sharara Medical Center",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Sharaf DG , Mall of Qatar",
+        "solr_poiName": "Sharaf DG",
+        "solr_containerName": "Mall of Qatar"
+      },
+      {
+        "solr_name": "Al Sharaafi , Umm Lekhba",
+        "solr_poiName": "Al Sharaafi",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Al Sharayef Street 927",
+        "solr_poiName": "Al Sharayef Street 927",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sharayef Street 839",
+        "solr_poiName": "Al Sharayef Street 839",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sharaka Holdings , Fereej Abdel Aziz",
+        "solr_poiName": "Sharaka Holdings",
+        "solr_containerName": "Fereej Abdel Aziz"
+      },
+      {
+        "solr_name": "Al Sharayef Street 984",
+        "solr_poiName": "Al Sharayef Street 984",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sharahbeel Bin Hasana Street 910",
+        "solr_poiName": "Sharahbeel Bin Hasana Street 910",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Yahya Bin Sharaf Street 625",
+        "solr_poiName": "Yahya Bin Sharaf Street 625",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sharaf Industrial Company , New industrial area",
+        "solr_poiName": "Al Sharaf Industrial Company",
+        "solr_containerName": "New industrial area"
+      },
+      {
+        "solr_name": "Sharaf DG Accomodation - Bus Station , Al Wukair",
+        "solr_poiName": "Sharaf DG Accomodation - Bus Station",
+        "solr_containerName": "Al Wukair"
+      },
+      {
+        "solr_name": "Leashara Street 917",
+        "solr_poiName": "Leashara Street 917",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Eshara Street 848",
+        "solr_poiName": "Al Eshara Street 848",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Beshara Street 485",
+        "solr_poiName": "Al Beshara Street 485",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Ashara 815",
+        "solr_poiName": "Al Ashara 815",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Ashara Street 815",
+        "solr_poiName": "Al Ashara Street 815",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Bushara trad.cont , Old Airport",
+        "solr_poiName": "Bushara trad.cont",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Bishara Typing and Translation center , Old Airport",
+        "solr_poiName": "Bishara Typing and Translation center",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Leashara Street 911",
+        "solr_poiName": "Leashara Street 911",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Sharayef Street, Doha, Qatar",
+        "google_main_text": "Al Sharayef Street",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sharan Street, Doha, Qatar",
+        "google_main_text": "Al Sharan Street",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sharayef St، Doha, Qatar",
+        "google_main_text": "Al Sharayef St",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sharayet St, Doha, Qatar",
+        "google_main_text": "Al Sharayet St",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Sharayef, Doha, Qatar",
+        "google_main_text": "Al Sharayef",
+        "google_secondary_text": "Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Shara hot",
+    "solr_results": [
+      {
+        "solr_name": "Sharahbeel Bin Hasana Street 910",
+        "solr_poiName": "Sharahbeel Bin Hasana Street 910",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sharahbeel Bin Hasana Street 249",
+        "solr_poiName": "Sharahbeel Bin Hasana Street 249",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Dr. Sharara Medical Center , Umm Lekhba",
+        "solr_poiName": "Dr. Sharara Medical Center",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Al Sharaafi , Umm Lekhba",
+        "solr_poiName": "Al Sharaafi",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Al Sharayef Street 927",
+        "solr_poiName": "Al Sharayef Street 927",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sharaf DG , Mall of Qatar",
+        "solr_poiName": "Sharaf DG",
+        "solr_containerName": "Mall of Qatar"
+      },
+      {
+        "solr_name": "Al Sharayef Street 839",
+        "solr_poiName": "Al Sharayef Street 839",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sharaka Holdings , Fereej Abdel Aziz",
+        "solr_poiName": "Sharaka Holdings",
+        "solr_containerName": "Fereej Abdel Aziz"
+      },
+      {
+        "solr_name": "Al Sharayef Street 984",
+        "solr_poiName": "Al Sharayef Street 984",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Yahya Bin Sharaf Street 625",
+        "solr_poiName": "Yahya Bin Sharaf Street 625",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sharaf Industrial Company , New industrial area",
+        "solr_poiName": "Al Sharaf Industrial Company",
+        "solr_containerName": "New industrial area"
+      },
+      {
+        "solr_name": "Sharaf DG Accomodation - Bus Station , Al Wukair",
+        "solr_poiName": "Sharaf DG Accomodation - Bus Station",
+        "solr_containerName": "Al Wukair"
+      },
+      {
+        "solr_name": "Al Eshara Street 848",
+        "solr_poiName": "Al Eshara Street 848",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Leashara Street 917",
+        "solr_poiName": "Leashara Street 917",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Ashara Street 815",
+        "solr_poiName": "Al Ashara Street 815",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Ashara 815",
+        "solr_poiName": "Al Ashara 815",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Beshara Street 485",
+        "solr_poiName": "Al Beshara Street 485",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Bishara Typing and Translation center , Old Airport",
+        "solr_poiName": "Bishara Typing and Translation center",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Bushara trad.cont , Old Airport",
+        "solr_poiName": "Bushara trad.cont",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Leashara Street 911",
+        "solr_poiName": "Leashara Street 911",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sharp Photocopiers , Al Sadd",
+        "solr_poiName": "Sharp Photocopiers",
+        "solr_containerName": "Al Sadd"
+      },
+      {
+        "solr_name": "Le Mirage Sharq Hotel , Al Rufaa",
+        "solr_poiName": "Le Mirage Sharq Hotel",
+        "solr_containerName": "Al Rufaa"
+      },
+      {
+        "solr_name": "Parisa Sharq Hotel , Al Khulaifat",
+        "solr_poiName": "Parisa Sharq Hotel",
+        "solr_containerName": "Al Khulaifat"
+      },
+      {
+        "solr_name": "Al Sharq Villages Hotel , Doha International Airport",
+        "solr_poiName": "Al Sharq Villages Hotel",
+        "solr_containerName": "Doha International Airport"
+      },
+      {
+        "solr_name": "Sharq Village and SPA Hotel , Ras Bu Abboud",
+        "solr_poiName": "Sharq Village and SPA Hotel",
+        "solr_containerName": "Ras Bu Abboud"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Qahir Al Sahara Hotel, Al Hejrah, Makkah Saudi Arabia",
+        "google_main_text": "Qahir Al Sahara Hotel",
+        "google_secondary_text": "Al Hejrah, Makkah Saudi Arabia"
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      },
+      {
+        "google_place_prediction_text": "Bab Al Samawy Hotel, Al, Al Qarnah, Luxor, Egypt",
+        "google_main_text": "Bab Al Samawy Hotel",
+        "google_secondary_text": "Al, Al Qarnah, Luxor, Egypt"
+      }
+    ]
+  },
+  {
+    "query": "Al Shara hotel",
+    "solr_results": [
+      {
+        "solr_name": "Al Sharayef Street 927",
+        "solr_poiName": "Al Sharayef Street 927",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sharaafi , Umm Lekhba",
+        "solr_poiName": "Al Sharaafi",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Sharaka Holdings , Fereej Abdel Aziz",
+        "solr_poiName": "Sharaka Holdings",
+        "solr_containerName": "Fereej Abdel Aziz"
+      },
+      {
+        "solr_name": "Le Mirage Sharq Hotel , Al Rufaa",
+        "solr_poiName": "Le Mirage Sharq Hotel",
+        "solr_containerName": "Al Rufaa"
+      },
+      {
+        "solr_name": "Parisa Sharq Hotel , Al Khulaifat",
+        "solr_poiName": "Parisa Sharq Hotel",
+        "solr_containerName": "Al Khulaifat"
+      },
+      {
+        "solr_name": "Al Sharq Villages Hotel , Doha International Airport",
+        "solr_poiName": "Al Sharq Villages Hotel",
+        "solr_containerName": "Doha International Airport"
+      },
+      {
+        "solr_name": "Sharq Village and SPA Hotel , Ras Bu Abboud",
+        "solr_poiName": "Sharq Village and SPA Hotel",
+        "solr_containerName": "Ras Bu Abboud"
+      },
+      {
+        "solr_name": "Dr. Sharara Medical Center , Umm Lekhba",
+        "solr_poiName": "Dr. Sharara Medical Center",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Al Sharayef Street 984",
+        "solr_poiName": "Al Sharayef Street 984",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Yahya Bin Sharaf Street 625",
+        "solr_poiName": "Yahya Bin Sharaf Street 625",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Sharayef Street 839",
+        "solr_poiName": "Al Sharayef Street 839",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sharahbeel Bin Hasana Street 249",
+        "solr_poiName": "Sharahbeel Bin Hasana Street 249",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sharaf DG , Mall of Qatar",
+        "solr_poiName": "Sharaf DG",
+        "solr_containerName": "Mall of Qatar"
+      },
+      {
+        "solr_name": "Sharaf DG Accomodation - Bus Station , Al Wukair",
+        "solr_poiName": "Sharaf DG Accomodation - Bus Station",
+        "solr_containerName": "Al Wukair"
+      },
+      {
+        "solr_name": "Al Sharaf Industrial Company , New industrial area",
+        "solr_poiName": "Al Sharaf Industrial Company",
+        "solr_containerName": "New industrial area"
+      },
+      {
+        "solr_name": "Sharahbeel Bin Hasana Street 910",
+        "solr_poiName": "Sharahbeel Bin Hasana Street 910",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Eshara Street 848",
+        "solr_poiName": "Al Eshara Street 848",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Ashara Street 815",
+        "solr_poiName": "Al Ashara Street 815",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Ashara 815",
+        "solr_poiName": "Al Ashara 815",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Bishara Typing and Translation center , Old Airport",
+        "solr_poiName": "Bishara Typing and Translation center",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Bushara trad.cont , Old Airport",
+        "solr_poiName": "Bushara trad.cont",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "Leashara Street 917",
+        "solr_poiName": "Leashara Street 917",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Beshara Street 485",
+        "solr_poiName": "Al Beshara Street 485",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Leashara Street 911",
+        "solr_poiName": "Leashara Street 911",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Qahir Al Sahara Hotel, Al Hejrah, Makkah Saudi Arabia",
+        "google_main_text": "Qahir Al Sahara Hotel",
+        "google_secondary_text": "Al Hejrah, Makkah Saudi Arabia"
+      },
+      {
+        "google_place_prediction_text": "Ahern Luxury Boutique Hotel, West Sahara Avenue, Las Vegas, NV, USA",
+        "google_main_text": "Ahern Luxury Boutique Hotel",
+        "google_secondary_text": "West Sahara Avenue, Las Vegas, NV, USA"
+      },
+      {
+        "google_place_prediction_text": "The Lexi Las Vegas, West Sahara Avenue, Las Vegas, NV, USA",
+        "google_main_text": "The Lexi Las Vegas",
+        "google_secondary_text": "West Sahara Avenue, Las Vegas, NV, USA"
+      },
+      {
+        "google_place_prediction_text": "Palace Station Hotel and Casino, West Sahara Avenue, Las Vegas, NV, USA",
+        "google_main_text": "Palace Station Hotel and Casino",
+        "google_secondary_text": "West Sahara Avenue, Las Vegas, NV, USA"
+      },
+      {
+        "google_place_prediction_text": "LV (Las Vegas) Dog Resort, West Sahara Avenue, Las Vegas, NV, USA",
+        "google_main_text": "LV (Las Vegas) Dog Resort",
+        "google_secondary_text": "West Sahara Avenue, Las Vegas, NV, USA"
+      }
+    ]
+  },
+  {
+    "query": "Al Thakeera Beach",
+    "solr_results": [
+      {
+        "solr_name": "Al Thakeera Beach Campground",
+        "solr_poiName": "Al Thakeera Beach Campground",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Purple Island Beach",
+        "solr_poiName": "Purple Island Beach",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Eraida Beach , Al Jebail",
+        "solr_poiName": "Eraida Beach",
+        "solr_containerName": "Al Jebail"
+      },
+      {
+        "solr_name": "AlThakira beach , Al Jebail",
+        "solr_poiName": "AlThakira beach",
+        "solr_containerName": "Al Jebail"
+      },
+      {
+        "solr_name": "Al Sultan Beach Resort , Al Khor",
+        "solr_poiName": "Al Sultan Beach Resort",
+        "solr_containerName": "Al Khor"
+      },
+      {
+        "solr_name": "Al Sultan Beach Resort Mosque , Al Khor",
+        "solr_poiName": "Al Sultan Beach Resort Mosque",
+        "solr_containerName": "Al Khor"
+      },
+      {
+        "solr_name": "Al Qarma Beach Garden , Ras Al Gurma",
+        "solr_poiName": "Al Qarma Beach Garden",
+        "solr_containerName": "Ras Al Gurma"
+      },
+      {
+        "solr_name": "Al Khor Beach Campground , Corniche Park",
+        "solr_poiName": "Al Khor Beach Campground",
+        "solr_containerName": "Corniche Park"
+      },
+      {
+        "solr_name": "Farkiya Beach Campground , Ras Al Gurma",
+        "solr_poiName": "Farkiya Beach Campground",
+        "solr_containerName": "Ras Al Gurma"
+      },
+      {
+        "solr_name": "Simaisma Ladies Beach , Halat Awbair",
+        "solr_poiName": "Simaisma Ladies Beach",
+        "solr_containerName": "Halat Awbair"
+      },
+      {
+        "solr_name": "simaisma north beach Campground",
+        "solr_poiName": "simaisma north beach Campground",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Semaisma Beach Campground",
+        "solr_poiName": "Semaisma Beach Campground",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Azure Beach Doha , Lusail",
+        "solr_poiName": "Azure Beach Doha",
+        "solr_containerName": "Lusail"
+      },
+      {
+        "solr_name": "Qetaifan Beach Club Resort , Lusail",
+        "solr_poiName": "Qetaifan Beach Club Resort",
+        "solr_containerName": "Lusail"
+      },
+      {
+        "solr_name": "Qetaifan Beach Club , Lusail",
+        "solr_poiName": "Qetaifan Beach Club",
+        "solr_containerName": "Lusail"
+      },
+      {
+        "solr_name": "Blue Beach Restaurant , Lusail",
+        "solr_poiName": "Blue Beach Restaurant",
+        "solr_containerName": "Lusail"
+      },
+      {
+        "solr_name": "Fuwairit Kite Beach, Tapestry collection by Hilton",
+        "solr_poiName": "Fuwairit Kite Beach",
+        "solr_containerName": "Tapestry collection by Hilton"
+      },
+      {
+        "solr_name": "Fuwairit Beach Campground",
+        "solr_poiName": "Fuwairit Beach Campground",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Crescent Park Block 1 Beach Volley Court , Lusail - Al Kharayej",
+        "solr_poiName": "Crescent Park Block 1 Beach Volley Court",
+        "solr_containerName": "Lusail - Al Kharayej"
+      },
+      {
+        "solr_name": "Bagatelle Beach Club Doha",
+        "solr_poiName": "Bagatelle Beach Club Doha",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sae Beach Campground , Jabal Fuwairit",
+        "solr_poiName": "Sae Beach Campground",
+        "solr_containerName": "Jabal Fuwairit"
+      },
+      {
+        "solr_name": "Lusail Family Beach Campground , The Pearl",
+        "solr_poiName": "Lusail Family Beach Campground",
+        "solr_containerName": "The Pearl"
+      },
+      {
+        "solr_name": "Lusail Family Beach , The Pearl",
+        "solr_poiName": "Lusail Family Beach",
+        "solr_containerName": "The Pearl"
+      },
+      {
+        "solr_name": "Venecia beach the Pearl Campground",
+        "solr_poiName": "Venecia beach the Pearl Campground",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Talimare Beach Club Parking , The Pearl",
+        "solr_poiName": "Talimare Beach Club Parking",
+        "solr_containerName": "The Pearl"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Thakeera Beach, Qatar",
+        "google_main_text": "Al Thakeera Beach",
+        "google_secondary_text": "Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Thakhira Beach, Al Thakhira, Qatar",
+        "google_main_text": "Al Thakhira Beach",
+        "google_secondary_text": "Al Thakhira, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Thakira Mangroves Forest Beach, Al Thakhira, Qatar",
+        "google_main_text": "Al Thakira Mangroves Forest Beach",
+        "google_secondary_text": "Al Thakhira, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Thakira Street, Doha, Qatar",
+        "google_main_text": "Al Thakira Street",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      }
+    ]
+  },
+  {
+    "query": "Al Wa",
+    "solr_results": [
+      {
+        "solr_name": "Al Imam Mohammed Bin Abdul Wahab Mosque , Qatar Grand Mosque",
+        "solr_poiName": "Al Imam Mohammed Bin Abdul Wahab Mosque",
+        "solr_containerName": "Qatar Grand Mosque"
+      },
+      {
+        "solr_name": "Souq Waqif , Al Jasra",
+        "solr_poiName": "Souq Waqif",
+        "solr_containerName": "Al Jasra"
+      },
+      {
+        "solr_name": "Al Wakrah Hospital",
+        "solr_poiName": "Al Wakrah Hospital",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Shifa Wa Al Afia Pharmacy , Ain Khaled",
+        "solr_poiName": "Al Shifa Wa Al Afia Pharmacy",
+        "solr_containerName": "Ain Khaled"
+      },
+      {
+        "solr_name": "Jebn wa Zaitoun , Muaither",
+        "solr_poiName": "Jebn wa Zaitoun",
+        "solr_containerName": "Muaither"
+      },
+      {
+        "solr_name": "khait Wa Magas Tailor , Al Mearad",
+        "solr_poiName": "khait Wa Magas Tailor",
+        "solr_containerName": "Al Mearad"
+      },
+      {
+        "solr_name": "Al Lailu Wa Nahar Restaurant , Muaither",
+        "solr_poiName": "Al Lailu Wa Nahar Restaurant",
+        "solr_containerName": "Muaither"
+      },
+      {
+        "solr_name": "Al Adeel Wa Al Zain Beauty Salon , Bu Hamour",
+        "solr_poiName": "Al Adeel Wa Al Zain Beauty Salon",
+        "solr_containerName": "Bu Hamour"
+      },
+      {
+        "solr_name": "Cheong Kee Wa Restaurant , Al Sadd",
+        "solr_poiName": "Cheong Kee Wa Restaurant",
+        "solr_containerName": "Al Sadd"
+      },
+      {
+        "solr_name": "Mankousha Wa Falafel Restaurant , Najma",
+        "solr_poiName": "Mankousha Wa Falafel Restaurant",
+        "solr_containerName": "Najma"
+      },
+      {
+        "solr_name": "Herfy Wa Nathry Kitchen Restaurant , Umm Lekhba",
+        "solr_poiName": "Herfy Wa Nathry Kitchen Restaurant",
+        "solr_containerName": "Umm Lekhba"
+      },
+      {
+        "solr_name": "Woqod , Abu Sidra",
+        "solr_poiName": "Woqod",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Waab Al Nasla Street 771",
+        "solr_poiName": "Waab Al Nasla Street 771",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Sheikh Ahmed Wahid Alkriha Mosque , Bu Sidra",
+        "solr_poiName": "Sheikh Ahmed Wahid Alkriha Mosque",
+        "solr_containerName": "Bu Sidra"
+      },
+      {
+        "solr_name": "Wadi Al Mashrab Street 604",
+        "solr_poiName": "Wadi Al Mashrab Street 604",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Woqod Petrol Station , Muaither",
+        "solr_poiName": "Woqod Petrol Station",
+        "solr_containerName": "Muaither"
+      },
+      {
+        "solr_name": "Al wafa tailor , Abu Sidra",
+        "solr_poiName": "Al wafa tailor",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Al Wasmi Street 735",
+        "solr_poiName": "Al Wasmi Street 735",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Wasit Street 329",
+        "solr_poiName": "Wasit Street 329",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Qatar foundation warehouse 2 / Salwa road , Industrial Area",
+        "solr_poiName": "Qatar foundation warehouse 2 / Salwa road",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Everest Trading Company Building materials and sanitary ware , Fereej Al Murra",
+        "solr_poiName": "Everest Trading Company Building materials and sanitary ware",
+        "solr_containerName": "Fereej Al Murra"
+      },
+      {
+        "solr_name": "Pressure Car Wash , Fereej Al Murra",
+        "solr_poiName": "Pressure Car Wash",
+        "solr_containerName": "Fereej Al Murra"
+      },
+      {
+        "solr_name": "Golden Car Wash Car Wash , Fereej Al Murra",
+        "solr_poiName": "Golden Car Wash Car Wash",
+        "solr_containerName": "Fereej Al Murra"
+      },
+      {
+        "solr_name": "Wadi Al Qata Street 875",
+        "solr_poiName": "Wadi Al Qata Street 875",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "QF Warehouse , Industrial Area",
+        "solr_poiName": "QF Warehouse",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Wadi Asma Street 874",
+        "solr_poiName": "Wadi Asma Street 874",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Khail Street 978",
+        "solr_poiName": "Waab Al Khail Street 978",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Coca Cola Warehouse Cafeteria , Industrial Area",
+        "solr_poiName": "Coca Cola Warehouse Cafeteria",
+        "solr_containerName": "Industrial Area"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Wakrah, Qatar",
+        "google_main_text": "Al Wakrah",
+        "google_secondary_text": "Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Waab, Doha, Qatar",
+        "google_main_text": "Al Waab",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Waab Health Center, Sports City Street, Doha, Qatar",
+        "google_main_text": "Al Waab Health Center",
+        "google_secondary_text": "Sports City Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Wajba, Qatar",
+        "google_main_text": "Al Wajba",
+        "google_secondary_text": "Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Waab QLM Metro Station, Al Waab Street, Doha, Qatar",
+        "google_main_text": "Al Waab QLM Metro Station",
+        "google_secondary_text": "Al Waab Street, Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Wa hospital emergency",
+    "solr_results": [
+      {
+        "solr_name": "Al Wakrah Hospital Womens Emergency",
+        "solr_poiName": "Al Wakrah Hospital Womens Emergency",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Hospital, Huércal-Overa, AL, Spain",
+        "google_main_text": "Hospital",
+        "google_secondary_text": "Huércal-Overa, AL, Spain"
+      },
+      {
+        "google_place_prediction_text": "Suburban Hospital Emergency Room, Old Georgetown Road, Bethesda, MD, USA",
+        "google_main_text": "Suburban Hospital Emergency Room",
+        "google_secondary_text": "Old Georgetown Road, Bethesda, MD, USA"
+      },
+      {
+        "google_place_prediction_text": "Children's National Emergency Room, Michigan Avenue Northwest, Washington, DC, USA",
+        "google_main_text": "Children's National Emergency Room",
+        "google_secondary_text": "Michigan Avenue Northwest, Washington, DC, USA"
+      },
+      {
+        "google_place_prediction_text": "North Alabama Medical Center, Veterans Drive, Florence, AL, USA",
+        "google_main_text": "North Alabama Medical Center",
+        "google_secondary_text": "Veterans Drive, Florence, AL, USA"
+      },
+      {
+        "google_place_prediction_text": "Sam and Rose Stein Emergency Center, Children's Way, San Diego, CA, USA",
+        "google_main_text": "Sam and Rose Stein Emergency Center",
+        "google_secondary_text": "Children's Way, San Diego, CA, USA"
+      }
+    ]
+  },
+  {
+    "query": "Al Waab",
+    "solr_results": [
+      {
+        "solr_name": "Wadi Al Waab Street 681",
+        "solr_poiName": "Wadi Al Waab Street 681",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Birkat Al Waab Street 241",
+        "solr_poiName": "Birkat Al Waab Street 241",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Broog Street 666",
+        "solr_poiName": "Waab Broog Street 666",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Semaira Street 146",
+        "solr_poiName": "Waab Al Semaira Street 146",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Nafayed Street 73",
+        "solr_poiName": "Waab Al Nafayed Street 73",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Themaid 1186",
+        "solr_poiName": "Waab Themaid 1186",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Abroug 1182",
+        "solr_poiName": "Waab Abroug 1182",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Abareq Street 670",
+        "solr_poiName": "Waab Al Abareq Street 670",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Ramla Street 811",
+        "solr_poiName": "Waab Al Ramla Street 811",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Ramla Street 820",
+        "solr_poiName": "Waab Al Ramla Street 820",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Zekreet Street 121",
+        "solr_poiName": "Waab Zekreet Street 121",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Mashrab Street 141",
+        "solr_poiName": "Waab Al Mashrab Street 141",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Khail Street 836",
+        "solr_poiName": "Waab Al Khail Street 836",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Buhair Street 873",
+        "solr_poiName": "Waab Buhair Street 873",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Waab Al Andab Street 766",
+        "solr_poiName": "Waab Al Andab Street 766",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Wadi Al Waab Street 892",
+        "solr_poiName": "Wadi Al Waab Street 892",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Waab Street 697",
+        "solr_poiName": "Al Waab Street 697",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Dar Al Waab Residential Compounds , Mehairja",
+        "solr_poiName": "Dar Al Waab Residential Compounds",
+        "solr_containerName": "Mehairja"
+      },
+      {
+        "solr_name": "Al Waab Gardens 2 Residential Compounds , Mehairja",
+        "solr_poiName": "Al Waab Gardens 2 Residential Compounds",
+        "solr_containerName": "Mehairja"
+      },
+      {
+        "solr_name": "Al Waab Medical Center , Mehairja",
+        "solr_poiName": "Al Waab Medical Center",
+        "solr_containerName": "Mehairja"
+      },
+      {
+        "solr_name": "Al Waab Gate 1 - Metro Station , Mehairja",
+        "solr_poiName": "Al Waab Gate 1 - Metro Station",
+        "solr_containerName": "Mehairja"
+      },
+      {
+        "solr_name": "Al Waab R\\A  , Fereej Al Soudan",
+        "solr_poiName": "Al Waab R\\A",
+        "solr_containerName": "Fereej Al Soudan"
+      },
+      {
+        "solr_name": "Waab Al Andab Street 999",
+        "solr_poiName": "Waab Al Andab Street 999",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Waab Petrol Station , Fereej Al Soudan",
+        "solr_poiName": "Al Waab Petrol Station",
+        "solr_containerName": "Fereej Al Soudan"
+      },
+      {
+        "solr_name": "Al Waab Gate 2 - Metro Station",
+        "solr_poiName": "Al Waab Gate 2 - Metro Station",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Waab, Doha, Qatar",
+        "google_main_text": "Al Waab",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Waaban Street, Umm Salal Muhammed, Qatar",
+        "google_main_text": "Al Waaban Street",
+        "google_secondary_text": "Umm Salal Muhammed, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Waab Health Center, Sports City Street, Doha, Qatar",
+        "google_main_text": "Al Waab Health Center",
+        "google_secondary_text": "Sports City Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Waab QLM Metro Station, Al Waab Street, Doha, Qatar",
+        "google_main_text": "Al Waab QLM Metro Station",
+        "google_secondary_text": "Al Waab Street, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Waab Medical Center مركز الوعب الطبي, Al Waab Street, Doha, Qatar",
+        "google_main_text": "Al Waab Medical Center مركز الوعب الطبي",
+        "google_secondary_text": "Al Waab Street, Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Wafa",
+    "solr_results": [
+      {
+        "solr_name": "Al wafa tailor , Abu Sidra",
+        "solr_poiName": "Al wafa tailor",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Al Wafa Trading , Industrial Area",
+        "solr_poiName": "Al Wafa Trading",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Wafa Al Ain Tailor , Al Aziziya",
+        "solr_poiName": "Wafa Al Ain Tailor",
+        "solr_containerName": "Al Aziziya"
+      },
+      {
+        "solr_name": "Al Wafa Eye Tailor , New Al Rayyan",
+        "solr_poiName": "Al Wafa Eye Tailor",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Ain Al Wafa Tailor , New Al Rayyan",
+        "solr_poiName": "Ain Al Wafa Tailor",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Wafa Auto Spare Parts & Electrical , Al Wukair",
+        "solr_poiName": "Wafa Auto Spare Parts & Electrical",
+        "solr_containerName": "Al Wukair"
+      },
+      {
+        "solr_name": "Al wafa school , Al Thumama",
+        "solr_poiName": "Al wafa school",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Wafa Tailor , Al Kharaitiyat",
+        "solr_poiName": "Wafa Tailor",
+        "solr_containerName": "Al Kharaitiyat"
+      },
+      {
+        "solr_name": "Ain Al-Wafa Tailor , Al Kharaitiyat",
+        "solr_poiName": "Ain Al-Wafa Tailor",
+        "solr_containerName": "Al Kharaitiyat"
+      },
+      {
+        "solr_name": "Sahat Al Wafaa Street 747",
+        "solr_poiName": "Sahat Al Wafaa Street 747",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wafaa Street 930",
+        "solr_poiName": "Al Wafaa Street 930",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wafaa Model Independent School For Boys , Al Thumama",
+        "solr_poiName": "Al Wafaa Model Independent School For Boys",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Wafaa Model Independent For Boys - Kindergartens & Nurseries , Al Thumama",
+        "solr_poiName": "Al Wafaa Model Independent For Boys - Kindergartens & Nurseries",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Wafaa Street 768",
+        "solr_poiName": "Al Wafaa Street 768",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wafaa Street 891",
+        "solr_poiName": "Al Wafaa Street 891",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Hawafar Realestate , Qatar Foundation",
+        "solr_poiName": "Hawafar Realestate",
+        "solr_containerName": "Qatar Foundation"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Wafa Trading Co. WLL, Street 21, Doha, Qatar",
+        "google_main_text": "Al Wafa Trading Co. WLL",
+        "google_secondary_text": "Street 21, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al wafa supermarket, Doha, Qatar",
+        "google_main_text": "Al wafa supermarket",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa Travel & Tourism, Opposite of City Exchange, الريان North Muaither, Doha, Qatar",
+        "google_main_text": "Al Wafa Travel & Tourism",
+        "google_secondary_text": "Opposite of City Exchange, الريان North Muaither, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa Residence, Doha, Qatar",
+        "google_main_text": "Al Wafa Residence",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "AL WAFA AUTO SPARE PARTS, Doha, Qatar",
+        "google_main_text": "AL WAFA AUTO SPARE PARTS",
+        "google_secondary_text": "Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Wafa r",
+    "solr_results": [
+      {
+        "solr_name": "Al wafa tailor , Abu Sidra",
+        "solr_poiName": "Al wafa tailor",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Al Wafa Trading , Industrial Area",
+        "solr_poiName": "Al Wafa Trading",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Wafa Al Ain Tailor , Al Aziziya",
+        "solr_poiName": "Wafa Al Ain Tailor",
+        "solr_containerName": "Al Aziziya"
+      },
+      {
+        "solr_name": "Al Wafa Eye Tailor , New Al Rayyan",
+        "solr_poiName": "Al Wafa Eye Tailor",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Ain Al Wafa Tailor , New Al Rayyan",
+        "solr_poiName": "Ain Al Wafa Tailor",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Wafa Auto Spare Parts & Electrical , Al Wukair",
+        "solr_poiName": "Wafa Auto Spare Parts & Electrical",
+        "solr_containerName": "Al Wukair"
+      },
+      {
+        "solr_name": "Wafa Tailor , Al Kharaitiyat",
+        "solr_poiName": "Wafa Tailor",
+        "solr_containerName": "Al Kharaitiyat"
+      },
+      {
+        "solr_name": "Ain Al-Wafa Tailor , Al Kharaitiyat",
+        "solr_poiName": "Ain Al-Wafa Tailor",
+        "solr_containerName": "Al Kharaitiyat"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Wafa Residence, Doha, Qatar",
+        "google_main_text": "Al Wafa Residence",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa Residence, Giardino Village Building 13, Doha, Qatar",
+        "google_main_text": "Al Wafa Residence, Giardino Village Building 13",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa Residence 2, building 62, street 183, Doha, Qatar",
+        "google_main_text": "Al Wafa Residence 2",
+        "google_secondary_text": "building 62, street 183, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa, طويق، Riyadh Saudi Arabia",
+        "google_main_text": "Al Wafa",
+        "google_secondary_text": "طويق، Riyadh Saudi Arabia"
+      },
+      {
+        "google_place_prediction_text": "AL WAFA MINI MART, Ar-Rayyan, Qatar",
+        "google_main_text": "AL WAFA MINI MART",
+        "google_secondary_text": "Ar-Rayyan, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Wafa ro",
+    "solr_results": [
+      {
+        "solr_name": "Al Safa Royal Suites Hotel , Fereej Abdel Aziz",
+        "solr_poiName": "Al Safa Royal Suites Hotel",
+        "solr_containerName": "Fereej Abdel Aziz"
+      },
+      {
+        "solr_name": "Al Safa Mobile and Electronics , Mesaieed",
+        "solr_poiName": "Al Safa Mobile and Electronics",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Strong Lite - ADWA AL AFIA Trading , Al Sailiya",
+        "solr_poiName": "Strong Lite - ADWA AL AFIA Trading",
+        "solr_containerName": "Al Sailiya"
+      },
+      {
+        "solr_name": "Baba Royal Restaurant , Muaither",
+        "solr_poiName": "Baba Royal Restaurant",
+        "solr_containerName": "Muaither"
+      },
+      {
+        "solr_name": "Aspro Cafe , Villaggio Mall",
+        "solr_poiName": "Aspro Cafe",
+        "solr_containerName": "Villaggio Mall"
+      },
+      {
+        "solr_name": "Troy Cafe , Baaya",
+        "solr_poiName": "Troy Cafe",
+        "solr_containerName": "Baaya"
+      },
+      {
+        "solr_name": "Churros Cafe , Baaya",
+        "solr_poiName": "Churros Cafe",
+        "solr_containerName": "Baaya"
+      },
+      {
+        "solr_name": "Coffee & Croissants , Baaya",
+        "solr_poiName": "Coffee & Croissants",
+        "solr_containerName": "Baaya"
+      },
+      {
+        "solr_name": "Zero Degree Cafe , Al Aziziya",
+        "solr_poiName": "Zero Degree Cafe",
+        "solr_containerName": "Al Aziziya"
+      },
+      {
+        "solr_name": "Rosemary Cafe West Walk , Al Waab",
+        "solr_poiName": "Rosemary Cafe West Walk",
+        "solr_containerName": "Al Waab"
+      },
+      {
+        "solr_name": "Robert Allen Casa Blu , Bu Hamour",
+        "solr_poiName": "Robert Allen Casa Blu",
+        "solr_containerName": "Bu Hamour"
+      },
+      {
+        "solr_name": "Al Burooj Cafe , Bu Hamour",
+        "solr_poiName": "Al Burooj Cafe",
+        "solr_containerName": "Bu Hamour"
+      },
+      {
+        "solr_name": "ProD Data Recovery , Bu Hamour",
+        "solr_poiName": "ProD Data Recovery",
+        "solr_containerName": "Bu Hamour"
+      },
+      {
+        "solr_name": "Churros Cafe , Abu Hamour",
+        "solr_poiName": "Churros Cafe",
+        "solr_containerName": "Abu Hamour"
+      },
+      {
+        "solr_name": "Nisreen Roaster Cafe , Al Sadd",
+        "solr_poiName": "Nisreen Roaster Cafe",
+        "solr_containerName": "Al Sadd"
+      },
+      {
+        "solr_name": "Orangery Cafe Trottoir , La Cigale Hotel",
+        "solr_poiName": "Orangery Cafe Trottoir",
+        "solr_containerName": "La Cigale Hotel"
+      },
+      {
+        "solr_name": "Figaro Coffee Cafe , Fereej Bin Mahmoud",
+        "solr_poiName": "Figaro Coffee Cafe",
+        "solr_containerName": "Fereej Bin Mahmoud"
+      },
+      {
+        "solr_name": "Carosa Cafe , Fereej Bin Mahmoud",
+        "solr_poiName": "Carosa Cafe",
+        "solr_containerName": "Fereej Bin Mahmoud"
+      },
+      {
+        "solr_name": "Ground Cafe , Nuaija",
+        "solr_poiName": "Ground Cafe",
+        "solr_containerName": "Nuaija"
+      },
+      {
+        "solr_name": "Aroma Cafe , Fereej Bin Mahmoud",
+        "solr_poiName": "Aroma Cafe",
+        "solr_containerName": "Fereej Bin Mahmoud"
+      },
+      {
+        "solr_name": "Pistro cafe , Al Mansoura",
+        "solr_poiName": "Pistro cafe",
+        "solr_containerName": "Al Mansoura"
+      },
+      {
+        "solr_name": "Al Fala Ground , Mesaimeer",
+        "solr_poiName": "Al Fala Ground",
+        "solr_containerName": "Mesaimeer"
+      },
+      {
+        "solr_name": "Vulcan Coffee Roasters , Al Gharrafa",
+        "solr_poiName": "Vulcan Coffee Roasters",
+        "solr_containerName": "Al Gharrafa"
+      },
+      {
+        "solr_name": "Churros cafe - Mall of qatar",
+        "solr_poiName": "Churros cafe - Mall of qatar",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Roya Cafe",
+        "solr_poiName": "Roya Cafe",
+        "solr_containerName": null
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Wafa Roastery - Dubai - United Arab Emirates",
+        "google_main_text": "Al Wafa Roastery",
+        "google_secondary_text": "Dubai - United Arab Emirates"
+      },
+      {
+        "google_place_prediction_text": "Al wafa roastery - Sharjah - United Arab Emirates",
+        "google_main_text": "Al wafa roastery",
+        "google_secondary_text": "Sharjah - United Arab Emirates"
+      },
+      {
+        "google_place_prediction_text": "Al-Wafa Road, Murdeshwar, Karnataka, India",
+        "google_main_text": "Al-Wafa Road",
+        "google_secondary_text": "Murdeshwar, Karnataka, India"
+      },
+      {
+        "google_place_prediction_text": "AL WAFA MEDICALE Sfax, et l'Ain, Route Lafrane, Sfax, Tunisia",
+        "google_main_text": "AL WAFA MEDICALE Sfax",
+        "google_secondary_text": "et l'Ain, Route Lafrane, Sfax, Tunisia"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa Ice Cream, Road 1111, Muharraq, Bahrain",
+        "google_main_text": "Al Wafa Ice Cream",
+        "google_secondary_text": "Road 1111, Muharraq, Bahrain"
+      }
+    ]
+  },
+  {
+    "query": "Al Wafa tl",
+    "solr_results": [
+      {
+        "solr_name": "TL FLOWER BOUTIQE , Al Kharaitiyat",
+        "solr_poiName": "TL FLOWER BOUTIQE",
+        "solr_containerName": "Al Kharaitiyat"
+      },
+      {
+        "solr_name": "Chai Tlqemh , Baaya",
+        "solr_poiName": "Chai Tlqemh",
+        "solr_containerName": "Baaya"
+      },
+      {
+        "solr_name": "TLC - Kindergartens & Nurseries , Legtaifiya",
+        "solr_poiName": "TLC - Kindergartens & Nurseries",
+        "solr_containerName": "Legtaifiya"
+      },
+      {
+        "solr_name": "Al wafa tailor , Abu Sidra",
+        "solr_poiName": "Al wafa tailor",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Al Wafa Trading , Industrial Area",
+        "solr_poiName": "Al Wafa Trading",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Wafa Al Ain Tailor , Al Aziziya",
+        "solr_poiName": "Wafa Al Ain Tailor",
+        "solr_containerName": "Al Aziziya"
+      },
+      {
+        "solr_name": "Al Wafa Eye Tailor , New Al Rayyan",
+        "solr_poiName": "Al Wafa Eye Tailor",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Ain Al Wafa Tailor , New Al Rayyan",
+        "solr_poiName": "Ain Al Wafa Tailor",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Al wafa school , Al Thumama",
+        "solr_poiName": "Al wafa school",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Ain Al-Wafa Tailor , Al Kharaitiyat",
+        "solr_poiName": "Ain Al-Wafa Tailor",
+        "solr_containerName": "Al Kharaitiyat"
+      },
+      {
+        "solr_name": "Yousif Abdulrhman Mohammed Tlfat Mosque , Al Ebb",
+        "solr_poiName": "Yousif Abdulrhman Mohammed Tlfat Mosque",
+        "solr_containerName": "Al Ebb"
+      },
+      {
+        "solr_name": "Castle for Building Materials , Birkat Al Awamer",
+        "solr_poiName": "Castle for Building Materials",
+        "solr_containerName": "Birkat Al Awamer"
+      },
+      {
+        "solr_name": "Seattle Electrical Equipment Factory , Mesaieed - Free Zone",
+        "solr_poiName": "Seattle Electrical Equipment Factory",
+        "solr_containerName": "Mesaieed - Free Zone"
+      },
+      {
+        "solr_name": "Bottle Linker Cafeteria , Industrial Area",
+        "solr_poiName": "Bottle Linker Cafeteria",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Seattle , Industrial Area",
+        "solr_poiName": "Seattle",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Seattle Labor Residential Compounds , Industrial Area",
+        "solr_poiName": "Seattle Labor Residential Compounds",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "CTL Group , Industrial Area",
+        "solr_poiName": "CTL Group",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Nestle Waters - Factory , New industrial area",
+        "solr_poiName": "Nestle Waters - Factory",
+        "solr_containerName": "New industrial area"
+      },
+      {
+        "solr_name": "Spotlight Trading , Al Wukair",
+        "solr_poiName": "Spotlight Trading",
+        "solr_containerName": "Al Wukair"
+      },
+      {
+        "solr_name": "Atlas , Industrial Area",
+        "solr_poiName": "Atlas",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Atlantis , Industrial Area",
+        "solr_poiName": "Atlantis",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Liberty National Knitling , Industrial Area",
+        "solr_poiName": "Liberty National Knitling",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Atlas Global , Al Wakra",
+        "solr_poiName": "Atlas Global",
+        "solr_containerName": "Al Wakra"
+      },
+      {
+        "solr_name": "Al Manhal Nestle  Residential Compounds , Industrial Area",
+        "solr_poiName": "Al Manhal Nestle  Residential Compounds",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Atlas Medical Center, Grand Mall",
+        "solr_poiName": "Atlas Medical Center",
+        "solr_containerName": "Grand Mall"
+      },
+      {
+        "solr_name": "Little Flower - Kindergartens & Nurseries , Ezdan Village 3",
+        "solr_poiName": "Little Flower - Kindergartens & Nurseries",
+        "solr_containerName": "Ezdan Village 3"
+      },
+      {
+        "solr_name": "Al Matla Street 404",
+        "solr_poiName": "Al Matla Street 404",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Little Flower - Kindergartens & Nurseries , Al Wakra",
+        "solr_poiName": "Little Flower - Kindergartens & Nurseries",
+        "solr_containerName": "Al Wakra"
+      },
+      {
+        "solr_name": "Castle For Building Materials , Industrial Area",
+        "solr_poiName": "Castle For Building Materials",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Castle , Industrial Area",
+        "solr_poiName": "Castle",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Arrow Mark Intl , Industrial Area",
+        "solr_poiName": "Arrow Mark Intl",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "New Hotline Diesel , Industrial Area",
+        "solr_poiName": "New Hotline Diesel",
+        "solr_containerName": "Industrial Area"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Musholla Al wafa, Musholla Al wafa, Tengah, Gugul, Tlanakan, Pamekasan Regency, East Java, Indonesia",
+        "google_main_text": "Musholla Al wafa",
+        "google_secondary_text": "Musholla Al wafa, Tengah, Gugul, Tlanakan, Pamekasan Regency, East Java, Indonesia"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa, Jalan Batu Benawa IV, Tlk. Dalam, Banjarmasin City, South Kalimantan, Indonesia",
+        "google_main_text": "Al Wafa",
+        "google_secondary_text": "Jalan Batu Benawa IV, Tlk. Dalam, Banjarmasin City, South Kalimantan, Indonesia"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa Hotel, Ghazi Arabiyat St, Tla al-Ali, Amman, Jordan",
+        "google_main_text": "Al Wafa Hotel",
+        "google_secondary_text": "Ghazi Arabiyat St, Tla al-Ali, Amman, Jordan"
+      },
+      {
+        "google_place_prediction_text": "Al wafa, Thalassery, Kerala, India",
+        "google_main_text": "Al wafa",
+        "google_secondary_text": "Thalassery, Kerala, India"
+      },
+      {
+        "google_place_prediction_text": "Masjid al wafa', Krajan, Tlogosari, Malang Regency, East Java, Indonesia",
+        "google_main_text": "Masjid al wafa'",
+        "google_secondary_text": "Krajan, Tlogosari, Malang Regency, East Java, Indonesia"
+      }
+    ]
+  },
+  {
+    "query": "Al Wafa to",
+    "solr_results": [
+      {
+        "solr_name": "Wafa Auto Spare Parts & Electrical , Al Wukair",
+        "solr_poiName": "Wafa Auto Spare Parts & Electrical",
+        "solr_containerName": "Al Wukair"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Wafa Tower - Dubai - United Arab Emirates",
+        "google_main_text": "Al Wafa Tower",
+        "google_secondary_text": "Dubai - United Arab Emirates"
+      },
+      {
+        "google_place_prediction_text": "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES - Gharnatah Street - Ajman - United Arab Emirates",
+        "google_main_text": "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES",
+        "google_secondary_text": "Gharnatah Street - Ajman - United Arab Emirates"
+      },
+      {
+        "google_place_prediction_text": "Al-Wafa Tours, Jail Road South, Umerkhadi, Mumbai, Maharashtra, India",
+        "google_main_text": "Al-Wafa Tours",
+        "google_secondary_text": "Jail Road South, Umerkhadi, Mumbai, Maharashtra, India"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa Toko, Karang Rejo, Balikpapan City, East Kalimantan, Indonesia",
+        "google_main_text": "Al Wafa Toko",
+        "google_secondary_text": "Karang Rejo, Balikpapan City, East Kalimantan, Indonesia"
+      },
+      {
+        "google_place_prediction_text": "Al Wafa, Taif Saudi Arabia",
+        "google_main_text": "Al Wafa",
+        "google_secondary_text": "Taif Saudi Arabia"
+      }
+    ]
+  },
+  {
+    "query": "Al Wafa towe",
+    "solr_results": [
+      {
+        "solr_name": "Control Tower Hamad Port , Mesaieed - Free Zone",
+        "solr_poiName": "Control Tower Hamad Port",
+        "solr_containerName": "Mesaieed - Free Zone"
+      },
+      {
+        "solr_name": "Corniche Towers , Industrial Area",
+        "solr_poiName": "Corniche Towers",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Doha Tower Cafeteria , Al Meshaf",
+        "solr_poiName": "Doha Tower Cafeteria",
+        "solr_containerName": "Al Meshaf"
+      },
+      {
+        "solr_name": "Dulsco Camp-24 Tower , Industrial Area",
+        "solr_poiName": "Dulsco Camp-24 Tower",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Al Wakra Tower",
+        "solr_poiName": "Al Wakra Tower",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Ooredoo Tower , Bu Hamour",
+        "solr_poiName": "Ooredoo Tower",
+        "solr_containerName": "Bu Hamour"
+      },
+      {
+        "solr_name": "Ooredoo Tower , Bu Hamour",
+        "solr_poiName": "Ooredoo Tower",
+        "solr_containerName": "Bu Hamour"
+      },
+      {
+        "solr_name": "Doha Towers Electrical , Al Aziziya",
+        "solr_poiName": "Doha Towers Electrical",
+        "solr_containerName": "Al Aziziya"
+      },
+      {
+        "solr_name": "City Tower Restaurant , Ain Khaled",
+        "solr_poiName": "City Tower Restaurant",
+        "solr_containerName": "Ain Khaled"
+      },
+      {
+        "solr_name": "Ooredoo Tower - APC site , Al Thumama",
+        "solr_poiName": "Ooredoo Tower - APC site",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Hilal Tower",
+        "solr_poiName": "Al Hilal Tower",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Aspire Fire Tower Tower , Baaya",
+        "solr_poiName": "Aspire Fire Tower Tower",
+        "solr_containerName": "Baaya"
+      },
+      {
+        "solr_name": "Gulf Tower Cafeteria , Old Airport",
+        "solr_poiName": "Gulf Tower Cafeteria",
+        "solr_containerName": "Old Airport"
+      },
+      {
+        "solr_name": "White Tower Men’s clothes , Al Mearad",
+        "solr_poiName": "White Tower Men’s clothes",
+        "solr_containerName": "Al Mearad"
+      },
+      {
+        "solr_name": "Ooredoo Tower , Najma",
+        "solr_poiName": "Ooredoo Tower",
+        "solr_containerName": "Najma"
+      },
+      {
+        "solr_name": "Qatar Airways Tower 2. , Doha International Airport",
+        "solr_poiName": "Qatar Airways Tower 2.",
+        "solr_containerName": "Doha International Airport"
+      },
+      {
+        "solr_name": "Al Mana Tower , Al Hilal",
+        "solr_poiName": "Al Mana Tower",
+        "solr_containerName": "Al Hilal"
+      },
+      {
+        "solr_name": "Qatar Airways Tower 3 , Doha International Airport",
+        "solr_poiName": "Qatar Airways Tower 3",
+        "solr_containerName": "Doha International Airport"
+      },
+      {
+        "solr_name": "Al Abdulghani Tower , Najma",
+        "solr_poiName": "Al Abdulghani Tower",
+        "solr_containerName": "Najma"
+      },
+      {
+        "solr_name": "Al Jassim Tower , Fereej Bin Mahmoud",
+        "solr_poiName": "Al Jassim Tower",
+        "solr_containerName": "Fereej Bin Mahmoud"
+      },
+      {
+        "solr_name": "T4 Tower Tower , Najma",
+        "solr_poiName": "T4 Tower Tower",
+        "solr_containerName": "Najma"
+      },
+      {
+        "solr_name": "Top Tower , Najma",
+        "solr_poiName": "Top Tower",
+        "solr_containerName": "Najma"
+      },
+      {
+        "solr_name": "Al Mana Tower , Fereej Bin Mahmoud",
+        "solr_poiName": "Al Mana Tower",
+        "solr_containerName": "Fereej Bin Mahmoud"
+      },
+      {
+        "solr_name": "Al Malki Tower , Al Doha Al Jadeeda",
+        "solr_poiName": "Al Malki Tower",
+        "solr_containerName": "Al Doha Al Jadeeda"
+      },
+      {
+        "solr_name": "Al Sulaiman Tower , Al Muftah CenterL",
+        "solr_poiName": "Al Sulaiman Tower",
+        "solr_containerName": "Al Muftah CenterL"
+      },
+      {
+        "solr_name": "Costa Coffee Ezdan Tower 1",
+        "solr_poiName": "Costa Coffee Ezdan Tower 1",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Dafna Tower 4 Tower , Onaiza",
+        "solr_poiName": "Dafna Tower 4 Tower",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "Safa Al Tawg Street 887",
+        "solr_poiName": "Safa Al Tawg Street 887",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Code cafe , Muaither",
+        "solr_poiName": "Code cafe",
+        "solr_containerName": "Muaither"
+      },
+      {
+        "solr_name": "Viola Home cafe",
+        "solr_poiName": "Viola Home cafe",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Rose Internet Cafe , Fereej Bin Derhem",
+        "solr_poiName": "Rose Internet Cafe",
+        "solr_containerName": "Fereej Bin Derhem"
+      },
+      {
+        "solr_name": "Dose Cafe , Tawar Mall",
+        "solr_poiName": "Dose Cafe",
+        "solr_containerName": "Tawar Mall"
+      },
+      {
+        "solr_name": "Black Rose Coffee Shop",
+        "solr_poiName": "Black Rose Coffee Shop",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Home Burger Restaurant & Cafe",
+        "solr_poiName": "Home Burger Restaurant & Cafe",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Desert Rose Cafe , Qatar National Museum",
+        "solr_poiName": "Desert Rose Cafe",
+        "solr_containerName": "Qatar National Museum"
+      },
+      {
+        "solr_name": "Stone Specialty Coffee , Al Thumama",
+        "solr_poiName": "Stone Specialty Coffee",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Tche Tche Cafe , Al Dafna",
+        "solr_poiName": "Tche Tche Cafe",
+        "solr_containerName": "Al Dafna"
+      },
+      {
+        "solr_name": "Dawaa Plus Pharmacy Drug Store , Barwa Village",
+        "solr_poiName": "Dawaa Plus Pharmacy Drug Store",
+        "solr_containerName": "Barwa Village"
+      },
+      {
+        "solr_name": "Churros and more Cafe , Duhail",
+        "solr_poiName": "Churros and more Cafe",
+        "solr_containerName": "Duhail"
+      },
+      {
+        "solr_name": "Take Qahwa Cafe , Duhail",
+        "solr_poiName": "Take Qahwa Cafe",
+        "solr_containerName": "Duhail"
+      },
+      {
+        "solr_name": "Old Stone Cafe",
+        "solr_poiName": "Old Stone Cafe",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "TCHE TCHE CAFE QATAR",
+        "solr_poiName": "TCHE TCHE CAFE QATAR",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Coffee Down Under",
+        "solr_poiName": "Coffee Down Under",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Pit Stop Coffee and more Filipino",
+        "solr_poiName": "Pit Stop Coffee and more Filipino",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "La Rose Tea Shop Cafe , The Pearl",
+        "solr_poiName": "La Rose Tea Shop Cafe",
+        "solr_containerName": "The Pearl"
+      },
+      {
+        "solr_name": "Soul Bowl Cafe , The Pearl",
+        "solr_poiName": "Soul Bowl Cafe",
+        "solr_containerName": "The Pearl"
+      },
+      {
+        "solr_name": "Dose Cafe , The Pearl",
+        "solr_poiName": "Dose Cafe",
+        "solr_containerName": "The Pearl"
+      },
+      {
+        "solr_name": "La Vie En Rose Cafe , Al Kharayej",
+        "solr_poiName": "La Vie En Rose Cafe",
+        "solr_containerName": "Al Kharayej"
+      },
+      {
+        "solr_name": "Love Cafe , Lusail",
+        "solr_poiName": "Love Cafe",
+        "solr_containerName": "Lusail"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Wafa Tower - Dubai - United Arab Emirates",
+        "google_main_text": "Al Wafa Tower",
+        "google_secondary_text": "Dubai - United Arab Emirates"
+      },
+      {
+        "google_place_prediction_text": "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES - Gharnatah Street - Ajman - United Arab Emirates",
+        "google_main_text": "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES",
+        "google_secondary_text": "Gharnatah Street - Ajman - United Arab Emirates"
+      }
+    ]
+  },
+  {
+    "query": "Al Wafa tower",
+    "solr_results": [
+      {
+        "solr_name": "Al Wafa Eye Tailor , New Al Rayyan",
+        "solr_poiName": "Al Wafa Eye Tailor",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Ain Al Wafa Tailor , New Al Rayyan",
+        "solr_poiName": "Ain Al Wafa Tailor",
+        "solr_containerName": "New Al Rayyan"
+      },
+      {
+        "solr_name": "Wafa Tailor , Al Kharaitiyat",
+        "solr_poiName": "Wafa Tailor",
+        "solr_containerName": "Al Kharaitiyat"
+      },
+      {
+        "solr_name": "Costa Coffee Ezdan Tower 1",
+        "solr_poiName": "Costa Coffee Ezdan Tower 1",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Dafna Tower 4 Tower , Onaiza",
+        "solr_poiName": "Dafna Tower 4 Tower",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "Ain Al-Wafa Tailor , Al Kharaitiyat",
+        "solr_poiName": "Ain Al-Wafa Tailor",
+        "solr_containerName": "Al Kharaitiyat"
+      },
+      {
+        "solr_name": "Wafa Al Ain Tailor , Al Aziziya",
+        "solr_poiName": "Wafa Al Ain Tailor",
+        "solr_containerName": "Al Aziziya"
+      },
+      {
+        "solr_name": "Al wafa tailor , Abu Sidra",
+        "solr_poiName": "Al wafa tailor",
+        "solr_containerName": "Abu Sidra"
+      },
+      {
+        "solr_name": "Al wafa school , Al Thumama",
+        "solr_poiName": "Al wafa school",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Wafa Trading , Industrial Area",
+        "solr_poiName": "Al Wafa Trading",
+        "solr_containerName": "Industrial Area"
+      },
+      {
+        "solr_name": "Wafa Auto Spare Parts & Electrical , Al Wukair",
+        "solr_poiName": "Wafa Auto Spare Parts & Electrical",
+        "solr_containerName": "Al Wukair"
+      },
+      {
+        "solr_name": "Sahat Al Wafaa Street 747",
+        "solr_poiName": "Sahat Al Wafaa Street 747",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wafaa Street 930",
+        "solr_poiName": "Al Wafaa Street 930",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wafaa Model Independent School For Boys , Al Thumama",
+        "solr_poiName": "Al Wafaa Model Independent School For Boys",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Wafaa Model Independent For Boys - Kindergartens & Nurseries , Al Thumama",
+        "solr_poiName": "Al Wafaa Model Independent For Boys - Kindergartens & Nurseries",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Wafaa Street 768",
+        "solr_poiName": "Al Wafaa Street 768",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wafaa Street 891",
+        "solr_poiName": "Al Wafaa Street 891",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Hawafar Realestate , Qatar Foundation",
+        "solr_poiName": "Hawafar Realestate",
+        "solr_containerName": "Qatar Foundation"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Wafa Tower - Dubai - United Arab Emirates",
+        "google_main_text": "Al Wafa Tower",
+        "google_secondary_text": "Dubai - United Arab Emirates"
+      },
+      {
+        "google_place_prediction_text": "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES - Gharnatah Street - Ajman - United Arab Emirates",
+        "google_main_text": "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES",
+        "google_secondary_text": "Gharnatah Street - Ajman - United Arab Emirates"
+      }
+    ]
+  },
+  {
+    "query": "Al Wafaa",
+    "solr_results": [
+      {
+        "solr_name": "Sahat Al Wafaa Street 747",
+        "solr_poiName": "Sahat Al Wafaa Street 747",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wafaa Street 930",
+        "solr_poiName": "Al Wafaa Street 930",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wafaa Model Independent School For Boys , Al Thumama",
+        "solr_poiName": "Al Wafaa Model Independent School For Boys",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Wafaa Model Independent For Boys - Kindergartens & Nurseries , Al Thumama",
+        "solr_poiName": "Al Wafaa Model Independent For Boys - Kindergartens & Nurseries",
+        "solr_containerName": "Al Thumama"
+      },
+      {
+        "solr_name": "Al Wafaa Street 768",
+        "solr_poiName": "Al Wafaa Street 768",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wafaa Street 891",
+        "solr_poiName": "Al Wafaa Street 891",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Imam Mohammed Bin Abdul Wahab Mosque , Qatar Grand Mosque",
+        "solr_poiName": "Al Imam Mohammed Bin Abdul Wahab Mosque",
+        "solr_containerName": "Qatar Grand Mosque"
+      },
+      {
+        "solr_name": "Al Hazm Mall , Al Markhiya",
+        "solr_poiName": "Al Hazm Mall",
+        "solr_containerName": "Al Markhiya"
+      },
+      {
+        "solr_name": "Al Ahli Hospital, Wadi Al Sail",
+        "solr_poiName": "Al Ahli Hospital",
+        "solr_containerName": "Wadi Al Sail"
+      },
+      {
+        "solr_name": "Al Fardan Tower , Al Dafna",
+        "solr_poiName": "Al Fardan Tower",
+        "solr_containerName": "Al Dafna"
+      },
+      {
+        "solr_name": "Al Fardan Commercial Tower Charging Station , Dafna",
+        "solr_poiName": "Al Fardan Commercial Tower Charging Station",
+        "solr_containerName": "Dafna"
+      },
+      {
+        "solr_name": "Ad Al Sharqi Street 812",
+        "solr_poiName": "Ad Al Sharqi Street 812",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Majlis Al Taawon AL Khaliji Intersection  , Al Dafna",
+        "solr_poiName": "Majlis Al Taawon AL Khaliji Intersection",
+        "solr_containerName": "Al Dafna"
+      },
+      {
+        "solr_name": "Al Mirqab Tower , Al Dafna",
+        "solr_poiName": "Al Mirqab Tower",
+        "solr_containerName": "Al Dafna"
+      },
+      {
+        "solr_name": "Al Salam Tower , Al Dafna",
+        "solr_poiName": "Al Salam Tower",
+        "solr_containerName": "Al Dafna"
+      },
+      {
+        "solr_name": "Hayyar Al Ghaleel Street 875",
+        "solr_poiName": "Hayyar Al Ghaleel Street 875",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al-Ansari & Associates Legal Services , Onaiza",
+        "solr_poiName": "Al-Ansari & Associates Legal Services",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "Al Sheraton Intersection  , Al Dafna",
+        "solr_poiName": "Al Sheraton Intersection",
+        "solr_containerName": "Al Dafna"
+      },
+      {
+        "solr_name": "Al Mandarin - City Center",
+        "solr_poiName": "Al Mandarin - City Center",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Asmakh Realestate , Onaiza",
+        "solr_poiName": "Al Asmakh Realestate",
+        "solr_containerName": "Onaiza"
+      },
+      {
+        "solr_name": "Al Funduq Street 390",
+        "solr_poiName": "Al Funduq Street 390",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Dewaniyat Al Bukhari Restaurant , City Center Doha Shopping Mall",
+        "solr_poiName": "Dewaniyat Al Bukhari Restaurant",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Motahajiba , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Motahajiba",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Jaber Watches - Jewlery , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Jaber Watches - Jewlery",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Jawad - Jewlery , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Jawad - Jewlery",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Abdul Samad Al Qureshi - Beauty Products , City Center Doha Shopping Mall",
+        "solr_poiName": "Abdul Samad Al Qureshi - Beauty Products",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Farazdaq , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Farazdaq",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Jaber Opticians , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Jaber Opticians",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Jazeera - Beauty Products , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Jazeera - Beauty Products",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Bayt Al Asil , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Bayt Al Asil",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Majed - Jewlery , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Majed - Jewlery",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Malyonera , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Malyonera",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Muftah - Beauty Products , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Muftah - Beauty Products",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      },
+      {
+        "solr_name": "Al Ali Sporting Shop , City Center Doha Shopping Mall",
+        "solr_poiName": "Al Ali Sporting Shop",
+        "solr_containerName": "City Center Doha Shopping Mall"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Wafa Trading Co. WLL, Street 21, Doha, Qatar",
+        "google_main_text": "Al Wafa Trading Co. WLL",
+        "google_secondary_text": "Street 21, Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al-Wafaa kindergarten Model, Doha, Qatar",
+        "google_main_text": "Al-Wafaa kindergarten Model",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Wafaa Model Independant Kindergarden, Doha, Qatar",
+        "google_main_text": "Al Wafaa Model Independant Kindergarden",
+        "google_secondary_text": "Doha, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Wafaa Street, Al Wakrah, Qatar",
+        "google_main_text": "Al Wafaa Street",
+        "google_secondary_text": "Al Wakrah, Qatar"
+      },
+      {
+        "google_place_prediction_text": "Al Wafaa, Doha, Qatar",
+        "google_main_text": "Al Wafaa",
+        "google_secondary_text": "Doha, Qatar"
+      }
+    ]
+  },
+  {
+    "query": "Al Wagga",
+    "solr_results": [
+      {
+        "solr_name": "Jery Waggad Street 366",
+        "solr_poiName": "Jery Waggad Street 366",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Janoub Stadium , Al Wukair",
+        "solr_poiName": "Al Janoub Stadium",
+        "solr_containerName": "Al Wukair"
+      },
+      {
+        "solr_name": "Al Wakrah Hospital",
+        "solr_poiName": "Al Wakrah Hospital",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Wakrah City Heritage Market , Al Wakrah Souq",
+        "solr_poiName": "Al Wakrah City Heritage Market",
+        "solr_containerName": "Al Wakrah Souq"
+      },
+      {
+        "solr_name": "Al Haya , Al Afja",
+        "solr_poiName": "Al Haya",
+        "solr_containerName": "Al Afja"
+      },
+      {
+        "solr_name": "Al Jaber & Makhlouf Office , Al Afja",
+        "solr_poiName": "Al Jaber & Makhlouf Office",
+        "solr_containerName": "Al Afja"
+      },
+      {
+        "solr_name": "Abu Al fawares horse stable , Afjat Saadoon",
+        "solr_poiName": "Abu Al fawares horse stable",
+        "solr_containerName": "Afjat Saadoon"
+      },
+      {
+        "solr_name": "Yousef Al Amri horse stable , Afjat Saadoon",
+        "solr_poiName": "Yousef Al Amri horse stable",
+        "solr_containerName": "Afjat Saadoon"
+      },
+      {
+        "solr_name": "Galfar Al Misnad Asphalt - Factory , Mesaieed",
+        "solr_poiName": "Galfar Al Misnad Asphalt - Factory",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Nasla Al Glayel Street 475",
+        "solr_poiName": "Nasla Al Glayel Street 475",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Banush Club , Mesaieed",
+        "solr_poiName": "Al Banush Club",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Barkat Al Awamer",
+        "solr_poiName": "Barkat Al Awamer",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Baraha Rental Toys , Negyan Mesaieed",
+        "solr_poiName": "Al Baraha Rental Toys",
+        "solr_containerName": "Negyan Mesaieed"
+      },
+      {
+        "solr_name": "Sidriyat Al Hamm Street 443",
+        "solr_poiName": "Sidriyat Al Hamm Street 443",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Al Reem Club , Qapco Sports and Lesiure Club",
+        "solr_poiName": "Al Reem Club",
+        "solr_containerName": "Qapco Sports and Lesiure Club"
+      },
+      {
+        "solr_name": "Al Zaeem Pharmacy , Mesaieed",
+        "solr_poiName": "Al Zaeem Pharmacy",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Al Fahd Travels , Mesaieed",
+        "solr_poiName": "Al Fahd Travels",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Al Yahari Supermarket , Mesaieed",
+        "solr_poiName": "Al Yahari Supermarket",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Al Safa Mobile and Electronics , Mesaieed",
+        "solr_poiName": "Al Safa Mobile and Electronics",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Al Misbah Trading , Mesaieed",
+        "solr_poiName": "Al Misbah Trading",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Novelty Al Maharmi , Mesaieed",
+        "solr_poiName": "Novelty Al Maharmi",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Al Isma Supermarket , Mesaieed",
+        "solr_poiName": "Al Isma Supermarket",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Al Qasreen Grocery , Mesaieed",
+        "solr_poiName": "Al Qasreen Grocery",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Salahaldeen Al Ayobi Mosque , Mesaieed Mosque",
+        "solr_poiName": "Salahaldeen Al Ayobi Mosque",
+        "solr_containerName": "Mesaieed Mosque"
+      },
+      {
+        "solr_name": "Al Reef Metal - Factory , Mesaieed",
+        "solr_poiName": "Al Reef Metal - Factory",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Al Bahar Restaurant , Mesaieed Souq",
+        "solr_poiName": "Al Bahar Restaurant",
+        "solr_containerName": "Mesaieed Souq"
+      },
+      {
+        "solr_name": "Al Misbah Trading , Mesaieed",
+        "solr_poiName": "Al Misbah Trading",
+        "solr_containerName": "Mesaieed"
+      },
+      {
+        "solr_name": "Al Mana And Partners Warehouse , Bu Sulba",
+        "solr_poiName": "Al Mana And Partners Warehouse",
+        "solr_containerName": "Bu Sulba"
+      },
+      {
+        "solr_name": "Al Marmouq Trading , Mesaieed",
+        "solr_poiName": "Al Marmouq Trading",
+        "solr_containerName": "Mesaieed"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Wagga Wagga Street, Prestons NSW, Australia",
+        "google_main_text": "Wagga Wagga Street",
+        "google_secondary_text": "Prestons NSW, Australia"
+      },
+      {
+        "google_place_prediction_text": "Waggan Firetrail, Weilmoringle NSW, Australia",
+        "google_main_text": "Waggan Firetrail",
+        "google_secondary_text": "Weilmoringle NSW, Australia"
+      },
+      {
+        "google_place_prediction_text": "Wagga Street, Farrer ACT, Australia",
+        "google_main_text": "Wagga Street",
+        "google_secondary_text": "Farrer ACT, Australia"
+      },
+      {
+        "google_place_prediction_text": "Waggamon Circle, Annapolis, MD, USA",
+        "google_main_text": "Waggamon Circle",
+        "google_secondary_text": "Annapolis, MD, USA"
+      },
+      {
+        "google_place_prediction_text": "Waggaman Circle, McLean, VA, USA",
+        "google_main_text": "Waggaman Circle",
+        "google_secondary_text": "McLean, VA, USA"
+      }
+    ]
+  },
+  {
+    "query": "Al Wakr hospital emergency",
+    "solr_results": [
+      {
+        "solr_name": "Al Wakrah Hospital Womens Emergency",
+        "solr_poiName": "Al Wakrah Hospital Womens Emergency",
+        "solr_containerName": null
+      },
+      {
+        "solr_name": "Hamad Hospital Emergency Female and Kids , Hamad Medical City",
+        "solr_poiName": "Hamad Hospital Emergency Female and Kids",
+        "solr_containerName": "Hamad Medical City"
+      }
+    ],
+    "google_autocomplete_results": [
+      {
+        "google_place_prediction_text": "Al Wakra Hospital Emergency Department Parking, Al Wakra Hospital، Al Wakrah, Qatar",
+        "google_main_text": "Al Wakra Hospital Emergency Department Parking",
+        "google_secondary_text": "Al Wakra Hospital، Al Wakrah, Qatar"
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      },
+      {
+        "google_place_prediction_text": null,
+        "google_main_text": null,
+        "google_secondary_text": null
+      }
+    ]
+  }
+]

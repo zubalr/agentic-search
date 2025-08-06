@@ -4,10 +4,10 @@ Data fetching script for Google Places Autocomplete (New) API and Solr API.
 Mirrors the CLI and structure of fetch_data_with_latlng.py for consistency.
 
 Usage:
-    python scripts/fetch_autocomplete_with_latlng.py --source solr --keywords-file data/representative_keywords_with_location.csv
-    python scripts/fetch_autocomplete_with_latlng.py --source google --keywords "restaurant,cafe,hotel"
-    python scripts/fetch_autocomplete_with_latlng.py --source both --range 0 100
-    python scripts/fetch_autocomplete_with_latlng.py --source both --keywords-file data/representative_keywords_with_location.csv --lat 25.276987 --lng 55.296249
+    python3 scripts/fetch_autocomplete_with_latlng.py --source solr --keywords-file data/representative_keywords_with_location.csv
+    python3 scripts/fetch_autocomplete_with_latlng.py --source google --keywords "restaurant,cafe,hotel"
+    python3 scripts/fetch_autocomplete_with_latlng.py --source both --range 0 100
+    python3 scripts/fetch_autocomplete_with_latlng.py --source both --keywords-file data/representative_keywords_with_location.csv --lat 25.276987 --lng 55.296249
 """
 
 import argparse
@@ -29,7 +29,7 @@ from src.utils.logger import setup_logging, get_logger
 
 logger = get_logger(__name__)
 
-# --- Filtering functions for Solr (copied from fetch_data_with_latlng.py) ---
+# --- Filtering functions for Solr ---
 IMPORTANT_SOLR_KEYS = [
     "itemId", "entryId", "name", "poiName", "containerName", "location", "poiCategoryId",
     "poiSubCategoryId", "callTypeEnum", "contact", "popularity", "score"
@@ -114,20 +114,24 @@ async def main():
                     os.environ[key] = value
 
     queries = []
+    default_keywords_file_path = Path(__file__).parent.parent / "data/uniquerepresentative_keywords_with_location.csv"
+
     if args.keywords_file:
         if not Path(args.keywords_file).exists():
             logger.error(f"Keywords file not found: {args.keywords_file}")
             return
+        logger.info(f"Loading keywords from specified file: {args.keywords_file}")
         queries = load_queries_from_csv(args.keywords_file)
     elif args.keywords:
         keywords = [kw.strip() for kw in args.keywords.split(',')]
+        logger.info("Loading keywords from command-line argument.")
         queries = [APIQuery(keyword=kw, lat=config.default_lat, lng=config.default_lng) for kw in keywords]
     else:
-        default_file = config.keywords_csv
-        if Path(default_file).exists():
-            queries = load_queries_from_csv(default_file)
+        if default_keywords_file_path.exists():
+            logger.info(f"No specific keywords source provided. Using default keywords file: {default_keywords_file_path}")
+            queries = load_queries_from_csv(str(default_keywords_file_path))
         else:
-            logger.error("No keywords file found. Use --keywords-file or --keywords argument.")
+            logger.error(f"Default keywords file not found at {default_keywords_file_path}. Use --keywords-file or --keywords argument.")
             return
 
     # Override lat/lng if provided, or set to default if not present
@@ -191,8 +195,9 @@ async def main():
         for i, query in enumerate(queries):
             try:
                 logger.info(f"[Google Autocomplete] Fetching for query {i+1}/{len(queries)}: {query.keyword} (lat={query.lat}, lng={query.lng})")
-                # You can customize field_mask or pass more kwargs as needed
-                result = fetch_google_autocomplete(api_key, query, field_mask="*", includeQueryPredictions=True)
+                # Explicitly request fields to ensure structuredFormat is included, using correct field mask paths
+                field_mask = "suggestions.placePrediction.text,suggestions.placePrediction.structuredFormat"
+                result = fetch_google_autocomplete(api_key, query, field_mask=field_mask, includeQueryPredictions=True)
                 google_responses.append({"query": query.keyword, "response": result})
                 logger.info(f"[Google Autocomplete] Success for query {i+1}/{len(queries)}: {query.keyword}")
             except Exception as e:
