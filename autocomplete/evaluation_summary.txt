@@ -1,0 +1,5 @@
+--- Evaluation Summary ---
+Overall Average Score: 0.63 / 10
+Rows Evaluated: 30
+Model: cerebras/llama3.3-70b
+Input: merged_filtered_results.jsonl
