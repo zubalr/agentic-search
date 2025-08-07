@@ -1,0 +1,978 @@
+{
+    "query": "Al Mirqab m",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, with only residential compounds related to Al Mirqab appearing, and no relevant results like Al Mirqab Mall or almirqabmedical, indicating very poor quality with some minor relevance due to the mention of Al Mirqab in the results.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Mirqab Mall": {
+                "score": 1.0,
+                "rank": 6
+            },
+            "almirqabmedical": {
+                "score": 0.3333,
+                "rank": 1
+            },
+            "Al Mirqab Mosque - Suhaib Al-Roumi Mosque (398)": {
+                "score": 0.3333,
+                "rank": 1
+            },
+            "Carrefour": {
+                "score": 1.0,
+                "rank": 6
+            },
+            "Mirqab Mall Gate 4": {
+                "score": 1.0,
+                "rank": 6
+            }
+        },
+        "precision_ratio": 0.027,
+        "mean_reciprocal_rank": 0.1667
+    },
+    "raw_results": {
+        "solr_count": 37,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Mirqab mall",
+    "holistic_ai_score": 0.7,
+    "holistic_ai_reasoning": "The Solr results include the most important POI, Al Mirqab Mall, although not at the top rank, and also contain other relevant malls, but lack precision with irrelevant results like The Gate Mall and City Center Doha Mall, and the ranking could be improved for better search experience.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Mirqab Mall": {
+                "score": 1.0,
+                "rank": 4
+            },
+            "Carrefour": {
+                "score": 1.0,
+                "rank": 4
+            },
+            "FUNDERDOME": {
+                "score": 0.25,
+                "rank": 22
+            },
+            "Aksyr Al Hyah Pharmacy - MIRQAB MALL": {
+                "score": 0.5,
+                "rank": 4
+            },
+            "DOHA SOUQ MALL": {
+                "score": 1.0,
+                "rank": 4
+            }
+        },
+        "precision_ratio": 0.0714,
+        "mean_reciprocal_rank": 0.25
+    },
+    "raw_results": {
+        "solr_count": 28,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Noor",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, contain irrelevant results, and have poor ranking, with none of the top results matching the expected output, indicating very poor quality with some minor relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Noor Petrol Station": {
+                "score": 1.0,
+                "rank": 14
+            },
+            "AL NOOR AL HUDA TRADING & CONT. CO EST .": {
+                "score": 0.3333,
+                "rank": 18
+            },
+            "Al Noor Toastmasters Club": {
+                "score": 1.0,
+                "rank": 7
+            },
+            "Al Noor Medical Laboratory Qatar": {
+                "score": 0.5,
+                "rank": 18
+            },
+            "Alnoor Language School": {
+                "score": 0.4,
+                "rank": 4
+            }
+        },
+        "precision_ratio": 0.12,
+        "mean_reciprocal_rank": 0.1071
+    },
+    "raw_results": {
+        "solr_count": 25,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Noor compound 1",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results do not include the most important POI shown in the Google list, specifically 'Al Noor Compound 1' at 'Airport Street\u060c Doha, Qatar', and instead provide a list of somewhat related but irrelevant results, indicating poor coverage and precision.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Noor Compound 1": {
+                "score": 0.3333,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 7,
+        "google_count": 1
+    }
+}
+{
+    "query": "Al Noor compound thumama",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr results do not cover any of the important POIs from the Google list, containing entirely irrelevant results such as Al Thumama Stadium and Rawdat Umm Thumama Street, and failing to rank the best matches near the top, with no mention of Al Noor Compound.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Noor Compound 2": {
+                "score": 0.2222,
+                "rank": 3
+            },
+            "Al Noor Compound 1": {
+                "score": 0.2,
+                "rank": 3
+            },
+            "Home - Al Noor Resident Compound": {
+                "score": 0.1667,
+                "rank": 8
+            },
+            "Al Noor Street": {
+                "score": 0.4,
+                "rank": 3
+            },
+            "Al Noor Public Relations": {
+                "score": 0.2,
+                "rank": 8
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 26,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Noor p",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, with none of the expected outputs matching, and include several irrelevant results such as Al Noor Clinic and Noor Paradise Residential Compounds, indicating very poor quality with some minor relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Noor Petrol Station": {
+                "score": 1.0,
+                "rank": 2
+            },
+            "Sunlife Pharmacy Al Noor": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Nour Plaza Luxury Suites": {
+                "score": 0.5,
+                "rank": 7
+            },
+            "Al Noor Plastic Factory": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Noor Public Relations": {
+                "score": 0.4,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.25,
+        "mean_reciprocal_rank": 0.5
+    },
+    "raw_results": {
+        "solr_count": 8,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Noor petr",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, containing only two irrelevant results that do not match the expected output, and the ranking is poor since the actual output does not include the best matches near the top.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Noor Petrol Station": {
+                "score": 1.0,
+                "rank": 1
+            },
+            "AL-NOOR PETROLEUM- Total Petrol Station": {
+                "score": 0.6667,
+                "rank": 1
+            },
+            "Al Noor Petrol Pump": {
+                "score": 0.6,
+                "rank": 1
+            },
+            "Al-Noor petroleum service": {
+                "score": 0.3333,
+                "rank": 1
+            },
+            "Al Noor Petroleum": {
+                "score": 0.4,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 1.0,
+        "mean_reciprocal_rank": 1.0
+    },
+    "raw_results": {
+        "solr_count": 2,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Noor petrol",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, containing irrelevant locations and failing to include any of the expected results, while also demonstrating poor precision and ranking.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Noor Petrol Station": {
+                "score": 1.0,
+                "rank": 1
+            },
+            "AL-NOOR PETROLEUM- Total Petrol Station": {
+                "score": 0.6667,
+                "rank": 1
+            },
+            "Al Noor Petrol Pump": {
+                "score": 0.6,
+                "rank": 1
+            },
+            "Al-Noor petroleum service": {
+                "score": 0.3333,
+                "rank": 1
+            },
+            "Al Noor Petroleum": {
+                "score": 0.4,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 1.0,
+        "mean_reciprocal_rank": 1.0
+    },
+    "raw_results": {
+        "solr_count": 2,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Osra",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, with only 'Al Osra Mart trading' and 'Al Osra Restaurant' showing some relevance, and include irrelevant results such as 'Alosra Family-friendly' which does not match the expected output, indicating very poor quality with some minor relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Osra Restaurant": {
+                "score": 1.0,
+                "rank": 2
+            },
+            "Alosra Restaurant - Old Airport": {
+                "score": 0.1667,
+                "rank": 2
+            },
+            "Al Osra Trading & Contracting": {
+                "score": 0.6,
+                "rank": 1
+            },
+            "Al osra mart \u0627\u0644\u0627\u0633\u0631\u0629 \u0645\u0627\u0631\u062a": {
+                "score": 1.0,
+                "rank": 1
+            },
+            "Al Osra Contracting W.L.L": {
+                "score": 0.3333,
+                "rank": 2
+            }
+        },
+        "precision_ratio": 0.6667,
+        "mean_reciprocal_rank": 0.8333
+    },
+    "raw_results": {
+        "solr_count": 3,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Rumaila hospital",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of the most important POI, Rumailah Hospital, and instead include irrelevant hospitals, indicating poor precision and ranking, with the actual output not matching the expected output for the user query 'Al Rumaila hospital'.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Rumailah Hospital": {
+                "score": 0.4118,
+                "rank": 22
+            },
+            "Unknown Google POI": {
+                "score": 0.0,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 28,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al S",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs shown in the Google list, with none of the expected outputs like Al Sadd or Al Shafi Street appearing, and instead include irrelevant results like Qatar Science and Technology Park and Abu Samra Street, indicating very poor quality with minimal relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Sadd": {
+                "score": 0.3333,
+                "rank": 3
+            },
+            "Al Shafi Street": {
+                "score": 0.4,
+                "rank": 4
+            },
+            "Al Sadd Mall": {
+                "score": 0.2857,
+                "rank": 4
+            },
+            "Al Shamal Road": {
+                "score": 0.3333,
+                "rank": 3
+            },
+            "Al Shafi": {
+                "score": 0.25,
+                "rank": 3
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 28,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Sad",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs, such as Al Sadd Mall and Al Sadd Sports Club, and instead include irrelevant results like Ghanem Bin Sad Al Sad and Sons and Sadaf, indicating poor precision and ranking, with none of the top results matching the expected output.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Sadd": {
+                "score": 1.0,
+                "rank": 17
+            },
+            "Al Sadd Mall": {
+                "score": 0.5,
+                "rank": 12
+            },
+            "Al Sadd Metro Station": {
+                "score": 0.6,
+                "rank": 23
+            },
+            "Al Sadd Sports Club": {
+                "score": 0.4,
+                "rank": 17
+            },
+            "Al Sadd Exchange LLC": {
+                "score": 0.4,
+                "rank": 17
+            }
+        },
+        "precision_ratio": 0.28,
+        "mean_reciprocal_rank": 0.0512
+    },
+    "raw_results": {
+        "solr_count": 25,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Sadd",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack important POIs from the Google list, such as Al Sadd Mall and Al Sadd Sports Club, and instead include potentially irrelevant listings like Al Sadd Street 829 and Al Sadd 343, indicating poor coverage and precision, with the best matches not ranked near the top.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Sadd": {
+                "score": 1.0,
+                "rank": 2
+            },
+            "Al Sadd Mall": {
+                "score": 1.0,
+                "rank": 9
+            },
+            "Al Sadd Metro Station": {
+                "score": 0.8333,
+                "rank": 9
+            },
+            "Al Sadd Sports Club": {
+                "score": 1.0,
+                "rank": 14
+            },
+            "Al Sadd Exchange LLC": {
+                "score": 1.0,
+                "rank": 11
+            }
+        },
+        "precision_ratio": 0.8,
+        "mean_reciprocal_rank": 0.1769
+    },
+    "raw_results": {
+        "solr_count": 25,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Shara",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, with none of the top results matching the expected output, and include irrelevant results such as Sharaf DG, indicating poor precision and ranking.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Sharayef Street": {
+                "score": 1.0,
+                "rank": 5
+            },
+            "Al Sharan Street": {
+                "score": 0.4,
+                "rank": 5
+            },
+            "Al Sharayef St": {
+                "score": 1.0,
+                "rank": 5
+            },
+            "Al Sharayet St": {
+                "score": 0.25,
+                "rank": 3
+            },
+            "Al Sharayef": {
+                "score": 1.0,
+                "rank": 5
+            }
+        },
+        "precision_ratio": 0.15,
+        "mean_reciprocal_rank": 0.2
+    },
+    "raw_results": {
+        "solr_count": 20,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Shara hot",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, with none of the expected hotels appearing in the actual output, and instead contain irrelevant street addresses and a medical center, indicating very poor quality with some relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Qahir Al Sahara Hotel": {
+                "score": 0.3333,
+                "rank": 24
+            },
+            "Unknown Google POI": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Bab Al Samawy Hotel": {
+                "score": 0.3333,
+                "rank": 24
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 25,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Shara hotel",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results do not cover the most important POIs from the Google list, with no relevant matches to 'Al Shara hotel', and include irrelevant results such as streets and holdings, indicating very poor quality with some minor relevance due to partial keyword matches.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Qahir Al Sahara Hotel": {
+                "score": 0.3333,
+                "rank": 6
+            },
+            "Ahern Luxury Boutique Hotel": {
+                "score": 0.1667,
+                "rank": 5
+            },
+            "The Lexi Las Vegas": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Palace Station Hotel and Casino": {
+                "score": 0.25,
+                "rank": 7
+            },
+            "LV (Las Vegas) Dog Resort": {
+                "score": 0.0,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 24,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Thakeera Beach",
+    "holistic_ai_score": 0.4,
+    "holistic_ai_reasoning": "The Solr results lack coverage of the most important POIs from the Google list, with only one relevant result, AlThakira beach, which is not even an exact match, and includes multiple irrelevant results such as Purple Island Beach and Al Sultan Beach Resort, indicating poor precision and ranking.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Thakeera Beach": {
+                "score": 1.0,
+                "rank": 1
+            },
+            "Al Thakhira Beach": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Thakira Mangroves Forest Beach": {
+                "score": 0.2857,
+                "rank": 1
+            },
+            "Al Thakira Street": {
+                "score": 0.25,
+                "rank": 3
+            },
+            "Unknown Google POI": {
+                "score": 0.0,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.04,
+        "mean_reciprocal_rank": 1.0
+    },
+    "raw_results": {
+        "solr_count": 25,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wa",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of the most important POIs shown in the Google list, with none of the expected outputs matching the actual outputs, and contain irrelevant results such as Al Imam Mohammed Bin Abdul Wahab Mosque and Souq Waqif, which are not relevant to the user query 'Al Wa', indicating very poor quality with some relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Wakrah": {
+                "score": 1.0,
+                "rank": 3
+            },
+            "Al Waab": {
+                "score": 0.4,
+                "rank": 13
+            },
+            "Al Waab Health Center": {
+                "score": 0.2857,
+                "rank": 13
+            },
+            "Al Wajba": {
+                "score": 0.6111,
+                "rank": 1
+            },
+            "Al Waab QLM Metro Station": {
+                "score": 0.4286,
+                "rank": 13
+            }
+        },
+        "precision_ratio": 0.0714,
+        "mean_reciprocal_rank": 0.6667
+    },
+    "raw_results": {
+        "solr_count": 28,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wa hospital emergency",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, containing only one result that does not match any of the expected outputs, indicating very poor quality with minimal relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Hospital": {
+                "score": 0.4286,
+                "rank": 1
+            },
+            "Suburban Hospital Emergency Room": {
+                "score": 0.2857,
+                "rank": 1
+            },
+            "Children's National Emergency Room": {
+                "score": 0.1111,
+                "rank": 1
+            },
+            "North Alabama Medical Center": {
+                "score": 0.1111,
+                "rank": 1
+            },
+            "Sam and Rose Stein Emergency Center": {
+                "score": 0.1,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 1,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Waab",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs, containing mostly street names with 'Waab' in them, but not including significant locations like Al Waab Health Center or Al Waab QLM Metro Station, and the ranking does not prioritize the best matches, leading to very poor quality results with limited relevance to the user query 'Al Waab'.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Waab": {
+                "score": 1.0,
+                "rank": 22
+            },
+            "Al Waaban Street": {
+                "score": 0.4,
+                "rank": 17
+            },
+            "Al Waab Health Center": {
+                "score": 0.6,
+                "rank": 20
+            },
+            "Al Waab QLM Metro Station": {
+                "score": 0.5714,
+                "rank": 21
+            },
+            "Al Waab Medical Center \u0645\u0631\u0643\u0632 \u0627\u0644\u0648\u0639\u0628 \u0627\u0644\u0637\u0628\u064a": {
+                "score": 1.0,
+                "rank": 20
+            }
+        },
+        "precision_ratio": 0.32,
+        "mean_reciprocal_rank": 0.0485
+    },
+    "raw_results": {
+        "solr_count": 25,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wafa",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, contain irrelevant results such as tailors, and fail to rank the best matches near the top, resulting in very poor quality with minimal relevance to the user query 'Al Wafa'.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Wafa Trading Co. WLL": {
+                "score": 1.0,
+                "rank": 2
+            },
+            "Al wafa supermarket": {
+                "score": 0.5,
+                "rank": 1
+            },
+            "Al Wafa Travel & Tourism": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Wafa Residence": {
+                "score": 0.5,
+                "rank": 1
+            },
+            "AL WAFA AUTO SPARE PARTS": {
+                "score": 0.7143,
+                "rank": 6
+            }
+        },
+        "precision_ratio": 0.125,
+        "mean_reciprocal_rank": 0.3333
+    },
+    "raw_results": {
+        "solr_count": 16,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wafa r",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, containing mostly irrelevant tailoring services, and the ranking does not prioritize the best matches, resulting in a very poor quality search experience with little relevance to the user's query for 'Al Wafa r'.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Wafa Residence": {
+                "score": 0.5,
+                "rank": 1
+            },
+            "Al Wafa Residence, Giardino Village Building 13": {
+                "score": 0.25,
+                "rank": 1
+            },
+            "Al Wafa Residence 2": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Wafa": {
+                "score": 1.0,
+                "rank": 1
+            },
+            "AL WAFA MINI MART": {
+                "score": 0.4,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.625,
+        "mean_reciprocal_rank": 1.0
+    },
+    "raw_results": {
+        "solr_count": 8,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wafa ro",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr results do not cover any of the important POIs shown in the Google list, with no relevant results, poor ranking, and a complete lack of precision, making the search experience useless.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Wafa Roastery": {
+                "score": 0.25,
+                "rank": 3
+            },
+            "Al wafa roastery": {
+                "score": 0.25,
+                "rank": 3
+            },
+            "Al-Wafa Road": {
+                "score": 0.25,
+                "rank": 3
+            },
+            "AL WAFA MEDICALE Sfax": {
+                "score": 0.2,
+                "rank": 3
+            },
+            "Al Wafa Ice Cream": {
+                "score": 0.2,
+                "rank": 3
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 25,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wafa tl",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, with none of the expected results appearing in the actual output, and include mostly irrelevant results such as 'TL FLOWER BOUTIQE' and 'Chai Tlqemh', indicating very poor quality with some minor relevance due to the presence of 'Al wafa' in a few results.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Musholla Al wafa": {
+                "score": 0.5,
+                "rank": 4
+            },
+            "Al Wafa": {
+                "score": 1.0,
+                "rank": 4
+            },
+            "Al Wafa Hotel": {
+                "score": 0.5,
+                "rank": 4
+            },
+            "Al wafa": {
+                "score": 1.0,
+                "rank": 4
+            },
+            "Masjid al wafa'": {
+                "score": 0.5,
+                "rank": 4
+            }
+        },
+        "precision_ratio": 0.1875,
+        "mean_reciprocal_rank": 0.25
+    },
+    "raw_results": {
+        "solr_count": 32,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wafa to",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, with only one result that is not even directly relevant to the query 'Al Wafa to', indicating very poor quality with some minor relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Wafa Tower": {
+                "score": 0.25,
+                "rank": 1
+            },
+            "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES": {
+                "score": 0.1429,
+                "rank": 1
+            },
+            "Al-Wafa Tours": {
+                "score": 0.25,
+                "rank": 1
+            },
+            "Al Wafa Toko": {
+                "score": 0.25,
+                "rank": 1
+            },
+            "Al Wafa": {
+                "score": 0.3333,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 1,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wafa towe",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results do not include the most important POIs from the Google list, with none of the top results matching the expected output, and instead contain irrelevant results such as Control Tower Hamad Port and Doha Tower Cafeteria, indicating very poor quality with some minor relevance due to the presence of 'Tower' in the results.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Wafa Tower": {
+                "score": 0.5,
+                "rank": 5
+            },
+            "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES": {
+                "score": 0.2,
+                "rank": 5
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 49,
+        "google_count": 2
+    }
+}
+{
+    "query": "Al Wafa tower",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs, with none of the actual output matching the expected Al Wafa Tower locations, and instead include irrelevant tailor services and a coffee shop, demonstrating very poor quality with minimal relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Wafa Tower": {
+                "score": 0.5,
+                "rank": 8
+            },
+            "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES": {
+                "score": 0.2,
+                "rank": 8
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 18,
+        "google_count": 2
+    }
+}
+{
+    "query": "Al Wafaa",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of important POIs from the Google list, with none of the expected outputs appearing in the actual output, and include several irrelevant street addresses, indicating poor precision and ranking.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Wafa Trading Co. WLL": {
+                "score": 0.1818,
+                "rank": 2
+            },
+            "Al-Wafaa kindergarten Model": {
+                "score": 0.375,
+                "rank": 3
+            },
+            "Al Wafaa Model Independant Kindergarden": {
+                "score": 0.3333,
+                "rank": 3
+            },
+            "Al Wafaa Street": {
+                "score": 1.0,
+                "rank": 1
+            },
+            "Al Wafaa": {
+                "score": 0.9211,
+                "rank": 2
+            }
+        },
+        "precision_ratio": 0.1176,
+        "mean_reciprocal_rank": 0.75
+    },
+    "raw_results": {
+        "solr_count": 34,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wagga",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr results do not cover any of the important POIs from the Google list, with all results being completely unrelated to the expected output, containing irrelevant locations and lacking any relevant matches to the user query 'Al Wagga'.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Wagga Wagga Street": {
+                "score": 0.2,
+                "rank": 1
+            },
+            "Waggan Firetrail": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Wagga Street": {
+                "score": 0.2,
+                "rank": 1
+            },
+            "Waggamon Circle": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Waggaman Circle": {
+                "score": 0.0,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 29,
+        "google_count": 5
+    }
+}
+{
+    "query": "Al Wakr hospital emergency",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr results lack coverage of the most important POI, Al Wakra Hospital Emergency Department, and instead include Hamad Hospital Emergency, which is not relevant to the user's query, indicating very poor quality with some relevance.",
+    "quantitative_metrics": {
+        "coverage_per_google_poi": {
+            "Al Wakra Hospital Emergency Department Parking": {
+                "score": 0.4444,
+                "rank": 1
+            },
+            "Unknown Google POI": {
+                "score": 0.0,
+                "rank": 1
+            }
+        },
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0
+    },
+    "raw_results": {
+        "solr_count": 2,
+        "google_count": 3
+    }
+}

@@ -30,8 +30,8 @@ def remove_duplicates_by_keyword(input_file, output_file):
                 seen.add(keyword)
 
 if __name__ == "__main__":
-    input_path = os.path.join(os.path.dirname(__file__), '../data/sorted_keywords_with_location.csv')
-    output_path = os.path.join(os.path.dirname(__file__), '../data/unique_sorted_keywords_with_location.csv')
-    output_path_keyword = os.path.join(os.path.dirname(__file__), '../data/unique_keywords_with_location.csv')
+    input_path = os.path.join(os.path.dirname(__file__), '../../data/keywords/sorted_keywords_with_location.csv')
+    output_path = os.path.join(os.path.dirname(__file__), '../../data/keywords/unique_sorted_keywords_with_location.csv')
+    output_path_keyword = os.path.join(os.path.dirname(__file__), '../../data/keywords/unique_keywords_with_location.csv')
     remove_duplicates(input_path, output_path)
     remove_duplicates_by_keyword(input_path, output_path_keyword)

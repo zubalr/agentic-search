@@ -23,9 +23,9 @@ project_root = Path(__file__).resolve().parent.parent
 if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
-from src.core.api_client import SolrAPIClient, load_queries_from_csv, APIQuery
-from src.utils.config import get_config
-from src.utils.logger import setup_logging, get_logger
+from ...core.api_client import SolrAPIClient, load_queries_from_csv, APIQuery
+from ...utils.config import get_config
+from ...utils.logger import setup_logging, get_logger
 
 logger = get_logger(__name__)
 
@@ -114,7 +114,7 @@ async def main():
                     os.environ[key] = value
 
     queries = []
-    default_keywords_file_path = Path(__file__).parent.parent / "data/uniquerepresentative_keywords_with_location.csv"
+    default_keywords_file_path = Path(__file__).parent.parent / "data/keywords/uniquerepresentative_keywords_with_location.csv"
 
     if args.keywords_file:
         if not Path(args.keywords_file).exists():

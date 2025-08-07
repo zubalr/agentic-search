@@ -9,6 +9,7 @@ import argparse
 from pathlib import Path
 import logging
 from collections import defaultdict
+from ...core.api_client import load_queries_from_csv
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -95,7 +96,7 @@ def extract_google_autocomplete_data(google_file_path, aggregated_google_data):
 def main():
     parser = argparse.ArgumentParser(description='Filter and merge Solr and Google Autocomplete API results into one line per query.')
     parser.add_argument('--raw-dir', default='raw', help='Directory containing raw API result files (default: raw)')
-    parser.add_argument('--output-file', default='merged_filtered_results.jsonl', help='Output file for merged results (default: merged_filtered_results.jsonl)')
+    parser.add_argument('--output-file', default='data/results/merged_filtered_results.jsonl', help='Output file for merged results (default: data/results/merged_filtered_results.jsonl)')
     args = parser.parse_args()
 
     raw_dir = Path(args.raw_dir)

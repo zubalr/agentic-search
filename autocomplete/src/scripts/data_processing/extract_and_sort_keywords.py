@@ -1,8 +1,8 @@
 import json
 import os
 
-INPUT_FILE = os.path.join(os.path.dirname(__file__), '../data/Analytics.json')
-OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '../data/sorted_keywords_with_location.csv')
+INPUT_FILE = os.path.join(os.path.dirname(__file__), '../../data/Analytics.json')
+OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '../../data/keywords/sorted_keywords_with_location.csv')
 
 def get_search_keywords(data):
     results = []
